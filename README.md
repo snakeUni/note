@@ -6,6 +6,7 @@
 + [深拷贝的终极探索](https://juejin.im/post/5bc1ae9be51d450e8b140b0c)
 + [如何编写 Typescript 声明文件](https://juejin.im/post/5bc406795188255c451ed3b3)
 + [JavaScript 计时器之旅](https://juejin.im/post/5bc32e52f265da0ae3441cb8)
++ [VSCode插件开发全攻略](https://www.cnblogs.com/liuxianan/p/vscode-plugin-overview.html)
 
 #### css篇
 + [Canvas API](https://www.canvasapi.cn)
