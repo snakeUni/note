@@ -9,6 +9,9 @@
 + [VSCode插件开发全攻略](https://www.cnblogs.com/liuxianan/p/vscode-plugin-overview.html)
 + [无尽滚动的复杂度 -- 来自 Google 大神的拆解](https://juejin.im/post/58a3c81e128fe10058c57a8b)
 + [每个 JavaScript 工程师都应懂的33个概念](https://github.com/stephentian/33-js-concepts)
+
+#### 面试篇
++ [React 面试集锦](https://github.com/sudheerj/reactjs-interview-questions)
 #### css篇
 + [Canvas API](https://www.canvasapi.cn)
 
