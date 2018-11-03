@@ -12,6 +12,7 @@
 + [一次性搞懂JavaScript正则表达式之语法](https://juejin.im/post/5bda4e6fe51d45681f245274)
 #### 面试篇
 + [React 面试集锦](https://github.com/sudheerj/reactjs-interview-questions)
++ [26个精选的JavaScript面试问题](https://juejin.im/post/5bd95d22e51d45685f442f73)
 #### css篇
 + [Canvas API](https://www.canvasapi.cn)
 
