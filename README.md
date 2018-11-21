@@ -18,3 +18,6 @@
 #### css篇
 + [Canvas API](https://www.canvasapi.cn)
 
+#### 前端库
++ [大佬关注的前端库](https://github.com/sorrycc/awesome-f2e-libs)
+
