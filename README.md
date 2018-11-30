@@ -15,6 +15,7 @@
 #### 面试篇
 + [React 面试集锦](https://github.com/sudheerj/reactjs-interview-questions)
 + [26个精选的JavaScript面试问题](https://juejin.im/post/5bd95d22e51d45685f442f73)
++ [刷《一年半经验，百度、有赞、阿里面试总结》·手记](https://juejin.im/post/5bfff5086fb9a049c84f2d24)
 #### css篇
 + [Canvas API](https://www.canvasapi.cn)
 
