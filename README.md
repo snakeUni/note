@@ -16,6 +16,8 @@
 + [方位彻底读懂<你不知道的JavaScript(上)>](https://juejin.im/post/5bfaa2e26fb9a04a0440b0e4)
 #### 使用手册
 + [es6使用手册](https://juejin.im/post/5bfe05505188252098022400)
+#### 测试篇
++ [puppetter E2E测试入门](https://juejin.im/post/5bffb344e51d45378d0d39f4)
 #### 面试篇
 + [React 面试集锦](https://github.com/sudheerj/reactjs-interview-questions)
 + [26个精选的JavaScript面试问题](https://juejin.im/post/5bd95d22e51d45685f442f73)
