@@ -13,6 +13,7 @@
 + [前端黑科技：美团网页首帧优化实践](https://juejin.im/post/5bee7dd4e51d451f5b54cbb4)
 + [Controlled and uncontrolled form inputs in React don't have to be complicated](https://goshakkk.name/controlled-vs-uncontrolled-inputs-react/)
 + [【译】JavaScript 完整手册](https://juejin.im/post/5bff57fee51d45021a167991)
++ [方位彻底读懂<你不知道的JavaScript(上)>](https://juejin.im/post/5bfaa2e26fb9a04a0440b0e4)
 #### 使用手册
 + [es6使用手册](https://juejin.im/post/5bfe05505188252098022400)
 #### 面试篇
