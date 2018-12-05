@@ -29,3 +29,6 @@
 #### 前端库
 + [大佬关注的前端库](https://github.com/sorrycc/awesome-f2e-libs)
 
+#### 大佬博客
++ [Dan神的博客讲解js知识以及React](https://overreacted.io/)
+
