@@ -33,3 +33,6 @@
 #### 大佬博客
 + [Dan神的博客讲解js知识以及React](https://overreacted.io/)
 
+#### 他人博客
++ [vue,React,Redux等详细解析](https://github.com/MrErHu/blog)
+
