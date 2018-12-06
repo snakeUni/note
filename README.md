@@ -1,8 +1,8 @@
 # articles
-#### 个人技术成长篇
+### 个人技术成长篇
 + [我如何零基础转行成为一个自信的前端](https://juejin.im/post/5bb9aed1e51d451a3f4c3923)
 
-#### 技术文章篇
+### 技术文章篇
 + [深拷贝的终极探索](https://juejin.im/post/5bc1ae9be51d450e8b140b0c)
 + [如何编写 Typescript 声明文件](https://juejin.im/post/5bc406795188255c451ed3b3)
 + [JavaScript 计时器之旅](https://juejin.im/post/5bc32e52f265da0ae3441cb8)
@@ -16,33 +16,39 @@
 + [方位彻底读懂<你不知道的JavaScript(上)>](https://juejin.im/post/5bfaa2e26fb9a04a0440b0e4)
 + [前端与编译原理——用JS写一个JS解释器](https://segmentfault.com/a/1190000017241258)
 + [Functional programming in TypeScript](https://github.com/gcanti/fp-ts)
-#### 使用手册
+
+### 使用手册
 + [es6使用手册](https://juejin.im/post/5bfe05505188252098022400)
-#### 测试篇
+
+### 测试篇
 + [puppetter E2E测试入门](https://juejin.im/post/5bffb344e51d45378d0d39f4)
-#### 面试篇
+
+### 面试篇
 + [React 面试集锦](https://github.com/sudheerj/reactjs-interview-questions)
 + [26个精选的JavaScript面试问题](https://juejin.im/post/5bd95d22e51d45685f442f73)
 + [刷《一年半经验，百度、有赞、阿里面试总结》·手记](https://juejin.im/post/5bfff5086fb9a049c84f2d24)
 + [一道面试题引起的思考](https://juejin.im/post/5bf769e0518825773a2ebfe5)
-#### css篇
+
+### css篇
 + [Canvas API](https://www.canvasapi.cn)
 
-#### 前端库
+### 前端库
 + [大佬关注的前端库](https://github.com/sorrycc/awesome-f2e-libs)
 
-#### 大佬博客
+### 大佬博客
 + [Dan神的博客讲解js知识以及React](https://overreacted.io/)
 
-#### 他人博客
+### 他人博客
 + [vue,React,Redux等详细解析](https://github.com/MrErHu/blog)
-#### Functional programming articles
-##### github
+
+### Functional programming articles
+#### github
 + [ramda](https://github.com/ramda/ramda)
 + [awesome-fp-js](https://github.com/stoeffel/awesome-fp-js)
 + [immutable-js](https://github.com/facebook/immutable-js)
 + [lodash](https://github.com/lodash/lodash)
-##### articles or blog
+
+#### articles or blog
 + [functionaljs](http://functionaljs.com)
 + [高阶函数](https://www.youtube.com/watch?v=BMUiFMZr7vk)
 + [Functional JavaScript](http://shop.oreilly.com/product/0636920028857.do)
