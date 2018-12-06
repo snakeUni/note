@@ -36,7 +36,7 @@
 
 #### 他人博客
 + [vue,React,Redux等详细解析](https://github.com/MrErHu/blog)
-####  Functional programming
+#### Functional programming articles
 ##### github
 + [ramda](https://github.com/ramda/ramda)
 + [awesome-fp-js](https://github.com/stoeffel/awesome-fp-js)
