@@ -36,4 +36,16 @@
 
 #### 他人博客
 + [vue,React,Redux等详细解析](https://github.com/MrErHu/blog)
+####  Functional programming
+##### github
++ [ramda](https://github.com/ramda/ramda)
++ [awesome-fp-js](https://github.com/stoeffel/awesome-fp-js)
++ [immutable-js](https://github.com/facebook/immutable-js)
++ [lodash](https://github.com/lodash/lodash)
+##### articles
++ [functionaljs](http://functionaljs.com)
++ [高阶函数](https://www.youtube.com/watch?v=BMUiFMZr7vk)
++ [Functional JavaScript](http://shop.oreilly.com/product/0636920028857.do)
++ [javascript-allonge](https://leanpub.com/javascript-allonge)
+
 
