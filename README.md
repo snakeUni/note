@@ -42,10 +42,16 @@
 + [awesome-fp-js](https://github.com/stoeffel/awesome-fp-js)
 + [immutable-js](https://github.com/facebook/immutable-js)
 + [lodash](https://github.com/lodash/lodash)
-##### articles
+##### articles or blog
 + [functionaljs](http://functionaljs.com)
 + [高阶函数](https://www.youtube.com/watch?v=BMUiFMZr7vk)
 + [Functional JavaScript](http://shop.oreilly.com/product/0636920028857.do)
 + [javascript-allonge](https://leanpub.com/javascript-allonge)
-
++ [what-is-functional-programming](http://blog.jenkster.com/2015/12/what-is-functional-programming.html)
++ [Make some magic. #JavaScript](https://medium.com/@_ericelliott)
++ [James Forbes](https://james-forbes.com/#!/)
++ [James Long](https://github.com/jlongster)
++ [André Staltz](https://staltz.com)
++ [functional-programming-jargon](https://github.com/hemanth/functional-programming-jargon#functional-programming-jargon)
++ [Functional-Programming-Exercises](https://github.com/InceptionCode/Functional-Programming-Exercises)
 
