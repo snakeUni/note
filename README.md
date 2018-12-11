@@ -16,6 +16,7 @@
 + [方位彻底读懂<你不知道的JavaScript(上)>](https://juejin.im/post/5bfaa2e26fb9a04a0440b0e4)
 + [前端与编译原理——用JS写一个JS解释器](https://segmentfault.com/a/1190000017241258)
 + [Functional programming in TypeScript](https://github.com/gcanti/fp-ts)
++ [awesome-speakers](https://github.com/karlhorky/awesome-speakers)
 
 ### 使用手册
 + [es6使用手册](https://juejin.im/post/5bfe05505188252098022400)
