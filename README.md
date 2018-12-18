@@ -19,7 +19,9 @@
 + [awesome-speakers](https://github.com/karlhorky/awesome-speakers)
 + [移动端适配](https://juejin.im/post/5c0dd7ac6fb9a049c43d7edc)
 + [Flutter教程系列](https://juejin.im/post/5c0db59f6fb9a049bb7c2810)
+#### React篇
 + [inside-fiber-in-depth](https://medium.com/react-in-depth/inside-fiber-in-depth-overview-of-the-new-reconciliation-algorithm-in-react-e1c04700ef6e)
++ [In-depth explanation of state and props update in React](https://medium.com/react-in-depth/in-depth-explanation-of-state-and-props-update-in-react-51ab94563311)
 ### 使用手册
 + [es6使用手册](https://juejin.im/post/5bfe05505188252098022400)
 
