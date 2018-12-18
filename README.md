@@ -33,6 +33,7 @@
 + [一道面试题引起的思考](https://juejin.im/post/5bf769e0518825773a2ebfe5)
 + [支付宝6轮面试经验](https://juejin.im/post/5c0a90b1518825666808d1c5)
 + [面试很全的图片值得star](https://yuchengkai.cn/docs/zh/frontend/)
++ [行走的Offer收割机](https://juejin.im/post/5c16471f6fb9a049c43d91d4)
 
 ### css篇
 + [Canvas API](https://www.canvasapi.cn)
