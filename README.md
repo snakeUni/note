@@ -1,7 +1,5 @@
 # articles
 *[the-cost-of-javascript-in-2018](https://medium.com/@addyosmani/the-cost-of-javascript-in-2018-7d8950fbb5d4)*
-### 个人技术成长篇
-+ [我如何零基础转行成为一个自信的前端](https://juejin.im/post/5bb9aed1e51d451a3f4c3923)
 
 ### 技术文章篇
 + [深拷贝的终极探索](https://juejin.im/post/5bc1ae9be51d450e8b140b0c)
