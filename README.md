@@ -22,6 +22,7 @@
 #### React篇
 + [inside-fiber-in-depth](https://medium.com/react-in-depth/inside-fiber-in-depth-overview-of-the-new-reconciliation-algorithm-in-react-e1c04700ef6e)
 + [In-depth explanation of state and props update in React](https://medium.com/react-in-depth/in-depth-explanation-of-state-and-props-update-in-react-51ab94563311)
++ [React hooks: The Death of classes and lifecycles?](https://blog.usejournal.com/react-hooks-death-of-classes-and-lifecycles-c8db5956558c)
 ### 使用手册
 + [es6使用手册](https://juejin.im/post/5bfe05505188252098022400)
 
