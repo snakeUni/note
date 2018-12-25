@@ -1,5 +1,6 @@
 # articles
 *[the-cost-of-javascript-in-2018](https://medium.com/@addyosmani/the-cost-of-javascript-in-2018-7d8950fbb5d4)*
+*[The most important lessons I’ve learned after a year of working with React](https://medium.freecodecamp.org/mindset-lessons-from-a-year-with-react-1de862421981)*
 
 ### 技术文章篇
 + [深拷贝的终极探索](https://juejin.im/post/5bc1ae9be51d450e8b140b0c)
