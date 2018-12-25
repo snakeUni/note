@@ -68,4 +68,6 @@
 + [André Staltz](https://staltz.com)
 + [functional-programming-jargon](https://github.com/hemanth/functional-programming-jargon#functional-programming-jargon)
 + [Functional-Programming-Exercises](https://github.com/InceptionCode/Functional-Programming-Exercises)
+### other
++ [How to think like a programmer — lessons in problem solving](https://medium.freecodecamp.org/how-to-think-like-a-programmer-lessons-in-problem-solving-d1d8bf1de7d2)
 
