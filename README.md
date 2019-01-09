@@ -34,6 +34,7 @@
 + [Cache your React event listeners to improve performance.](https://hackernoon.com/cache-your-react-event-listeners-to-improve-performance-37bda57ac965)
 ### 使用手册
 + [es6使用手册](https://juejin.im/post/5bfe05505188252098022400)
++ [2018(农历年)封山之作，和我一起嚼烂Git(两万字长文)](https://juejin.im/post/5c33f49de51d45523070f7bb)
 
 ### 测试篇
 + [puppetter E2E测试入门](https://juejin.im/post/5bffb344e51d45378d0d39f4)
