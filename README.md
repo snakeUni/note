@@ -26,6 +26,7 @@
 + [前端模块化详解(完整版)](https://juejin.im/post/5c17ad756fb9a049ff4e0a62)
 + [Node - 从0基础到实战企业官网](https://juejin.im/post/5c1f8e52f265da6170071e43)
 + [《JavaScript设计模式与开发实践》最全知识点汇总大全](https://juejin.im/post/5c2e10a76fb9a049c0432697)
++ [让老板虎躯一震的前端技术，KPI杀手](https://juejin.im/post/5c3ff18b6fb9a04a0a5f76aa)
 #### React篇
 + [inside-fiber-in-depth](https://medium.com/react-in-depth/inside-fiber-in-depth-overview-of-the-new-reconciliation-algorithm-in-react-e1c04700ef6e)
 + [In-depth explanation of state and props update in React](https://medium.com/react-in-depth/in-depth-explanation-of-state-and-props-update-in-react-51ab94563311)
