@@ -29,6 +29,7 @@
 + [让老板虎躯一震的前端技术，KPI杀手](https://juejin.im/post/5c3ff18b6fb9a04a0a5f76aa)
 + [Flutter 44集免费基础视频教程](https://juejin.im/post/5c452bac6fb9a049af6d919a)
 + [实践这一次,彻底搞懂浏览器缓存机制](https://juejin.im/post/5c4528a6f265da611a4822cc)
++ [性能优化实践](https://github.com/xitu/gold-miner/blob/master/TODO1/front-end-performance-checklist-2019-pdf-pages-2.md)
 #### React篇
 + [inside-fiber-in-depth](https://medium.com/react-in-depth/inside-fiber-in-depth-overview-of-the-new-reconciliation-algorithm-in-react-e1c04700ef6e)
 + [In-depth explanation of state and props update in React](https://medium.com/react-in-depth/in-depth-explanation-of-state-and-props-update-in-react-51ab94563311)
