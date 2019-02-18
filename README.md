@@ -32,6 +32,8 @@
 + [性能优化实践](https://github.com/xitu/gold-miner/blob/master/TODO1/front-end-performance-checklist-2019-pdf-pages-2.md)
 + [近一万字的ES6语法知识点补充](https://juejin.im/post/5c6234f16fb9a049a81fcca5)
 + [中高级前端大厂面试秘籍，为你保驾护航金三银四，直通大厂(上)](https://juejin.im/post/5c64d15d6fb9a049d37f9c20#heading-15)
++ [Experimenting with Bluetooth in JavaScript apps on the web, in hybrid apps and React Native](https://www.voorhoede.nl/en/blog/bluetooth-anywhere/)
++ [Will it finally: a try/catch quiz](https://frontarm.com/james-k-nelson/will-finally-run-quiz/)
 #### React篇
 + [inside-fiber-in-depth](https://medium.com/react-in-depth/inside-fiber-in-depth-overview-of-the-new-reconciliation-algorithm-in-react-e1c04700ef6e)
 + [In-depth explanation of state and props update in React](https://medium.com/react-in-depth/in-depth-explanation-of-state-and-props-update-in-react-51ab94563311)
