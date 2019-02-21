@@ -35,6 +35,7 @@
 + [Experimenting with Bluetooth in JavaScript apps on the web, in hybrid apps and React Native](https://www.voorhoede.nl/en/blog/bluetooth-anywhere/)
 + [Will it finally: a try/catch quiz](https://frontarm.com/james-k-nelson/will-finally-run-quiz/)
 + [Taro 多端开发的正确姿势：打造三端统一的网易严选（小程序、H5、React Native）](https://juejin.im/post/5c6a151f518825625e4ac830)
++ [如何编写高质量的函数 -- 敲山震虎篇](https://juejin.im/post/5c6bbf0f6fb9a049ba4224fd)
 #### React篇
 + [inside-fiber-in-depth](https://medium.com/react-in-depth/inside-fiber-in-depth-overview-of-the-new-reconciliation-algorithm-in-react-e1c04700ef6e)
 + [In-depth explanation of state and props update in React](https://medium.com/react-in-depth/in-depth-explanation-of-state-and-props-update-in-react-51ab94563311)
