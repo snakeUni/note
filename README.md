@@ -63,7 +63,7 @@
 + [面试很全的图片值得star](https://yuchengkai.cn/docs/zh/frontend/)
 + [行走的Offer收割机](https://juejin.im/post/5c16471f6fb9a049c43d91d4)
 + [【半月刊】前端高频面试题及答案汇总](https://juejin.im/post/5c6977e46fb9a049fd1063dc)
-
++ [2019 面试准备 - JS 原型与原型链](https://juejin.im/post/5c72a1766fb9a049ea3993e6)
 ### css篇
 + [Canvas API](https://www.canvasapi.cn)
 + [前端项目中常见的 CSS 问题](https://juejin.im/post/5c2b5cb8e51d45673971d582)
