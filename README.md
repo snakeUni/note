@@ -5,8 +5,9 @@
 *[How you can improve your workflow using the JavaScript console](https://medium.freecodecamp.org/how-you-can-improve-your-workflow-using-the-javascript-console-bdd7823a9472)*  
 *[Want to be a top developer? You should build things. Here’s another list to get you started](https://medium.freecodecamp.org/the-secret-to-being-a-top-developer-is-building-things-d3d058e4e472)*
 
-
-### 技术文章篇
+<details>
+  <summary>技术文章篇</summary>
+  
 + [深拷贝的终极探索](https://juejin.im/post/5bc1ae9be51d450e8b140b0c)
 + [如何编写 Typescript 声明文件](https://juejin.im/post/5bc406795188255c451ed3b3)
 + [JavaScript 计时器之旅](https://juejin.im/post/5bc32e52f265da0ae3441cb8)
@@ -40,23 +41,45 @@
 + [Webapck4+Babel7优化70%速度](https://juejin.im/post/5c763885e51d457380771ab0)
 + [JS性能优化38条"军规"，2019年呕心力作](https://juejin.im/post/5c6e064c51882562eb50fc18)
 
-#### 原理篇
+</details>
+
+<details>
+  <summary>原理篇</summary>
+
 + [JavaScript Loading Priorities in Chrome](https://addyosmani.com/blog/script-priorities/)
-#### React篇
+
+</details>
+
+<details>
+  <summary>React篇</summary>
+
 + [inside-fiber-in-depth](https://medium.com/react-in-depth/inside-fiber-in-depth-overview-of-the-new-reconciliation-algorithm-in-react-e1c04700ef6e)
 + [In-depth explanation of state and props update in React](https://medium.com/react-in-depth/in-depth-explanation-of-state-and-props-update-in-react-51ab94563311)
 + [React hooks: The Death of classes and lifecycles?](https://blog.usejournal.com/react-hooks-death-of-classes-and-lifecycles-c8db5956558c)
 + [How to use React.lazy and Suspense for components lazy loading](https://medium.freecodecamp.org/how-to-use-react-lazy-and-suspense-for-components-lazy-loading-8d420ecac58)
 + [Cache your React event listeners to improve performance.](https://hackernoon.com/cache-your-react-event-listeners-to-improve-performance-37bda57ac965)
-### 使用手册
+
+</details>
+
+<details>
+  <summary>使用手册</summary>
+
 + [es6使用手册](https://juejin.im/post/5bfe05505188252098022400)
 + [2018(农历年)封山之作，和我一起嚼烂Git(两万字长文)](https://juejin.im/post/5c33f49de51d45523070f7bb)
 + [WebSocket 协议 RFC 文档（全中文翻译）](https://juejin.im/post/5c6b7366e51d45016527d648)
 
-### 测试篇
+</details>
+
+<details>
+  <summary>测试篇</summary>
+
 + [puppetter E2E测试入门](https://juejin.im/post/5bffb344e51d45378d0d39f4)
 
-### 面试篇
+</details>
+
+<details>
+  <summary>面试篇</summary>
+
 + [React 面试集锦](https://github.com/sudheerj/reactjs-interview-questions)
 + [26个精选的JavaScript面试问题](https://juejin.im/post/5bd95d22e51d45685f442f73)
 + [刷《一年半经验，百度、有赞、阿里面试总结》·手记](https://juejin.im/post/5bfff5086fb9a049c84f2d24)
@@ -66,28 +89,49 @@
 + [行走的Offer收割机](https://juejin.im/post/5c16471f6fb9a049c43d91d4)
 + [【半月刊】前端高频面试题及答案汇总](https://juejin.im/post/5c6977e46fb9a049fd1063dc)
 + [2019 面试准备 - JS 原型与原型链](https://juejin.im/post/5c72a1766fb9a049ea3993e6)
-### css篇
+
+</details>
+
+<details>
+  <summary>css篇</summary>
+
 + [Canvas API](https://www.canvasapi.cn)
 + [前端项目中常见的 CSS 问题](https://juejin.im/post/5c2b5cb8e51d45673971d582)
 + [马蹄疾 | 聊聊你可能并没有完全掌握的 Flex 布局：从概念入手，丝丝入扣](https://juejin.im/post/5c748debf265da2da408134e)
 
-### 前端库
+</details>
+
+<details>
+  <summary>前端库</summary>
+
 + [大佬关注的前端库](https://github.com/sorrycc/awesome-f2e-libs)
 
-### 大佬博客
-+ [Dan神的博客讲解js知识以及React](https://overreacted.io/)
+</details>
 
-### 他人博客
+<details>
+  <summary>大佬博客</summary>
+
++ [Dan神的博客讲解js知识以及React](https://overreacted.io/)
 + [vue,React,Redux等详细解析](https://github.com/MrErHu/blog)
 
-### Functional programming articles
-#### github
+</details>
+
+
+# Functional programming articles
+
+<details>
+  <summary>相关github项目</summary>
+
 + [ramda](https://github.com/ramda/ramda)
 + [awesome-fp-js](https://github.com/stoeffel/awesome-fp-js)
 + [immutable-js](https://github.com/facebook/immutable-js)
 + [lodash](https://github.com/lodash/lodash)
 
-#### articles or blog
+</details>
+
+<details>
+  <summary>articles or blog</summary>
+
 + [functionaljs](http://functionaljs.com)
 + [高阶函数](https://www.youtube.com/watch?v=BMUiFMZr7vk)
 + [Functional JavaScript](http://shop.oreilly.com/product/0636920028857.do)
@@ -99,6 +143,8 @@
 + [André Staltz](https://staltz.com)
 + [functional-programming-jargon](https://github.com/hemanth/functional-programming-jargon#functional-programming-jargon)
 + [Functional-Programming-Exercises](https://github.com/InceptionCode/Functional-Programming-Exercises)
-### other
 + [How to think like a programmer — lessons in problem solving](https://medium.freecodecamp.org/how-to-think-like-a-programmer-lessons-in-problem-solving-d1d8bf1de7d2)
+
+</details>
+
 
