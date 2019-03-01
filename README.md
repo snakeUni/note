@@ -37,6 +37,8 @@
 + [Taro 多端开发的正确姿势：打造三端统一的网易严选（小程序、H5、React Native）](https://juejin.im/post/5c6a151f518825625e4ac830)
 + [如何编写高质量的函数 -- 敲山震虎篇](https://juejin.im/post/5c6bbf0f6fb9a049ba4224fd)
 + [H5 键盘兼容性小结](https://juejin.im/post/5c6d1c8b6fb9a049de6df441)
++ [Webapck4+Babel7优化70%速度](https://juejin.im/post/5c763885e51d457380771ab0)
++ [JS性能优化38条"军规"，2019年呕心力作](https://juejin.im/post/5c6e064c51882562eb50fc18)
 
 #### 原理篇
 + [JavaScript Loading Priorities in Chrome](https://addyosmani.com/blog/script-priorities/)
