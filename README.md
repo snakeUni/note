@@ -116,6 +116,13 @@
 
 </details>
 
+<details>
+  <summary>其他</summary>
+
++ [为前端工程之崛起而编程](https://juejin.im/post/5c77eecbf265da2d8532f345)
+
+</details>
+
 
 # Functional programming articles
 
