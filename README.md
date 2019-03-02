@@ -89,6 +89,7 @@
 + [行走的Offer收割机](https://juejin.im/post/5c16471f6fb9a049c43d91d4)
 + [【半月刊】前端高频面试题及答案汇总](https://juejin.im/post/5c6977e46fb9a049fd1063dc)
 + [2019 面试准备 - JS 原型与原型链](https://juejin.im/post/5c72a1766fb9a049ea3993e6)
++ [如何轻松拿到淘宝前端 offer](https://juejin.im/post/5bbc54a2e51d450e5a7445b4)
 
 </details>
 
