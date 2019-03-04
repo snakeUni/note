@@ -41,6 +41,7 @@
 + [H5 键盘兼容性小结](https://juejin.im/post/5c6d1c8b6fb9a049de6df441)
 + [Webapck4+Babel7优化70%速度](https://juejin.im/post/5c763885e51d457380771ab0)
 + [JS性能优化38条"军规"，2019年呕心力作](https://juejin.im/post/5c6e064c51882562eb50fc18)
++ [JavaScript Closures: setTimeout Inside a For Loop](https://wsvincent.com/javascript-closure-settimeout-for-loop/)
 
 </details>
 
@@ -59,6 +60,7 @@
 + [React hooks: The Death of classes and lifecycles?](https://blog.usejournal.com/react-hooks-death-of-classes-and-lifecycles-c8db5956558c)
 + [How to use React.lazy and Suspense for components lazy loading](https://medium.freecodecamp.org/how-to-use-react-lazy-and-suspense-for-components-lazy-loading-8d420ecac58)
 + [Cache your React event listeners to improve performance.](https://hackernoon.com/cache-your-react-event-listeners-to-improve-performance-37bda57ac965)
++ [React hooks: get the current state, back to the future](https://dev.to/scastiel/react-hooks-get-the-current-state-back-to-the-future-3op2)
 
 </details>
 
