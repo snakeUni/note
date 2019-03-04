@@ -7,7 +7,8 @@
 
 <details>
   <summary>技术文章篇</summary>
-  
+
++ [Making the Switch Away from Icon Fonts to SVG: Converting Font Icons to SVG](https://www.sarasoueidan.com/blog/icon-fonts-to-svg/)
 + [深拷贝的终极探索](https://juejin.im/post/5bc1ae9be51d450e8b140b0c)
 + [如何编写 Typescript 声明文件](https://juejin.im/post/5bc406795188255c451ed3b3)
 + [JavaScript 计时器之旅](https://juejin.im/post/5bc32e52f265da0ae3441cb8)
