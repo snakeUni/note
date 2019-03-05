@@ -42,6 +42,7 @@
 + [Webapck4+Babel7优化70%速度](https://juejin.im/post/5c763885e51d457380771ab0)
 + [JS性能优化38条"军规"，2019年呕心力作](https://juejin.im/post/5c6e064c51882562eb50fc18)
 + [JavaScript Closures: setTimeout Inside a For Loop](https://wsvincent.com/javascript-closure-settimeout-for-loop/)
++ [【前端词典】进阶必备的网络基础（上）](https://juejin.im/post/5c591fda6fb9a049dc02b1cc)
 
 </details>
 
@@ -94,6 +95,8 @@
 + [2019 面试准备 - JS 原型与原型链](https://juejin.im/post/5c72a1766fb9a049ea3993e6)
 + [如何轻松拿到淘宝前端 offer](https://juejin.im/post/5bbc54a2e51d450e5a7445b4)
 + [那些你需要知道的CSS-面试](https://juejin.im/post/5c7646e2f265da2d8e70f681)
++ [【半月刊 2】前端高频面试题及答案汇总](https://juejin.im/post/5c7bd72ef265da2de80f7f17)
++ [2019 面试实战 - 第一回合](https://juejin.im/post/5c7bc11d6fb9a04a0956c325)
 
 </details>
 
