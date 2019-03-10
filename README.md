@@ -100,6 +100,7 @@
 + [那些你需要知道的CSS-面试](https://juejin.im/post/5c7646e2f265da2d8e70f681)
 + [【半月刊 2】前端高频面试题及答案汇总](https://juejin.im/post/5c7bd72ef265da2de80f7f17)
 + [2019 面试实战 - 第一回合](https://juejin.im/post/5c7bc11d6fb9a04a0956c325)
++ [中高级前端大厂面试秘籍，为你保驾护航金三银四，直通大厂(上)](https://juejin.im/post/5c64d15d6fb9a049d37f9c20)
 
 </details>
 
