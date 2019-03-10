@@ -45,6 +45,7 @@
 + [JS性能优化38条"军规"，2019年呕心力作](https://juejin.im/post/5c6e064c51882562eb50fc18)
 + [JavaScript Closures: setTimeout Inside a For Loop](https://wsvincent.com/javascript-closure-settimeout-for-loop/)
 + [【前端词典】进阶必备的网络基础（上）](https://juejin.im/post/5c591fda6fb9a049dc02b1cc)
++ [【前端词典】进阶必备的网络基础（下）](https://juejin.im/post/5c7a9f8c518825640d1dd503)
 
 </details>
 
