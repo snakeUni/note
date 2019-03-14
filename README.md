@@ -69,6 +69,9 @@
 + [How to use React.lazy and Suspense for components lazy loading](https://medium.freecodecamp.org/how-to-use-react-lazy-and-suspense-for-components-lazy-loading-8d420ecac58)
 + [Cache your React event listeners to improve performance.](https://hackernoon.com/cache-your-react-event-listeners-to-improve-performance-37bda57ac965)
 + [React hooks: get the current state, back to the future](https://dev.to/scastiel/react-hooks-get-the-current-state-back-to-the-future-3op2)
++ [Hooks, State, Closures, and useReducer](https://adamrackis.dev/state-and-use-reducer/)
++ [Dilemmas With React Hooks - Part 1: States And Reducers](https://yearn2learn.netlify.com/dilemmas-with-react-hooks-1)
++ [How to fetch data with React Hooks?](https://www.robinwieruch.de/react-hooks-fetch-data/)
 
 </details>
 
