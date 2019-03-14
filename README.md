@@ -8,6 +8,11 @@
 *[JavaScript Performance Pitfalls in V8](https://ponyfoo.com/articles/javascript-performance-pitfalls-v8)*
 
 <details>
+ <summary>weekly</summary>
+
+</details>
+
+<details>
   <summary>技术文章篇</summary>
 
 + [Making the Switch Away from Icon Fonts to SVG: Converting Font Icons to SVG](https://www.sarasoueidan.com/blog/icon-fonts-to-svg/)
