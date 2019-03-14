@@ -49,6 +49,7 @@
 + [前端开发者必备的Nginx知识](https://juejin.im/post/5c85a64d6fb9a04a0e2e038c)
 + [让你的网页更丝滑（一](https://juejin.im/post/5c860282e51d45531330e10e)
 + [如何使用 docker 部署前端应用](https://juejin.im/post/5c83cbaa6fb9a04a0f65fdaa)
++ [vue-cli3 项目从搭建优化到docker部署](https://juejin.im/post/5c4a6fcd518825469414e062)
 
 </details>
 
