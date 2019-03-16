@@ -1,4 +1,7 @@
-# articles
+# Weekly
+  + [2019-03-15](./2019-03-15.md)
+
+# Articles
 
 *[the-cost-of-javascript-in-2018](https://medium.com/@addyosmani/the-cost-of-javascript-in-2018-7d8950fbb5d4)*  
 *[The most important lessons I’ve learned after a year of working with React](https://medium.freecodecamp.org/mindset-lessons-from-a-year-with-react-1de862421981)*  
@@ -9,11 +12,6 @@
 *[JavaScript Performance Pitfalls in V8](https://ponyfoo.com/articles/javascript-performance-pitfalls-v8)*  
 *[10 Lessons Learned Conducting Code Reviews](https://dev.to/jnschrag/10-lessons-learned-conducting-code-reviews-5di6)*
 
-<details>
-  <summary>weekly</summary>
-
-+ [2019-03-15](./2019-03-15.md)
-</details>
 
 <details>
   <summary>技术文章篇</summary>
