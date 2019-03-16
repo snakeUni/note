@@ -1,4 +1,5 @@
 # articles
+
 *[the-cost-of-javascript-in-2018](https://medium.com/@addyosmani/the-cost-of-javascript-in-2018-7d8950fbb5d4)*  
 *[The most important lessons I’ve learned after a year of working with React](https://medium.freecodecamp.org/mindset-lessons-from-a-year-with-react-1de862421981)*  
 *[Here are three upcoming changes to JavaScript that you’ll love](https://medium.freecodecamp.org/here-are-three-upcoming-changes-to-javascript-that-youll-love-387bce1bfb0b)*  
@@ -9,8 +10,29 @@
 *[10 Lessons Learned Conducting Code Reviews](https://dev.to/jnschrag/10-lessons-learned-conducting-code-reviews-5di6)*
 
 <details>
- <summary>weekly</summary>
+  <summary>weekly</summary>
+  <details>
+    <summary>2019年03/15日</summary>
 
+### [🍱 A Complete Guide to useEffect](https://overreacted.io/a-complete-guide-to-useeffect/)
+Dan wrote another extensive blog post which goes into the nitty gritty details of the `useEffect` hook. Highly recommended!
+
+### [Learning to Learn](https://css-tricks.com/learning-to-learn/)
+Learning constantly is a part of the job for developers. Sarah writes a deep-dive article about learning - how to organize it when learning the theories, how to implement it practically, and more.
+
+### [Don’t solve problems if you want to be a great manager](https://knowyourteam.com/blog/2019/03/06/dont-solve-problems-if-you-want-to-be-a-great-manager/)
+If someone asks you for help, the most simple thing to do is to solve the problem. Claire argues that a better way to handle those situations is to ask questions which will lead the other person to solve the problem by itself. I agree with her, although it is very unintuitive for me.
+
+### [My Intuition on When to Use Custom React Hooks](https://frontarm.com/james-k-nelson/react-hooks-intuition/)
+In this post, James emphasizes that React hooks are not a replacement to state management libraries like Redux. He writes about the need of saving global data on a global place and I have to add that Redux is much more than this and gives you abilities like a serialization of actions, time traveling and more.
+
+### [Scheduling in React](https://philippspiess.com/scheduling-in-react/)
+There are many situations during a react application when you want to change more than one visual item as a response to an action of the user. It can be hard to achieve a good user experience of it since JavaScript code runs in a single thread. Philipp writes about a new API of React for solving this problem, which is supposed to become stable in the second half of this year.
+
+### [10 Lessons Learned Conducting Code Reviews](https://dev.to/jnschrag/10-lessons-learned-conducting-code-reviews-5di6)
+Jacque shares some tips and suggestions for better code reviews. I can relate to most of them, especially to tools and standards which can make the process easier, and have a professional and not personal attitude when checking the pull request. Also, a dedicated review time can be a good idea.
+
+  </details>
 </details>
 
 <details>
