@@ -1,4 +1,4 @@
-> if you Interested in React Hook, star [uni-hook](https://github.com/snakeUni/uni-hook)  
+> If you are interested in React Hook, star [uni-hook](https://github.com/snakeUni/uni-hook)  
 
 # Weekly
 
