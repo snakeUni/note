@@ -74,6 +74,13 @@
 </details>
 
 <details>
+  <summary>HTML篇</summary>
+
++ [10 HTML Elements You Didn't Know You Needed](https://dev.to/emmawedekind/10-html-element-you-didnt-know-you-needed-3jo4)
+
+</details>
+
+<details>
   <summary>React篇</summary>
 
 + [inside-fiber-in-depth](https://medium.com/react-in-depth/inside-fiber-in-depth-overview-of-the-new-reconciliation-algorithm-in-react-e1c04700ef6e)
