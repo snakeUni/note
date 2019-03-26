@@ -61,6 +61,7 @@
 + [vue-cli3 项目从搭建优化到docker部署](https://juejin.im/post/5c4a6fcd518825469414e062)
 + [GraphQL in Depth: What, Why, and How](https://ponyfoo.com/articles/graphql-in-depth-what-why-and-how)
 + [前端构建秘籍](https://juejin.im/post/5c9075305188252d5c743520#heading-31)
++ [Books that Junior Developers should read in 2019](https://medium.freecodecamp.org/9-books-for-junior-developers-in-2019-e41fc7ecc586)
 
 
 </details>
