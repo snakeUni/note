@@ -1,3 +1,6 @@
+> If you are interested in React Hook, star [uni-hook](https://github.com/snakeUni/uni-hook)  
+> If you are interested in test, star [uni-test](https://github.com/snakeUni/uni-test) 
+
 # Weekly
 
 + [2019-03-15](./2019-03-15.md)
