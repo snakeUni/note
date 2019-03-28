@@ -96,6 +96,7 @@
 + [Hooks, State, Closures, and useReducer](https://adamrackis.dev/state-and-use-reducer/)
 + [Dilemmas With React Hooks - Part 1: States And Reducers](https://yearn2learn.netlify.com/dilemmas-with-react-hooks-1)
 + [How to fetch data with React Hooks?](https://www.robinwieruch.de/react-hooks-fetch-data/)
++ [Getting Started with React - An Overview and Walkthrough](https://www.taniarascia.com/getting-started-with-react/)
 
 </details>
 
