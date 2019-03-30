@@ -66,6 +66,7 @@
 + [前端构建秘籍](https://juejin.im/post/5c9075305188252d5c743520#heading-31)
 + [Books that Junior Developers should read in 2019](https://medium.freecodecamp.org/9-books-for-junior-developers-in-2019-e41fc7ecc586)
 + [「从源码中学习」面试官都不知道的Vue题目答案](https://juejin.im/post/5c959f74f265da610c068fa8)
++ [Responsible JavaScript: Part I](https://alistapart.com/article/responsible-javascript-part-1)
 
 
 </details>
@@ -97,6 +98,8 @@
 + [Dilemmas With React Hooks - Part 1: States And Reducers](https://yearn2learn.netlify.com/dilemmas-with-react-hooks-1)
 + [How to fetch data with React Hooks?](https://www.robinwieruch.de/react-hooks-fetch-data/)
 + [Getting Started with React - An Overview and Walkthrough](https://www.taniarascia.com/getting-started-with-react/)
++ [Dancing between state and effects - a real-world use case](https://github.com/facebook/react/issues/15240)
++ [Using Firebase with React Hooks](https://benmcmahen.com/using-firebase-with-react-hooks/)
 
 </details>
 
