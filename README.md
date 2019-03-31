@@ -16,7 +16,8 @@
 *[Want to be a top developer? You should build things. Here’s another list to get you started](https://medium.freecodecamp.org/the-secret-to-being-a-top-developer-is-building-things-d3d058e4e472)*  
 *[Scheduling in React](https://philippspiess.com/scheduling-in-react/)*  
 *[JavaScript Performance Pitfalls in V8](https://ponyfoo.com/articles/javascript-performance-pitfalls-v8)*  
-*[10 Lessons Learned Conducting Code Reviews](https://dev.to/jnschrag/10-lessons-learned-conducting-code-reviews-5di6)*
+*[10 Lessons Learned Conducting Code Reviews](https://dev.to/jnschrag/10-lessons-learned-conducting-code-reviews-5di6)*  
+*[How to Build a High Velocity Development Team](https://medium.com/javascript-scene/how-to-build-a-high-velocity-development-team-4b2360d34021)*
 
 
 <details>
@@ -138,6 +139,8 @@
 + [中高级前端大厂面试秘籍，为你保驾护航金三银四，直通大厂(上)](https://juejin.im/post/5c64d15d6fb9a049d37f9c20)
 + [(中篇)中高级前端大厂面试秘籍，寒冬中为您保驾护航，直通大厂](https://juejin.im/post/5c92f499f265da612647b754)
 + [记录一次蚂蚁金服前端电话面试](https://juejin.im/post/5c83f7d15188257e566edcf1)
++ [「中高级前端面试」JavaScript手写代码无敌秘籍](https://juejin.im/post/5c9c3989e51d454e3a3902b6)
++ [【半月刊 3】前端高频面试题及答案汇总](https://juejin.im/post/5c9ac3f66fb9a070e056718f)
 
 </details>
 
