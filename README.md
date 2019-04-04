@@ -68,6 +68,8 @@
 + [Books that Junior Developers should read in 2019](https://medium.freecodecamp.org/9-books-for-junior-developers-in-2019-e41fc7ecc586)
 + [「从源码中学习」面试官都不知道的Vue题目答案](https://juejin.im/post/5c959f74f265da610c068fa8)
 + [Responsible JavaScript: Part I](https://alistapart.com/article/responsible-javascript-part-1)
++ [聊一聊前端换肤](https://juejin.im/post/5ca41617f265da3092006155)
++ [The Most Important Non-Programming Skills for Programmers](https://dev.to/aspittel/the-most-important-non-programming-skills-for-programmers-iii)
 
 
 </details>
