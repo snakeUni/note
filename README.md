@@ -9,7 +9,7 @@
 + [2019-04-07](./2019-04-07.md)
 
 # Articles
-
+*[everything-i-know-about-react-i-learned-from-twitter](https://speakerdeck.com/jenncreighton/everything-i-know-about-react-i-learned-from-twitter)*  
 *[the-cost-of-javascript-in-2018](https://medium.com/@addyosmani/the-cost-of-javascript-in-2018-7d8950fbb5d4)*  
 *[The most important lessons I’ve learned after a year of working with React](https://medium.freecodecamp.org/mindset-lessons-from-a-year-with-react-1de862421981)*  
 *[Here are three upcoming changes to JavaScript that you’ll love](https://medium.freecodecamp.org/here-are-three-upcoming-changes-to-javascript-that-youll-love-387bce1bfb0b)*  
