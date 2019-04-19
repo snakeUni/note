@@ -8,6 +8,7 @@
 + [2019-03-30](./2019-03-30.md)
 + [2019-04-07](./2019-04-07.md)
 + [2019-04-13](./2019-04-13.md)
++ [2019-04-13](./2019-04-20.md)
 
 # Articles
 *[everything-i-know-about-react-i-learned-from-twitter](https://speakerdeck.com/jenncreighton/everything-i-know-about-react-i-learned-from-twitter)*  
@@ -19,7 +20,8 @@
 *[Scheduling in React](https://philippspiess.com/scheduling-in-react/)*  
 *[JavaScript Performance Pitfalls in V8](https://ponyfoo.com/articles/javascript-performance-pitfalls-v8)*  
 *[10 Lessons Learned Conducting Code Reviews](https://dev.to/jnschrag/10-lessons-learned-conducting-code-reviews-5di6)*  
-*[How to Build a High Velocity Development Team](https://medium.com/javascript-scene/how-to-build-a-high-velocity-development-team-4b2360d34021)*
+*[How to Build a High Velocity Development Team](https://medium.com/javascript-scene/how-to-build-a-high-velocity-development-team-4b2360d34021)*  
+*[How to know what to test](https://kentcdodds.com/blog/how-to-know-what-to-test)*
 
 
 <details>
