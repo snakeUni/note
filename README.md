@@ -8,7 +8,7 @@
 + [2019-03-30](./2019-03-30.md)
 + [2019-04-07](./2019-04-07.md)
 + [2019-04-13](./2019-04-13.md)
-+ [2019-04-13](./2019-04-20.md)
++ [2019-04-20](./2019-04-20.md)
 
 # Articles
 *[everything-i-know-about-react-i-learned-from-twitter](https://speakerdeck.com/jenncreighton/everything-i-know-about-react-i-learned-from-twitter)*  
