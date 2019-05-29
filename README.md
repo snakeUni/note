@@ -152,6 +152,8 @@ _[How to know what to test](https://kentcdodds.com/blog/how-to-know-what-to-test
 - [记录一次蚂蚁金服前端电话面试](https://juejin.im/post/5c83f7d15188257e566edcf1)
 - [「中高级前端面试」JavaScript 手写代码无敌秘籍](https://juejin.im/post/5c9c3989e51d454e3a3902b6)
 - [【半月刊 3】前端高频面试题及答案汇总](https://juejin.im/post/5c9ac3f66fb9a070e056718f)
+- [2019 前端面试 | 知其然，并知其所以然](https://juejin.im/post/5ce4171ff265da1bd04eb4f3)
+- [前端面经分享 | 腾讯](https://juejin.im/post/5ce9f666e51d45777621baf7)
 
 </details>
 
