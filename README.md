@@ -154,6 +154,7 @@ _[How to know what to test](https://kentcdodds.com/blog/how-to-know-what-to-test
 - [【半月刊 3】前端高频面试题及答案汇总](https://juejin.im/post/5c9ac3f66fb9a070e056718f)
 - [2019 前端面试 | 知其然，并知其所以然](https://juejin.im/post/5ce4171ff265da1bd04eb4f3)
 - [前端面经分享 | 腾讯](https://juejin.im/post/5ce9f666e51d45777621baf7)
+- [分享阿里前端p7架构图谱](https://juejin.im/post/5cf5f358e51d45778f076ce5)
 
 </details>
 
