@@ -82,6 +82,7 @@ _[How to know what to test](https://kentcdodds.com/blog/how-to-know-what-to-test
 - [滑动穿透(锁 body)终极探索](https://juejin.im/post/5ca4816e5188250b251e34e9)
 - [关于webpack4的14个知识点,童叟无欺](https://juejin.im/post/5cea1e1ae51d4510664d1652)
 - [webpack4的30个步骤打造优化到极致的react开发环境，如约而至](https://juejin.im/post/5cfe4b13f265da1bb13f26a8)
+- [前端工作学习相关网站收集整理](https://juejin.im/post/5d003f51e51d454fbe24a661)
 
 
 </details>
