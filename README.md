@@ -91,6 +91,8 @@ _[How to know what to test](https://kentcdodds.com/blog/how-to-know-what-to-test
   <summary>原理篇</summary>
 
 - [JavaScript Loading Priorities in Chrome](https://addyosmani.com/blog/script-priorities/)
+- [对 Parser 的误解](http://www.yinwang.org/blog-cn/2015/09/19/parser)
+- [前端要以正确的姿势学习编译原理（上篇）](https://zhuanlan.zhihu.com/p/36301857)
 
 </details>
 
