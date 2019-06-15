@@ -14,6 +14,8 @@
 - [2019-05-11](./2019-05-11.md)
 - [2019-05-18](./2019-05-18.md)
 - [2019-05-25](./2019-05-25.md)
+- [2019-06-01](./2019-06-01.md)
+- [2019-06-15](./2019-06-15.md)
 
 # Articles
 
@@ -80,10 +82,9 @@ _[How to know what to test](https://kentcdodds.com/blog/how-to-know-what-to-test
 - [聊一聊前端换肤](https://juejin.im/post/5ca41617f265da3092006155)
 - [The Most Important Non-Programming Skills for Programmers](https://dev.to/aspittel/the-most-important-non-programming-skills-for-programmers-iii)
 - [滑动穿透(锁 body)终极探索](https://juejin.im/post/5ca4816e5188250b251e34e9)
-- [关于webpack4的14个知识点,童叟无欺](https://juejin.im/post/5cea1e1ae51d4510664d1652)
-- [webpack4的30个步骤打造优化到极致的react开发环境，如约而至](https://juejin.im/post/5cfe4b13f265da1bb13f26a8)
+- [关于 webpack4 的 14 个知识点,童叟无欺](https://juejin.im/post/5cea1e1ae51d4510664d1652)
+- [webpack4 的 30 个步骤打造优化到极致的 react 开发环境，如约而至](https://juejin.im/post/5cfe4b13f265da1bb13f26a8)
 - [前端工作学习相关网站收集整理](https://juejin.im/post/5d003f51e51d454fbe24a661)
-
 
 </details>
 
@@ -160,7 +161,7 @@ _[How to know what to test](https://kentcdodds.com/blog/how-to-know-what-to-test
 - [【半月刊 3】前端高频面试题及答案汇总](https://juejin.im/post/5c9ac3f66fb9a070e056718f)
 - [2019 前端面试 | 知其然，并知其所以然](https://juejin.im/post/5ce4171ff265da1bd04eb4f3)
 - [前端面经分享 | 腾讯](https://juejin.im/post/5ce9f666e51d45777621baf7)
-- [分享阿里前端p7架构图谱](https://juejin.im/post/5cf5f358e51d45778f076ce5)
+- [分享阿里前端 p7 架构图谱](https://juejin.im/post/5cf5f358e51d45778f076ce5)
 
 </details>
 
