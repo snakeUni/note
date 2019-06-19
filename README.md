@@ -173,6 +173,7 @@ _[How to know what to test](https://kentcdodds.com/blog/how-to-know-what-to-test
 - [马蹄疾 | 聊聊你可能并没有完全掌握的 Flex 布局：从概念入手，丝丝入扣](https://juejin.im/post/5c748debf265da2da408134e)
 - [Inline SVG vs Icon Fonts [CAGEMATCH]](https://css-tricks.com/icon-fonts-vs-svg/)
 - [不可思议的纯 CSS 实现鼠标跟随效果](https://juejin.im/post/5c7f333ce51d4541e510cd6f)
+- [CSS 属性选择器的深入挖掘](https://juejin.im/post/5d084b6651882563194b2eab)
 
 </details>
 
