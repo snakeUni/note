@@ -86,6 +86,7 @@ _[React Fiber Deep Dive with Dan Abramov](https://www.youtube.com/watch?v=aS41Y_
 - [关于 webpack4 的 14 个知识点,童叟无欺](https://juejin.im/post/5cea1e1ae51d4510664d1652)
 - [webpack4 的 30 个步骤打造优化到极致的 react 开发环境，如约而至](https://juejin.im/post/5cfe4b13f265da1bb13f26a8)
 - [前端工作学习相关网站收集整理](https://juejin.im/post/5d003f51e51d454fbe24a661)
+- [蚂蚁金服的前端框架和工程化实践](https://github.com/sorrycc/blog/issues/85)
 
 </details>
 
@@ -174,6 +175,8 @@ _[React Fiber Deep Dive with Dan Abramov](https://www.youtube.com/watch?v=aS41Y_
 - [马蹄疾 | 聊聊你可能并没有完全掌握的 Flex 布局：从概念入手，丝丝入扣](https://juejin.im/post/5c748debf265da2da408134e)
 - [Inline SVG vs Icon Fonts [CAGEMATCH]](https://css-tricks.com/icon-fonts-vs-svg/)
 - [不可思议的纯 CSS 实现鼠标跟随效果](https://juejin.im/post/5c7f333ce51d4541e510cd6f)
+- [CSS 属性选择器的深入挖掘](https://juejin.im/post/5d084b6651882563194b2eab)
+- [dom-element-dimensions-and-css-transforms](https://www.impressivewebs.com/dom-element-dimensions-and-css-transforms/?utm_source=CSS-Weekly&utm_campaign=Issue-368&utm_medium=email)
 
 </details>
 
