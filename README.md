@@ -166,6 +166,7 @@ _[React Fiber Deep Dive with Dan Abramov](https://www.youtube.com/watch?v=aS41Y_
 - [2019 前端面试 | 知其然，并知其所以然](https://juejin.im/post/5ce4171ff265da1bd04eb4f3)
 - [前端面经分享 | 腾讯](https://juejin.im/post/5ce9f666e51d45777621baf7)
 - [分享阿里前端 p7 架构图谱](https://juejin.im/post/5cf5f358e51d45778f076ce5)
+- [前端 100 问：能搞懂 80% 的请把简历给我](https://juejin.im/post/5d23e750f265da1b855c7bbe)
 
 </details>
 
