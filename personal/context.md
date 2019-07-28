@@ -39,3 +39,6 @@ const A = () => {
 - [Preventing rerenders with React.memo and useContext hook.](https://github.com/facebook/react/issues/15156)
 - [useContext derivation performance issue ](https://github.com/reactjs/rfcs/issues/87)
 - [React-Redux Roadmap: v6, Context, Subscriptions, and Hooks](https://github.com/reduxjs/react-redux/issues/1177)
+- [Accept calculateChangedBits as a prop on Context.Providers](https://github.com/reactjs/rfcs/pull/60)
+- [Bitmasks and the new React Context API](https://hph.is/coding/bitmasks-react-context)
+- [Investigate use of context + observedBits for performance optimization](https://github.com/reduxjs/react-redux/issues/1018)
