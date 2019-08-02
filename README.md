@@ -36,6 +36,7 @@ _[10 Lessons Learned Conducting Code Reviews](https://dev.to/jnschrag/10-lessons
 _[How to Build a High Velocity Development Team](https://medium.com/javascript-scene/how-to-build-a-high-velocity-development-team-4b2360d34021)_  
 _[How to know what to test](https://kentcdodds.com/blog/how-to-know-what-to-test)_
 _[React Fiber Deep Dive with Dan Abramov](https://www.youtube.com/watch?v=aS41Y_eyNrU&app=desktop)_
+_[react-fiber-architecture](https://github.com/acdlite/react-fiber-architecture)_
 
 <details>
   <summary>技术文章篇</summary>
