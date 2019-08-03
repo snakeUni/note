@@ -37,6 +37,7 @@ _[How to Build a High Velocity Development Team](https://medium.com/javascript-s
 _[How to know what to test](https://kentcdodds.com/blog/how-to-know-what-to-test)_
 _[React Fiber Deep Dive with Dan Abramov](https://www.youtube.com/watch?v=aS41Y_eyNrU&app=desktop)_
 _[react-fiber-architecture](https://github.com/acdlite/react-fiber-architecture)_
+_[Didact Fiber: Incremental reconciliation](https://engineering.hexacta.com/didact-fiber-incremental-reconciliation-b2fe028dcaec)_
 
 <details>
   <summary>技术文章篇</summary>
