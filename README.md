@@ -95,6 +95,7 @@ _[Didact Fiber: Incremental reconciliation](https://engineering.hexacta.com/dida
 - [webpack4 的 30 个步骤打造优化到极致的 react 开发环境，如约而至](https://juejin.im/post/5cfe4b13f265da1bb13f26a8)
 - [前端工作学习相关网站收集整理](https://juejin.im/post/5d003f51e51d454fbe24a661)
 - [蚂蚁金服的前端框架和工程化实践](https://github.com/sorrycc/blog/issues/85)
+- [Typing Higher Order Components in React](https://codewithstyle.info/Typing-Higher-Order-Components-in-React/?utm_source=typescript-weekly.com&utm_campaign=typescript_weekly_107&utm_medium=email)
 
 </details>
 
