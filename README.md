@@ -25,20 +25,22 @@
 
 # Articles
 
-_[everything-i-know-about-react-i-learned-from-twitter](https://speakerdeck.com/jenncreighton/everything-i-know-about-react-i-learned-from-twitter)_  
+_[everything-i-know-about-react-i-learned-from-twitter 必读](https://speakerdeck.com/jenncreighton/everything-i-know-about-react-i-learned-from-twitter)_  
 _[the-cost-of-javascript-in-2018](https://medium.com/@addyosmani/the-cost-of-javascript-in-2018-7d8950fbb5d4)_  
 _[The most important lessons I’ve learned after a year of working with React](https://medium.freecodecamp.org/mindset-lessons-from-a-year-with-react-1de862421981)_  
 _[Here are three upcoming changes to JavaScript that you’ll love](https://medium.freecodecamp.org/here-are-three-upcoming-changes-to-javascript-that-youll-love-387bce1bfb0b)_  
 _[How you can improve your workflow using the JavaScript console](https://medium.freecodecamp.org/how-you-can-improve-your-workflow-using-the-javascript-console-bdd7823a9472)_  
 _[Want to be a top developer? You should build things. Here’s another list to get you started](https://medium.freecodecamp.org/the-secret-to-being-a-top-developer-is-building-things-d3d058e4e472)_  
-_[Scheduling in React](https://philippspiess.com/scheduling-in-react/)_  
+_[Scheduling in React 必读](https://philippspiess.com/scheduling-in-react/)_  
 _[JavaScript Performance Pitfalls in V8](https://ponyfoo.com/articles/javascript-performance-pitfalls-v8)_  
 _[10 Lessons Learned Conducting Code Reviews](https://dev.to/jnschrag/10-lessons-learned-conducting-code-reviews-5di6)_  
 _[How to Build a High Velocity Development Team](https://medium.com/javascript-scene/how-to-build-a-high-velocity-development-team-4b2360d34021)_  
-_[How to know what to test](https://kentcdodds.com/blog/how-to-know-what-to-test)_
-_[React Fiber Deep Dive with Dan Abramov](https://www.youtube.com/watch?v=aS41Y_eyNrU&app=desktop)_
-_[react-fiber-architecture](https://github.com/acdlite/react-fiber-architecture)_
-_[Didact Fiber: Incremental reconciliation](https://engineering.hexacta.com/didact-fiber-incremental-reconciliation-b2fe028dcaec)_
+_[How to know what to test](https://kentcdodds.com/blog/how-to-know-what-to-test)_  
+_[React Fiber Deep Dive with Dan Abramov 必读](https://www.youtube.com/watch?v=aS41Y_eyNrU&app=desktop)_  
+_[react-fiber-architecture](https://github.com/acdlite/react-fiber-architecture)_  
+_[Didact Fiber: Incremental reconciliation](https://engineering.hexacta.com/didact-fiber-incremental-reconciliation-b2fe028dcaec)_  
+_[Why is React doing this? 必读](https://gist.github.com/sebmarkbage/a5ef436427437a98408672108df01919)_  
+_[Rendering on the Web 必读](https://developers.google.com/web/updates/2019/02/rendering-on-the-web)_
 
 <details>
   <summary>技术文章篇</summary>
