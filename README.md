@@ -139,6 +139,11 @@ _[Rendering on the Web 必读](https://developers.google.com/web/updates/2019/02
 </details>
 
 <details>
+  <summary>小程序</summary>
+
+- [自己写个 React 渲染器: 以 Remax 为例(用 React 写小程序)](https://zhuanlan.zhihu.com/p/83324871)
+
+<details>
   <summary>使用手册</summary>
 
 - [es6 使用手册](https://juejin.im/post/5bfe05505188252098022400)
