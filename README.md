@@ -43,7 +43,8 @@ _[React Fiber Deep Dive with Dan Abramov 必读](https://www.youtube.com/watch?v
 _[react-fiber-architecture](https://github.com/acdlite/react-fiber-architecture)_  
 _[Didact Fiber: Incremental reconciliation](https://engineering.hexacta.com/didact-fiber-incremental-reconciliation-b2fe028dcaec)_  
 _[Why is React doing this? 必读](https://gist.github.com/sebmarkbage/a5ef436427437a98408672108df01919)_  
-_[Rendering on the Web 必读](https://developers.google.com/web/updates/2019/02/rendering-on-the-web)_
+_[Rendering on the Web 必读](https://developers.google.com/web/updates/2019/02/rendering-on-the-web)_  
+_[How Figma’s multiplayer technology works](https://www.figma.com/blog/how-figmas-multiplayer-technology-works/)_
 
 <details>
   <summary>技术文章篇</summary>
