@@ -224,6 +224,7 @@ _[build-your-own-react](https://pomb.us/build-your-own-react/)_
   <summary>其他</summary>
 
 - [为前端工程之崛起而编程](https://juejin.im/post/5c77eecbf265da2d8532f345)
+- [如何管理开源项目](https://slides.com/kentcdodds/manage-oss#/)
 
 </details>
 
