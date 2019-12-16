@@ -106,7 +106,8 @@ _[build-your-own-react](https://pomb.us/build-your-own-react/)_
 - [蚂蚁金服的前端框架和工程化实践](https://github.com/sorrycc/blog/issues/85)
 - [Typing Higher Order Components in React](https://codewithstyle.info/Typing-Higher-Order-Components-in-React/?utm_source=typescript-weekly.com&utm_campaign=typescript_weekly_107&utm_medium=email)  
 - [De Morgan's Laws](https://erikmhsiao.github.io/de-morgans-laws/)  
-- [🚀⚙️ JavaScript Visualized: the JavaScript Engine](https://dev.to/lydiahallie/javascript-visualized-the-javascript-engine-4cdf)
+- [🚀⚙️ JavaScript Visualized: the JavaScript Engine](https://dev.to/lydiahallie/javascript-visualized-the-javascript-engine-4cdf)  
+- [Idiomatic Redux: The History and Implementation of React-Redux](https://blog.isquaredsoftware.com/2018/11/react-redux-history-implementation/)
 
 </details>
 
