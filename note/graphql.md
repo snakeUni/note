@@ -58,3 +58,16 @@ A mutation can contain multiple fields, just like a query. There's one important
 }
 ```
 
+## GraphQL Best Practices
+
+### Thinking in Graphs
+
+Business Logic Layer
+
+> Your business logic layer should act as the single source of truth for enforcing business domain rules
+
+Where should you define the actual business logic? Where should you perform validation and authorization checks? The answer: inside a dedicated business logic layer. Your business logic layer should act as the single source of truth for enforcing business domain rules.
+
+![](https://graphql.org/img/diagrams/business_layer.png)
+
+In the diagram above, all entry points (REST, GraphQL, and RPC) into the system will be processed with the same validation, authorization, and error handling rules.
