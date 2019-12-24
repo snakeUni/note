@@ -108,7 +108,8 @@ _[build-your-own-react](https://pomb.us/build-your-own-react/)_
 - [De Morgan's Laws](https://erikmhsiao.github.io/de-morgans-laws/)  
 - [🚀⚙️ JavaScript Visualized: the JavaScript Engine](https://dev.to/lydiahallie/javascript-visualized-the-javascript-engine-4cdf)  
 - [Idiomatic Redux: The History and Implementation of React-Redux](https://blog.isquaredsoftware.com/2018/11/react-redux-history-implementation/)  
-- [Introducing state machine advent: 24 bite-sized blog posts about state machines and statecharts](https://dev.to/codingdive/introducing-state-machine-advent-24-bite-sized-blog-posts-about-state-machines-and-statecharts-2ce0)
+- [Introducing state machine advent: 24 bite-sized blog posts about state machines and statecharts](https://dev.to/codingdive/introducing-state-machine-advent-24-bite-sized-blog-posts-about-state-machines-and-statecharts-2ce0)  
+- [Few Things I Learned while Developing an Icon Library](https://medium.com/ng-zorro/few-things-i-learned-while-developing-an-icon-library-4e0201daf42b)
 
 </details>
 
