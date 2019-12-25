@@ -47,7 +47,8 @@ _[Why is React doing this? 必读](https://gist.github.com/sebmarkbage/a5ef43642
 _[Rendering on the Web 必读](https://developers.google.com/web/updates/2019/02/rendering-on-the-web)_  
 _[How Figma’s multiplayer technology works](https://www.figma.com/blog/how-figmas-multiplayer-technology-works/)_  
 _[Experiences with Concurrent Mode and Suspense](https://reactjs.org/blog/2019/11/06/building-great-user-experiences-with-concurrent-mode-and-suspense.html)_  
-_[build-your-own-react](https://pomb.us/build-your-own-react/)_
+_[build-your-own-react](https://pomb.us/build-your-own-react/)_  
+_[What are the React Team Principles?](https://react.christmas/2019/24)_
 
 <details>
   <summary>技术文章篇</summary>
