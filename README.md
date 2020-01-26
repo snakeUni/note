@@ -47,7 +47,8 @@ _[Why is React doing this? 必读](https://gist.github.com/sebmarkbage/a5ef43642
 _[Rendering on the Web 必读](https://developers.google.com/web/updates/2019/02/rendering-on-the-web)_  
 _[How Figma’s multiplayer technology works](https://www.figma.com/blog/how-figmas-multiplayer-technology-works/)_  
 _[Experiences with Concurrent Mode and Suspense](https://reactjs.org/blog/2019/11/06/building-great-user-experiences-with-concurrent-mode-and-suspense.html)_  
-_[build-your-own-react](https://pomb.us/build-your-own-react/)_
+_[build-your-own-react](https://pomb.us/build-your-own-react/)_  
+_[What are the React Team Principles?](https://react.christmas/2019/24)_
 
 <details>
   <summary>技术文章篇</summary>
@@ -107,7 +108,10 @@ _[build-your-own-react](https://pomb.us/build-your-own-react/)_
 - [Typing Higher Order Components in React](https://codewithstyle.info/Typing-Higher-Order-Components-in-React/?utm_source=typescript-weekly.com&utm_campaign=typescript_weekly_107&utm_medium=email)  
 - [De Morgan's Laws](https://erikmhsiao.github.io/de-morgans-laws/)  
 - [🚀⚙️ JavaScript Visualized: the JavaScript Engine](https://dev.to/lydiahallie/javascript-visualized-the-javascript-engine-4cdf)  
-- [Idiomatic Redux: The History and Implementation of React-Redux](https://blog.isquaredsoftware.com/2018/11/react-redux-history-implementation/)
+- [Idiomatic Redux: The History and Implementation of React-Redux](https://blog.isquaredsoftware.com/2018/11/react-redux-history-implementation/)  
+- [Introducing state machine advent: 24 bite-sized blog posts about state machines and statecharts](https://dev.to/codingdive/introducing-state-machine-advent-24-bite-sized-blog-posts-about-state-machines-and-statecharts-2ce0)  
+- [Few Things I Learned while Developing an Icon Library](https://medium.com/ng-zorro/few-things-i-learned-while-developing-an-icon-library-4e0201daf42b)
+- [How to create an icon library in Angular](https://medium.com/angular-in-depth/how-to-create-an-icon-library-in-angular-4f8863d95a)
 
 </details>
 
