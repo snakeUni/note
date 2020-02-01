@@ -112,6 +112,7 @@ _[What are the React Team Principles?](https://react.christmas/2019/24)_
 - [Introducing state machine advent: 24 bite-sized blog posts about state machines and statecharts](https://dev.to/codingdive/introducing-state-machine-advent-24-bite-sized-blog-posts-about-state-machines-and-statecharts-2ce0)  
 - [Few Things I Learned while Developing an Icon Library](https://medium.com/ng-zorro/few-things-i-learned-while-developing-an-icon-library-4e0201daf42b)
 - [How to create an icon library in Angular](https://medium.com/angular-in-depth/how-to-create-an-icon-library-in-angular-4f8863d95a)
+- [蒲公英·凹凸精选期刊 - 动画](https://mp.weixin.qq.com/s/7ZVl7lmOyfut6f3MnRg1IA)
 
 </details>
 
