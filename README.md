@@ -1,6 +1,15 @@
 > If you are interested in React Hook, star [uni-hook](https://github.com/snakeUni/uni-hook)  
 > If you are interested in test, star [uni-test](https://github.com/snakeUni/uni-test)
 
+# 值得看的大神的博客
+
+- [V8](https://v8.dev/blog)
+- [React 团队 Dan Abramov](https://overreacted.io/)
+- [React 团队 Sophie Alpert](https://sophiebits.com/)
+- [Kent C. Dodds](https://kentcdodds.com/)
+- [Jason Miller Preact 作者](https://jasonformat.com/)
+- [Marius Schulz Typescript 为主](https://mariusschulz.com/blog)
+
 # Weekly
 
 - [2019-03-15](./2019-03-15.md)
@@ -48,7 +57,8 @@ _[Rendering on the Web 必读](https://developers.google.com/web/updates/2019/02
 _[How Figma’s multiplayer technology works](https://www.figma.com/blog/how-figmas-multiplayer-technology-works/)_  
 _[Experiences with Concurrent Mode and Suspense](https://reactjs.org/blog/2019/11/06/building-great-user-experiences-with-concurrent-mode-and-suspense.html)_  
 _[build-your-own-react](https://pomb.us/build-your-own-react/)_  
-_[What are the React Team Principles?](https://react.christmas/2019/24)_
+_[What are the React Team Principles?](https://react.christmas/2019/24)_  
+_[Understanding the ECMAScript spec, part 1](https://v8.dev/blog/understanding-ecmascript-part-1)_
 
 <details>
   <summary>技术文章篇</summary>
