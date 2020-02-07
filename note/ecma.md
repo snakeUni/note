@@ -109,3 +109,35 @@ The ! can admittedly become pretty confusing if it looks like a valid JavaScript
 
 Here, the ! just means that we are certain that this call to ToBoolean will `never return an exception`, not that the result is inverted!
 
+## ReturnIfAbrupt Shorthands
+
+Invocations of abstract operations and syntax-directed operations that are prefixed by ? indicate that ReturnIfAbrupt should be applied to the resulting Completion Record. For example, the step:
+
+> ? OperationName().
+
+is equivalent to the following step:
+
+> ReturnIfAbrupt(OperationName()).
+
+Similarly, for method application style, the step:
+
+> ? someValue.OperationName().
+
+is equivalent to:
+
+> ReturnIfAbrupt(someValue.OperationName()).
+
+Similarly, prefix ! is used to indicate that the following invocation of an abstract or syntax-directed operation will never return an abrupt completion and that the resulting Completion Record's [[Value]] field should be used in place of the return value of the operation. For example, the step:
+
+> Let val be ! OperationName().
+
+is equivalent to the following steps:
+
+1. Let `val` be `OperationName()`.
+2. Assert: `val` is never an `abrupt completion`.
+3. If `val` is a `Completion Record`, set val to val.[[Value]].
+
+Syntax-directed operations for runtime semantics make use of this shorthand by placing ! or ? before the invocation of the operation:
+
+> Perform ! SyntaxDirectedOperation of NonTerminal.
+
