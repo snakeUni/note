@@ -141,3 +141,58 @@ Syntax-directed operations for runtime semantics make use of this shorthand by p
 
 > Perform ! SyntaxDirectedOperation of NonTerminal.
 
+## Number::exponentiate ( base, exponent )
+
+Returns an implementation-dependent approximation of the result of raising base to the power exponent.
+
+- If exponent is NaN, the result is NaN.
+- If exponent is +0, the result is 1, even if base is NaN.
+- If exponent is -0, the result is 1, even if base is NaN.
+- If base is NaN and exponent is nonzero, the result is NaN.
+- If abs(base) > 1 and exponent is +∞, the result is +∞.
+- If abs(base) > 1 and exponent is -∞, the result is +0.
+- If abs(base) is 1 and exponent is +∞, the result is NaN.
+- If abs(base) is 1 and exponent is -∞, the result is NaN.
+- If abs(base) < 1 and exponent is +∞, the result is +0.
+- If abs(base) < 1 and exponent is -∞, the result is +∞.
+- If base is +∞ and exponent > 0, the result is +∞.
+- If base is +∞ and exponent < 0, the result is +0.
+- If base is -∞ and exponent > 0 and exponent is an odd integer, the result is -∞.
+- If base is -∞ and exponent > 0 and exponent is not an odd integer, the result is +∞.
+- If base is -∞ and exponent < 0 and exponent is an odd integer, the result is -0.
+- If base is -∞ and exponent < 0 and exponent is not an odd integer, the result is +0.
+- If base is +0 and exponent > 0, the result is +0.
+- If base is +0 and exponent < 0, the result is +∞.
+- If base is -0 and exponent > 0 and exponent is an odd integer, the result is -0.
+- If base is -0 and exponent > 0 and exponent is not an odd integer, the result is +0.
+- If base is -0 and exponent < 0 and exponent is an odd integer, the result is -∞.
+- If base is -0 and exponent < 0 and exponent is not an odd integer, the result is +∞.
+- If base < 0 and base is finite and exponent is finite and exponent is not an integer, the result is NaN.
+
+## Number::multiply ( x, y )
+
+The * MultiplicativeOperator performs multiplication, producing the product of x and y. Multiplication is commutative. Multiplication is not always associative in ECMAScript, because of finite precision.
+
+The result of a floating-point multiplication is governed by the rules of IEEE 754-2019 binary double-precision arithmetic:
+
+- If either operand is NaN, the result is NaN.
+- The sign of the result is positive if both operands have the same sign, negative if the operands have different signs.
+- Multiplication of an infinity by a zero results in NaN.
+- Multiplication of an infinity by an infinity results in an infinity. The sign is determined by the rule already stated above.
+- Multiplication of an infinity by a finite nonzero value results in a signed infinity. The sign is determined by the rule already stated above.
+- In the remaining cases, where neither an infinity nor NaN is involved, the product is computed and rounded to the nearest representable value using IEEE 754-2019 roundTiesToEven mode. If the magnitude is too large to represent, the result is then an infinity of appropriate sign. If the magnitude is too small to represent, the result is then a zero of appropriate sign. The ECMAScript language requires support of gradual underflow as defined by IEEE 754-2019.
+
+## Number::divide ( x, y )
+
+The / MultiplicativeOperator performs division, producing the quotient of x and y. x is the dividend and y is the divisor. ECMAScript does not perform integer division. The operands and result of all division operations are double-precision floating-point numbers. The result of division is determined by the specification of IEEE 754-2019 arithmetic:
+
+- If either operand is NaN, the result is NaN.
+- The sign of the result is positive if both operands have the same sign, negative if the operands have different signs.
+- Division of an infinity by an infinity results in NaN.
+- Division of an infinity by a zero results in an infinity. The sign is determined by the rule already stated above.
+- Division of an infinity by a nonzero finite value results in a signed infinity. The sign is determined by the rule already stated above.
+- Division of a finite value by an infinity results in zero. The sign is determined by the rule already stated above.
+- Division of a zero by a zero results in NaN; division of zero by any other finite value results in zero, with the sign determined by the rule already stated above.
+- Division of a nonzero finite value by a zero results in a signed infinity. The sign is determined by the rule already stated above.
+- In the remaining cases, where neither an infinity, nor a zero, nor NaN is involved, the quotient is computed and rounded to the nearest representable value using IEEE 754-2019 roundTiesToEven mode. If the magnitude is too large to represent, the operation overflows; the result is then an infinity of appropriate sign. If the magnitude is too small to represent, the operation underflows and the result is a zero of the appropriate sign. The ECMAScript language requires support of gradual underflow as defined by IEEE 754-2019.
+
