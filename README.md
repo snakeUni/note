@@ -123,6 +123,7 @@ _[Understanding the ECMAScript spec, part 1](https://v8.dev/blog/understanding-e
 - [Few Things I Learned while Developing an Icon Library](https://medium.com/ng-zorro/few-things-i-learned-while-developing-an-icon-library-4e0201daf42b)
 - [How to create an icon library in Angular](https://medium.com/angular-in-depth/how-to-create-an-icon-library-in-angular-4f8863d95a)
 - [蒲公英·凹凸精选期刊 - 动画](https://mp.weixin.qq.com/s/7ZVl7lmOyfut6f3MnRg1IA)
+- [build-sketch-plugin-javascript-html-css-part](https://www.smashingmagazine.com/2019/07/build-sketch-plugin-javascript-html-css-part-1/)
 
 </details>
 
