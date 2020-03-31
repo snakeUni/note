@@ -125,6 +125,7 @@ _[Understanding the ECMAScript spec, part 1](https://v8.dev/blog/understanding-e
 - [蒲公英·凹凸精选期刊 - 动画](https://mp.weixin.qq.com/s/7ZVl7lmOyfut6f3MnRg1IA)
 - [build-sketch-plugin-javascript-html-css-part](https://www.smashingmagazine.com/2019/07/build-sketch-plugin-javascript-html-css-part-1/)
 - [Sketch 插件开发实践](https://aotu.io/notes/2019/10/31/sketch-plugin/index.html)
+- [Sketch Plugin Snippets for Plugin Developers](https://medium.com/sketch-app-sources/sketch-plugin-snippets-for-plugin-developers-e9e1d2ab6827#.a3xn6hth6)
 </details>
 
 <details>
