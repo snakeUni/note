@@ -246,6 +246,7 @@ _[Understanding the ECMAScript spec, part 1](https://v8.dev/blog/understanding-e
 
 - [为前端工程之崛起而编程](https://juejin.im/post/5c77eecbf265da2d8532f345)
 - [如何管理开源项目](https://slides.com/kentcdodds/manage-oss#/)
+- [Ant Design 开源项目经验分享](https://mp.weixin.qq.com/s/qpZB9tPiLrHIbJnwi-8KKg)
 
 </details>
 
