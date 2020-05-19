@@ -123,7 +123,10 @@ _[Understanding the ECMAScript spec, part 1](https://v8.dev/blog/understanding-e
 - [Few Things I Learned while Developing an Icon Library](https://medium.com/ng-zorro/few-things-i-learned-while-developing-an-icon-library-4e0201daf42b)
 - [How to create an icon library in Angular](https://medium.com/angular-in-depth/how-to-create-an-icon-library-in-angular-4f8863d95a)
 - [蒲公英·凹凸精选期刊 - 动画](https://mp.weixin.qq.com/s/7ZVl7lmOyfut6f3MnRg1IA)
-
+- [build-sketch-plugin-javascript-html-css-part](https://www.smashingmagazine.com/2019/07/build-sketch-plugin-javascript-html-css-part-1/)
+- [Sketch 插件开发实践](https://aotu.io/notes/2019/10/31/sketch-plugin/index.html)
+- [Sketch Plugin Snippets for Plugin Developers](https://medium.com/sketch-app-sources/sketch-plugin-snippets-for-plugin-developers-e9e1d2ab6827#.a3xn6hth6)
+- [动画：从 AE 到 web](https://aotu.io/notes/2018/03/06/ae2web/?from=dandelion)
 </details>
 
 <details>
@@ -244,6 +247,7 @@ _[Understanding the ECMAScript spec, part 1](https://v8.dev/blog/understanding-e
 
 - [为前端工程之崛起而编程](https://juejin.im/post/5c77eecbf265da2d8532f345)
 - [如何管理开源项目](https://slides.com/kentcdodds/manage-oss#/)
+- [Ant Design 开源项目经验分享](https://mp.weixin.qq.com/s/qpZB9tPiLrHIbJnwi-8KKg)
 
 </details>
 
