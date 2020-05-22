@@ -12,3 +12,40 @@
 
 如果对 `sketch` 插件开发感兴趣，强烈推荐这篇文章
 
++ [Sketch 插件开发实践](https://aotu.io/notes/2019/10/31/sketch-plugin/index.html)
+
+京东对于 sketch 开发的一些实践
+
++ [Sketch Plugin Snippets for Plugin Developers](https://medium.com/sketch-app-sources/sketch-plugin-snippets-for-plugin-developers-e9e1d2ab6827#.a3xn6hth6)
+
+sketch 开发常用的一些代码片段，很实用
+
++ [build-sketch-plugin-javascript-html-css-part](https://www.smashingmagazine.com/2019/07/build-sketch-plugin-javascript-html-css-part-1/)
+
+这篇文章主要介绍了，如何基于插件增加 `html`, `css` 以及常见的一些 `Panel` 的开发
+
++ [sketch 官网](https://developer.sketch.com/plugins/publish-a-plugin)
+
++ [sketch action api](https://developer.sketch.com/reference/action/)
+
++ [sketch reference](https://developer.sketch.com/reference/api/#layer)
+
++ [sketch 插件库](https://github.com/sketchplugins/plugin-directory)
+
+sketch 官方插件库
+
++ [skpm](https://github.com/skpm/skpm)
+
+sketch 插件官方 cli
+
++ [一个 Sketch 插件的诞生 — PinLog](https://mp.weixin.qq.com/s/9jNfSdJkfLrc_7QwZLwSiw)
+
++ [一个 sketch 插件系列](https://medium.com/@marianomike/the-beginners-guide-to-writing-sketch-plugins-part-1-28a5e3f01c68)
+
++ [react-sketchapp](https://github.com/airbnb/react-sketchapp)
+
+airbnb 开发实践，使用 react 开发 sketch
+
++ [html-sketchapp](https://github.com/html-sketchapp/html-sketchapp)
+
+将 html 转成 sketch
