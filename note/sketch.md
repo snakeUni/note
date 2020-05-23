@@ -49,3 +49,19 @@ airbnb 开发实践，使用 react 开发 sketch
 + [html-sketchapp](https://github.com/html-sketchapp/html-sketchapp)
 
 将 html 转成 sketch
+
++ [sketch-plugin-boilerplate](https://github.com/o2team/sketch-plugin-boilerplate)
+
+快速创建工具栏(侧边栏等等)
+
++ [深入理解Sketch库](https://ashung.github.io/posts/deep-into-sketch-library-part-1.html)
+
+一步一步学习开发 sketch 插件
+
++ [Sketch Plugin Xcode Template](https://blog.magicsketch.io/sketch-plugin-xcode-template-c8236a6f7fff)
+
+sketch xcode 开发模板
+
++ [干货 | 携程机票Sketch插件开发实践](https://blog.csdn.net/nx2xjbur4jg8ef80l1k/article/details/92854864)
+
+携程开发插件的技术实践
