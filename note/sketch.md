@@ -65,3 +65,7 @@ sketch xcode 开发模板
 + [干货 | 携程机票Sketch插件开发实践](https://blog.csdn.net/nx2xjbur4jg8ef80l1k/article/details/92854864)
 
 携程开发插件的技术实践
+
++ [how-to-build-your-first-sketch-plugin](https://medium.com/@kevingutowski/how-to-build-your-first-sketch-plugin-14c0e9e56bf0)
+
+一篇非常好的长文，一步一步教学如何写 sketch 插件
