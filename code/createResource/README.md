@@ -2,10 +2,10 @@
 
 ```js
 // resource.js
-import { createResource } from './createResource'
+import { createResource } from "./createResource"
 
-const Api = createResource(url => {
-  return fetch(url).then(res => res)
+const Api = createResource((url) => {
+  return fetch(url).then((res) => res)
 })
 
 export { Api }
