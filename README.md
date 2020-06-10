@@ -115,11 +115,11 @@ _[Understanding the ECMAScript spec, part 1](https://v8.dev/blog/understanding-e
 - [webpack4 的 30 个步骤打造优化到极致的 react 开发环境，如约而至](https://juejin.im/post/5cfe4b13f265da1bb13f26a8)
 - [前端工作学习相关网站收集整理](https://juejin.im/post/5d003f51e51d454fbe24a661)
 - [蚂蚁金服的前端框架和工程化实践](https://github.com/sorrycc/blog/issues/85)
-- [Typing Higher Order Components in React](https://codewithstyle.info/Typing-Higher-Order-Components-in-React/?utm_source=typescript-weekly.com&utm_campaign=typescript_weekly_107&utm_medium=email)  
-- [De Morgan's Laws](https://erikmhsiao.github.io/de-morgans-laws/)  
-- [🚀⚙️ JavaScript Visualized: the JavaScript Engine](https://dev.to/lydiahallie/javascript-visualized-the-javascript-engine-4cdf)  
-- [Idiomatic Redux: The History and Implementation of React-Redux](https://blog.isquaredsoftware.com/2018/11/react-redux-history-implementation/)  
-- [Introducing state machine advent: 24 bite-sized blog posts about state machines and statecharts](https://dev.to/codingdive/introducing-state-machine-advent-24-bite-sized-blog-posts-about-state-machines-and-statecharts-2ce0)  
+- [Typing Higher Order Components in React](https://codewithstyle.info/Typing-Higher-Order-Components-in-React/?utm_source=typescript-weekly.com&utm_campaign=typescript_weekly_107&utm_medium=email)
+- [De Morgan's Laws](https://erikmhsiao.github.io/de-morgans-laws/)
+- [🚀⚙️ JavaScript Visualized: the JavaScript Engine](https://dev.to/lydiahallie/javascript-visualized-the-javascript-engine-4cdf)
+- [Idiomatic Redux: The History and Implementation of React-Redux](https://blog.isquaredsoftware.com/2018/11/react-redux-history-implementation/)
+- [Introducing state machine advent: 24 bite-sized blog posts about state machines and statecharts](https://dev.to/codingdive/introducing-state-machine-advent-24-bite-sized-blog-posts-about-state-machines-and-statecharts-2ce0)
 - [Few Things I Learned while Developing an Icon Library](https://medium.com/ng-zorro/few-things-i-learned-while-developing-an-icon-library-4e0201daf42b)
 - [How to create an icon library in Angular](https://medium.com/angular-in-depth/how-to-create-an-icon-library-in-angular-4f8863d95a)
 - [蒲公英·凹凸精选期刊 - 动画](https://mp.weixin.qq.com/s/7ZVl7lmOyfut6f3MnRg1IA)
@@ -127,6 +127,8 @@ _[Understanding the ECMAScript spec, part 1](https://v8.dev/blog/understanding-e
 - [Sketch 插件开发实践](https://aotu.io/notes/2019/10/31/sketch-plugin/index.html)
 - [Sketch Plugin Snippets for Plugin Developers](https://medium.com/sketch-app-sources/sketch-plugin-snippets-for-plugin-developers-e9e1d2ab6827#.a3xn6hth6)
 - [动画：从 AE 到 web](https://aotu.io/notes/2018/03/06/ae2web/?from=dandelion)
+- [stop-mocking-fetch](https://kentcdodds.com/blog/stop-mocking-fetch)
+
 </details>
 
 <details>
