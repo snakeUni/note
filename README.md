@@ -128,6 +128,7 @@ _[Understanding the ECMAScript spec, part 1](https://v8.dev/blog/understanding-e
 - [Sketch Plugin Snippets for Plugin Developers](https://medium.com/sketch-app-sources/sketch-plugin-snippets-for-plugin-developers-e9e1d2ab6827#.a3xn6hth6)
 - [动画：从 AE 到 web](https://aotu.io/notes/2018/03/06/ae2web/?from=dandelion)
 - [stop-mocking-fetch](https://kentcdodds.com/blog/stop-mocking-fetch)
+- [Recoil — Another React State Management Library?](https://medium.com/swlh/recoil-another-react-state-management-library-97fc979a8d2b)
 
 </details>
 
