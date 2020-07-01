@@ -129,6 +129,7 @@ _[Understanding the ECMAScript spec, part 1](https://v8.dev/blog/understanding-e
 - [动画：从 AE 到 web](https://aotu.io/notes/2018/03/06/ae2web/?from=dandelion)
 - [stop-mocking-fetch](https://kentcdodds.com/blog/stop-mocking-fetch)
 - [Recoil — Another React State Management Library?](https://medium.com/swlh/recoil-another-react-state-management-library-97fc979a8d2b)
+- [Taro 3](https://mp.weixin.qq.com/s/hQwSH0EYg5x7FMOR341VBA)
 
 </details>
 
