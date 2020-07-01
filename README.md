@@ -130,6 +130,7 @@ _[Understanding the ECMAScript spec, part 1](https://v8.dev/blog/understanding-e
 - [stop-mocking-fetch](https://kentcdodds.com/blog/stop-mocking-fetch)
 - [Recoil — Another React State Management Library?](https://medium.com/swlh/recoil-another-react-state-management-library-97fc979a8d2b)
 - [Taro 3](https://mp.weixin.qq.com/s/hQwSH0EYg5x7FMOR341VBA)
+- [淘宝如何处理弹窗场景](https://mp.weixin.qq.com/s/VxGB0w5nPsMoKM-exa2-ww)
 
 </details>
 
