@@ -228,6 +228,8 @@ _[Understanding the ECMAScript spec, part 1](https://v8.dev/blog/understanding-e
 - [不可思议的纯 CSS 实现鼠标跟随效果](https://juejin.im/post/5c7f333ce51d4541e510cd6f)
 - [CSS 属性选择器的深入挖掘](https://juejin.im/post/5d084b6651882563194b2eab)
 - [dom-element-dimensions-and-css-transforms](https://www.impressivewebs.com/dom-element-dimensions-and-css-transforms/?utm_source=CSS-Weekly&utm_campaign=Issue-368&utm_medium=email)
+- [atomic-css-in-js](https://sebastienlorber.com/atomic-css-in-js)
+- [otion](https://github.com/kripod/otion)
 
 </details>
 
