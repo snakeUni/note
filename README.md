@@ -231,6 +231,8 @@ _[Understanding the ECMAScript spec, part 1](https://v8.dev/blog/understanding-e
 - [atomic-css-in-js](https://sebastienlorber.com/atomic-css-in-js)
 - [otion](https://github.com/kripod/otion)
 - [otion-example](https://codesandbox.io/s/auto-css-9i1m0?file=/src/App.js)
+- [react-css-in-js](https://speakerdeck.com/vjeux/react-css-in-js)
+- [CSS 变量对 JS 交互组件开发带来的提升与变革](https://www.zhangxinxu.com/wordpress/2020/07/css-var-improve-components/)
 
 </details>
 
