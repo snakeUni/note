@@ -230,6 +230,7 @@ _[Understanding the ECMAScript spec, part 1](https://v8.dev/blog/understanding-e
 - [dom-element-dimensions-and-css-transforms](https://www.impressivewebs.com/dom-element-dimensions-and-css-transforms/?utm_source=CSS-Weekly&utm_campaign=Issue-368&utm_medium=email)
 - [atomic-css-in-js](https://sebastienlorber.com/atomic-css-in-js)
 - [otion](https://github.com/kripod/otion)
+- [otion-example](https://codesandbox.io/s/auto-css-9i1m0?file=/src/App.js)
 
 </details>
 
