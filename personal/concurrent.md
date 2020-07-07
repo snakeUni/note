@@ -8,7 +8,7 @@ React concurrent 模式的一些总结。
 
 如果不使用 useTransition, 在接口返回后会立即替换掉之前的内容。
 
-![pew](./pre.png)
+![pew](./image/pre.png)
 
 使用了 useTransition 就有了一个时间的延迟
 
@@ -46,19 +46,19 @@ return (
 
 如果接口响应时间少于 `timeoutMs`
 
-![pre view](./pretime.png)
+![pre view](./image/pretime.png)
 
 接口响应后就会立即展示响应后的内容。
 
 如果接口响应时间大于 `timeoutMs`
 
-![next view](./nextview.png)
+![next view](./image/nextview.png)
 
 在 `timeoutMs` 之前一直显示之前的 view, 当超过了这个时间后如果有 Spin 则显示响应的 Spin, 等待接口响应后再显示新的 view。
 
 ### The Three Steps
 
-![three step](./cm-steps-simple.png)
+![three step](./image/cm-steps-simple.png)
 
 具体可以参考[官网](https://reactjs.org/docs/concurrent-mode-patterns.html)
 
