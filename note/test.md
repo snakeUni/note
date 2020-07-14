@@ -11,3 +11,7 @@
 - [保质提效！E2E 测试在通天塔的实践之路](https://mp.weixin.qq.com/s/-Ga9-fcj-P8thJv87swyHA)
 
 京东通天塔 e2e 的实践
+
+- [京喜前端自动化测试之路](https://mp.weixin.qq.com/s?__biz=MzIxMzExMjYwOQ==&mid=2651891789&idx=1&sn=ff3be3b2ab0ca3123ba0c17fd70cbc97&scene=21#wechat_redirect)
+
+京东 H5 自动化测试
