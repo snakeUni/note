@@ -59,6 +59,7 @@ _[Experiences with Concurrent Mode and Suspense](https://reactjs.org/blog/2019/1
 _[build-your-own-react](https://pomb.us/build-your-own-react/)_  
 _[What are the React Team Principles?](https://react.christmas/2019/24)_  
 _[Understanding the ECMAScript spec, part 1](https://v8.dev/blog/understanding-ecmascript-part-1)_
+_[「可视化搭建系统」——从设计到架构，探索前端领域技术和业务价值-好文](https://zhuanlan.zhihu.com/p/164558106)_
 
 <details>
   <summary>技术文章篇</summary>
