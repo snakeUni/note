@@ -15,3 +15,7 @@
 - [京喜前端自动化测试之路](https://mp.weixin.qq.com/s?__biz=MzIxMzExMjYwOQ==&mid=2651891789&idx=1&sn=ff3be3b2ab0ca3123ba0c17fd70cbc97&scene=21#wechat_redirect)
 
 京东 H5 自动化测试
+
+- [Modern React testing, part 4: Cypress and Cypress Testing Library](https://blog.sapegin.me/all/react-testing-4-cypress/)
+
+详细介绍了 `Cypress` 的用法
