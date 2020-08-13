@@ -134,6 +134,7 @@ _[「可视化搭建系统」——从设计到架构，探索前端领域技术
 - [淘宝如何处理弹窗场景](https://mp.weixin.qq.com/s/VxGB0w5nPsMoKM-exa2-ww)
 - [斗鱼关注人数爬取 ── 字体反爬的攻与防](https://cjting.me/2020/07/01/douyu-crawler-and-font-anti-crawling/)
 - [「可视化搭建系统」——从设计到架构，探索前端领域技术和业务价值](https://zhuanlan.zhihu.com/p/164558106)
+- [从 2.9 秒到 0.6 秒，信息流首屏提效 80%的秘诀](https://mp.weixin.qq.com/s/dGO7cvhnr0cWdeu7O2v5Eg)
 
 </details>
 
