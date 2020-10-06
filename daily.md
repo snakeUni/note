@@ -1,5 +1,9 @@
 # 每日一读 记录每天学习的点点滴滴
 
+## 2020/10/06
+
+-【今日阅读】[如何实现 pc 站点的搭建](./daily/zhengcaiyun.pdf) 讲述了政采云低代码搭建的一些知识点。
+
 ## 2020/09/29
 
 -【今日阅读】[表单生成器](https://github.com/JakHuang/form-generator) 快速生成表单，支持 JsonSchema 以及代码的直接复用。
