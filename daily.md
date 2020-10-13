@@ -1,5 +1,9 @@
 # 每日一读 记录每天学习的点点滴滴
 
+## 2020/10/13
+
+-【今日阅读】[搭建一个属于自己的在线 IDE](https://juejin.im/post/6882541950205952013) 基于 codesandbox 实现自己的私有化部署以及相关服务的搭建。
+
 ## 2020/10/10
 
 -【今日阅读】[schema-flow](https://github.com/alibaba/schema-plugin-flow) 一个高扩展的 schema 框架，适配 Vue、React 等前端框架
