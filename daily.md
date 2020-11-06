@@ -1,5 +1,9 @@
 # 每日一读 记录每天学习的点点滴滴
 
+## 2020/11/06
+
+-【今日阅读】[美团积木 sketch 插件](https://mp.weixin.qq.com/s/DeRn5lqnATVQk5QH3JK4aA) 进阶，在[积木 Sketch Plugin：设计同学的贴心搭档](http://mp.weixin.qq.com/s?__biz=MjM5NjQ5MTI5OA==&mid=2651751846&idx=1&sn=6425b58e416d908c1bbfd9f8d523b4ae&chksm=bd125ceb8a65d5fd7e24bd842bac425e44d64ed233c4c9264517a550b32275b7d3f09e9b50ae&scene=21#wechat_redirect) 基础上进一步探索 sketch 插件的开发
+
 ## 2020/10/27
 
 -【今日阅读】[搭建一个前端性能检测系统](https://juejin.im/post/6887580440803311630) 实时监控前端页面，进行优化页面。
