@@ -1,5 +1,11 @@
 # 每日一读 记录每天学习的点点滴滴
 
+## 2020/11/09
+
+-【今日阅读】[CodeSandbox 是如何让 npm 上的模块直接在浏览器端运行的](https://www.yuque.com/wangxiangzhong/aob8up/uf99c5) codesandbox 的作者简述了在网页端加载 npm 模块的技术演进。
+
+-【今日阅读】[Creating a parallel, offline, extensible, browser based bundler for CodeSandbox](https://hackernoon.com/how-i-created-a-parallel-offline-extensible-browser-based-bundler-886db508cc31) 为 CodeSandbox 创建一个并行的、离线的、可扩展的、基于浏览器的打包器
+
 ## 2020/11/08
 
 -【今日阅读】[尤大分享 vite 和 vitePress](https://docs.google.com/presentation/d/1X1hrFw18v67bEniTPpaI_DBulLdkKNFEc_3nVEm95mM/edit#slide=id.p)
