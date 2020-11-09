@@ -136,6 +136,7 @@ _[「可视化搭建系统」——从设计到架构，探索前端领域技术
 - [「可视化搭建系统」——从设计到架构，探索前端领域技术和业务价值](https://zhuanlan.zhihu.com/p/164558106)
 - [从 2.9 秒到 0.6 秒，信息流首屏提效 80%的秘诀](https://mp.weixin.qq.com/s/dGO7cvhnr0cWdeu7O2v5Eg)
 - [Design Tokens —— 设计与开发碰撞的火花](https://mp.weixin.qq.com/s/zUnX-6MyZW1ABF10Xr54OQ)
+- [CodeSandbox 是如何让 npm 上的模块直接在浏览器端运行的](https://www.yuque.com/wangxiangzhong/aob8up/uf99c5)
 
 </details>
 
