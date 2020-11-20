@@ -1,5 +1,9 @@
 # 每日一读 记录每天学习的点点滴滴
 
+## 2020/11/20
+
+- 【今日阅读】[announcing-typescript-4-1](https://devblogs.microsoft.com/typescript/announcing-typescript-4-1/) ts 4.1 支持了模板字符串以及其他额外的新功能
+
 ## 2020/11/09
 
 -【今日阅读】[CodeSandbox 是如何让 npm 上的模块直接在浏览器端运行的](https://www.yuque.com/wangxiangzhong/aob8up/uf99c5) codesandbox 的作者简述了在网页端加载 npm 模块的技术演进。
