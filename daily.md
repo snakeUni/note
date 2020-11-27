@@ -1,5 +1,9 @@
 # 每日一读 记录每天学习的点点滴滴
 
+## 2020/11/27
+
+- 【今日阅读】[美团 UI 一致化](https://mp.weixin.qq.com/s/oq7ylltdRIdJuSlL7EIiNA) 美团通过积木，代码组件库，文档化说明以及定制化设计云协作平台实现 UI 一致化的闭环。提升开发效率。
+
 ## 2020/11/20
 
 - 【今日阅读】[announcing-typescript-4-1](https://devblogs.microsoft.com/typescript/announcing-typescript-4-1/) ts 4.1 支持了模板字符串以及其他额外的新功能
