@@ -1,5 +1,10 @@
 # 每日一读 记录每天学习的点点滴滴
 
+## 2020/12/06
+
+- 【今日阅读】[如何搭建一套 “无痕埋点” 体系](https://mp.weixin.qq.com/s/nJZk-0WtEW6C8mTeJCSUzQ) 讲述了三种埋点形式，分别是 dom 元素，代码中埋点和可视化
+  埋点。
+
 ## 2020/12/03
 
 - 【今日阅读】[Figma to React](https://www.figma.com/blog/introducing-figma-to-react/) Figma 自己也在思考如何实现代码和设计之前的互联，具有一定的
