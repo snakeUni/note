@@ -46,6 +46,95 @@
 
 - Taro 在 effect 中通过 query 的形式会获取不到元素的尺寸信息
 
-小程序和 React 是不同的，在 React 的 useEffect 中，dom 元素已经渲染完成，可以准确拿到 dom 信息。但是在小程序中双线程的缘故
+小程序和 React 是不同的，在 React 的 useEffect 中，dom 元素已经渲染完成，可以准确拿到 dom 信息。但是在小程序中双线程的缘故, 直接获取是获取
+不到元素的信息的，那么在小程序中可以通过 Taro 提供的方法 `Taro.nextTick`, 如果要同时在 H5 中使用可以使用 `setTimeout`
 
 <!-- TODO 补充 -->
+
+- 生命周期
+
+[小程序的生命周期](https://developers.weixin.qq.com/miniprogram/dev/framework/app-service/page-life-cycle.html) 已经很清楚了，微信官方的文档也已经画出来了，不知道的同学可以再次去看。
+
+在使用任何一个框架开发的时候，首先需要知道的就是这个框架的生命周期，虽然 React 已经弱化了生命周期的概念，但是在小程序中还是有的。具体细节全在图中，回到
+Taro, 在 Taro 中实现了一套生命周期的钩子和小程序的钩子是一一对应起来的。首先 Taro 初始化项目后一个文件是 `app.ts` 文件，在入口组件中我们可以设置全局状态或访问小程序入口实例的生命周期。
+
+app.ts
+
+```tsx
+import { Component } from 'react'
+import './app.scss'
+
+class App extends Component {
+  componentDidMount() {
+    console.log('app mount')
+  }
+
+  componentDidShow() {
+    console.log('app show')
+  }
+
+  componentDidHide() {
+    console.log('app hide')
+  }
+
+  componentDidCatchError() {}
+
+  // 在入口组件不会渲染任何内容，但我们可以在这里做类似于状态管理的事情
+  render() {
+    return this.props.children
+  }
+}
+
+export default App
+```
+
+[入口文件](http://taro-docs.jd.com/taro/docs/react#%E5%85%A5%E5%8F%A3%E7%BB%84%E4%BB%B6)
+
+- componentDidMount
+
+页面初次渲染完成时触发，一个页面只会调用一次，代表页面已经准备妥当，可以和视图层进行交互。此生命周期可以访问 getCurrentInstance().router。此生命周期可以访问 Taro DOM 并且更改 DOM 或添加事件，`但无法通过 Taro.createSelectorQuery 查找小程序 DOM`。
+
+注意：`无法通过 Taro.createSelectorQuery 查找小程序 DOM`
+
+- componentDidShow
+
+程序启动，或从后台进入前台显示时触发，微信小程序中也可以使用 Taro.onAppShow 绑定监听, 在此生命周期中通过 getCurrentInstance().router.params，可以访问到程序初始化参数。
+
+[页面组件](http://taro-docs.jd.com/taro/docs/react#%E9%A1%B5%E9%9D%A2%E7%BB%84%E4%BB%B6)
+
+- onReady
+
+此组件对应小程序中的 `onReady` 也可以使用 `useReady`。页面首次渲染完毕时执行，此生命周期在小程序端对应小程序页面的 `onReady` 生命周期。从此生命周期开始可以使用 `createCanvasContext` 或 `createselectorquery` 等 API 访问`真实 DOM`。因为如果要访问真实的 DOM 那么就在 onReady 的生命周期中，但是只会触发一次，如果想要更新那就需要额外处理。
+
+- componentDidMount
+
+页面初次渲染完成时触发，一个页面只会调用一次，代表页面已经准备妥当，可以和视图层进行交互。此生命周期可以访问 `getCurrentInstance().router`。此生命周期可以访问 Taro DOM 并且更改 DOM 或添加事件，但`无法通过 Taro.createSelectorQuery 查找小程序 DOM`。
+
+- componentDidShow
+
+页面显示/切入前台时触发, 对应 Hook 中的 `useDidShow`。
+
+其他的一些生命周期和 React 中保持一致, 不做过多的阐述。
+
+页面事件处理函数
+
+- onPullDownRefresh 监听用户下拉刷新事件
+
+  - 需要在全局配置的 window 选项中或页面配置中开启 `enablePullDownRefresh`,
+  - 可以通过 `Taro.startPullDownRefresh` 触发下拉刷新，调用后触发下拉刷新动画，效果与用户手动下拉刷新一致。
+  - 当处理完数据刷新后，`Taro.stopPullDownRefresh` 可以停止当前页面的下拉刷新
+
+- onReachBottom 监听用户上拉触底事件
+
+  - 可以在全局配置的 window 选项中或页面配置中设置触发距离 onReachBottomDistance
+  - 在触发距离内滑动期间，本事件只会被触发一次
+
+- onPageScroll 监听用户滑动页面事件
+
+- onShareAppMessage
+
+监听用户点击页面内转发按钮（Button 组件 openType='share'）或右上角菜单“转发”按钮的行为，并自定义转发内容。
+
+其他的生命周期钩子可以参考官网
+
+<!-- TODO 补充例子输出 -->
