@@ -40,9 +40,8 @@
 <View style={{ width: '50px' }}/> // ✅
 ```
 
-<!-- TODO -->
-
-至于为什么小程序编译为 h5 会丢失，以及为什么这么处理，后续会在这里进行补充
+为什么小程序转成 h5 会把数字去掉呢？主要是因为使用数字的情况下，无法判断具体的单位是 `px` 还是 `Px`, 因为 Taro 对不同的单位有不同的处理方式，
+因此建议使用带单位的字符串或者使用内部提供的 api [pxTransform()](https://taro-docs.jd.com/taro/docs/size#api) 来解决。
 
 ### Taro 在 effect 中通过 query 的形式会获取不到元素的尺寸信息
 
