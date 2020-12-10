@@ -246,3 +246,5 @@ index.tsx:40 did ready 1
 ```
 
 可以看出此时 effect 又执行了，注意 `useEffect` 并没有加依赖，如果增加了空依赖就只会执行一次(参考 React 即可)。
+
+[微信小程序例子](https://github.com/snakeUni/wx-app-demo), [Taro 例子](https://github.com/snakeUni/taro-app-demo)
