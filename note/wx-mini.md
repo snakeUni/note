@@ -27,7 +27,7 @@
 
 本地小程序开发主要是使用 `Taro` 来开发小程序，同时也需要编译为 H5，因为在开发中遇到了很多问题，在这里记录一下
 
-- Taro 中 style 如果写的是数字，编译为 H5 则会被抹掉
+### Taro 中 style 如果写的是数字，编译为 H5 则会被抹掉
 
 ```tsx
 ❎  <View style={{ width: 50 }} />
@@ -44,14 +44,12 @@
 
 至于为什么小程序编译为 h5 会丢失，以及为什么这么处理，后续会在这里进行补充
 
-- Taro 在 effect 中通过 query 的形式会获取不到元素的尺寸信息
+### Taro 在 effect 中通过 query 的形式会获取不到元素的尺寸信息
 
 小程序和 React 是不同的，在 React 的 useEffect 中，dom 元素已经渲染完成，可以准确拿到 dom 信息。但是在小程序中双线程的缘故, 直接获取是获取
-不到元素的信息的，那么在小程序中可以通过 Taro 提供的方法 `Taro.nextTick`, 如果要同时在 H5 中使用可以使用 `setTimeout`
+不到元素的信息的，那么在小程序中可以通过 Taro 提供的方法 `Taro.nextTick`, 如果要同时在 H5 中使用可以使用 `setTimeout`。
 
-<!-- TODO 补充 -->
-
-- 生命周期
+### 生命周期
 
 [小程序的生命周期](https://developers.weixin.qq.com/miniprogram/dev/framework/app-service/page-life-cycle.html) 已经很清楚了，微信官方的文档也已经画出来了，不知道的同学可以再次去看。
 
@@ -135,6 +133,116 @@ export default App
 
 监听用户点击页面内转发按钮（Button 组件 openType='share'）或右上角菜单“转发”按钮的行为，并自定义转发内容。
 
-其他的生命周期钩子可以参考官网
+其他的生命周期钩子可以参考官网, 下面是生命周期钩子的顺序
 
-<!-- TODO 补充例子输出 -->
+page/index.tsx
+
+```tsx
+export default function Component() {
+  const [count, setCount] = useState(0)
+  const ref = useRef()
+  useDidShow(() => {
+    // Taro.showNavigationBarLoading();
+    console.log('did show', count)
+    // setCount(count + 1)
+  })
+
+  usePullDownRefresh(() => {
+    console.log('pull down refresh', count)
+  })
+
+  useDidHide(() => {
+    console.log('did hide', count)
+  })
+
+  useReady(() => {
+    console.log('did ready', count)
+    // setCount(count + 1);
+  })
+
+  useEffect(() => {
+    console.log('effect', count)
+  })
+
+  console.log('render', count)
+
+  return (
+    <View className="index" ref={ref} id="adc-11">
+      <Text onClick={() => setCount(count + 1)}>Hello world!{count}</Text>
+    </View>
+  )
+}
+```
+
+app.ts
+
+```tsx
+class App extends Component {
+  componentDidMount() {
+    console.log('app mount')
+  }
+
+  componentDidShow() {
+    console.log('app show')
+  }
+
+  componentDidHide() {
+    console.log('app hide')
+  }
+
+  componentDidCatchError() {}
+
+  // this.props.children 是将要会渲染的页面
+  render() {
+    return this.props.children
+  }
+}
+```
+
+看一下小程序从 launch 到加载完成的顺序
+
+```shell
+app.ts:6 app mount
+app.ts:10 app show
+index.tsx:45 render 0
+index.tsx:24 did show 0
+index.tsx:42 effect 0
+index.tsx:37 did ready 0
+```
+
+可以看出来顺序, `render 0` 对应的是 init, 如果和 React 对应实际上是 `first render`, 所以不要和小程序生命周期中的 `first render` 混淆，因为是
+不一样的。然后是 `dis show 0` 对应 `onShow`, effect 是 React 生命周期的钩子, 如果初始化的过程中没有 `setData`, effect 是有可能出现在 `ready` 之后的，但是如果在某个生命周期了调用了 `setData`, ready 一定是在 effect 后面。比如此时在 `didShow` 中调用 `setData`
+
+```tsx
+export default function Component() {
+  const [count, setCount] = useState(0);
+  const ref = useRef();
+  useDidShow(() => {
+    console.log("did show", count);
+    setCount(count + 1);
+  });
+
+  ...etc
+
+  return (
+    <View className="index" ref={ref} id="adc-11">
+      <Text onClick={() => setCount(count + 1)}>Hello world!{count}</Text>
+    </View>
+  );
+}
+```
+
+那么此时输出的顺序就是
+
+```shell
+app.ts:6 app mount
+app.ts:10 app show
+index.tsx:48 render 0
+index.tsx:24 did show 0
+index.tsx:45 effect 0
+index.tsx:48 render 1  // 再一次 render
+index.tsx:45 effect 1  // 再一次到 effect
+index.tsx:40 did ready 1
+```
+
+可以看出此时 effect 又执行了，注意 `useEffect` 并没有加依赖，如果增加了空依赖就只会执行一次(参考 React 即可)。
