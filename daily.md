@@ -1,5 +1,9 @@
 # 每日一读 记录每天学习的点点滴滴
 
+## 2020/12/16
+
+- 【今日阅读】[https://mp.weixin.qq.com/s/-aWtVV3nnig_-kHW2h2Pcg](Figma + Gitlab CI 一键交付 SVG 多色图标库) 业务中经常有很多图标需要处理，目前设计师在使用 kitchen 这样的插件，但是对于开发者来说也要进行二次更新代码，才能够实现。
+
 ## 2020/12/06
 
 - 【今日阅读】[如何搭建一套 “无痕埋点” 体系](https://mp.weixin.qq.com/s/nJZk-0WtEW6C8mTeJCSUzQ) 讲述了三种埋点形式，分别是 dom 元素，代码中埋点和可视化
