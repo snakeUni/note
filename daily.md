@@ -1,5 +1,9 @@
 # 每日一读 记录每天学习的点点滴滴
 
+## 2020/12/22
+
+- 【今日阅读】[https://github.com/reactjs/rfcs/pull/188](react server component) react 采用了新的方式与 server 进行结合，与 ssr 不同的是，ssr 返回的是页面的字符串，server component 返回的是流以及可序列化的 json 格式的 virtual dom。
+
 ## 2020/12/16
 
 - 【今日阅读】[https://mp.weixin.qq.com/s/-aWtVV3nnig_-kHW2h2Pcg](Figma + Gitlab CI 一键交付 SVG 多色图标库) 业务中经常有很多图标需要处理，目前设计师在使用 kitchen 这样的插件，但是对于开发者来说也要进行二次更新代码，才能够实现。
