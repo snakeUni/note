@@ -1,5 +1,9 @@
 # 每日一读 记录每天学习的点点滴滴
 
+## 2020/12/25
+
+- 【今日阅读】[Inside the React Core team](https://react.christmas/2020/24) React 团队的成功和失败
+
 ## 2020/12/22
 
 - 【今日阅读】[https://github.com/reactjs/rfcs/pull/188](react server component) react 采用了新的方式与 server 进行结合，与 ssr 不同的是，ssr 返回的是页面的字符串，server component 返回的是流以及可序列化的 json 格式的 virtual dom。
