@@ -1,10 +1,18 @@
 # 每日一读 记录每天学习的点点滴滴
 
+## 2021/01/03
+
+- [5 年 5 亿个应用 低代码平台会干掉 IT 部吗？](https://zhuanlan.zhihu.com/p/340655660) 阿里推出的低代码平台，后续将会有更多的应用采用低代码的形式来开发。
+
+- [今日头条品质优化 - 图文详情页秒开实践](https://juejin.cn/post/6876011410061852680) 讲述了头条详情页的优化过程，值得学习的另外一处就是如何定指标。
+
 ## 2020/12/30
 
 - [淘宝小程序还可以这么玩！](https://mp.weixin.qq.com/s/yfS-gx_GJrIfasK47uNS_w) 电商游戏已经成为常态，淘宝抹平了平台的差异。
 
 - [前端团队研发效能提升的探索与实践](https://mp.weixin.qq.com/s/F2b5nXEKpygX9vCFW1YhYg) 丁香园对研发效能提升的探索。
+
+- [Rax 小程序运行时方案解密与思考](https://mp.weixin.qq.com/s/rnBld2unFL0NPr90BlSRjQ) 和 Taro 以及 Remax 是一样的原理
 
 ## 2020/12/25
 
