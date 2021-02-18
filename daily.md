@@ -1,10 +1,14 @@
 # 每日一读 记录每天学习的点点滴滴
 
-## 2020/02/03
+## 2021/02/18
+
+- [cache?](https://mrale.ph/blog/2014/12/24/array-length-caching.html)
+
+## 2021/02/03
 
 - [技术精进与业务发展两不误](https://mp.weixin.qq.com/s/AVlu9zcyb2nTpl6gVLL5jg) 技术始终从业务中到业务中去。
 
-## 2020/01/18
+## 2021/01/18
 
 - [也许 B 端 C 化是未来 toB 产品的新方向](http://www.woshipm.com/pd/4336233.html) 目前 B 端的产品越来越像 C 端产品，很多功能也慢慢对齐，比如 C 端经常会做一下游戏活动，现在 B 端也会做这些游戏活动。
 
