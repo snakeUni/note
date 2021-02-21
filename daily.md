@@ -1,5 +1,9 @@
 # 每日一读 记录每天学习的点点滴滴
 
+## 2021/02/21
+
+- [理解 nodejs](https://github.com/theanarkh/understand-nodejs) 的原理，一步步的深入 Nodejs
+
 ## 2021/02/18
 
 - [cache?](https://mrale.ph/blog/2014/12/24/array-length-caching.html)
