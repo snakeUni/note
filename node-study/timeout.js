@@ -37,7 +37,7 @@ timeout 5
  */
 
 // 具体的相关解释可以参考 https://stackoverflow.com/questions/24117267/nodejs-settimeoutfn-0-vs-setimmediatefn
-// 或者参考
+// 或者参考 https://github.com/theanarkh/understand-nodejs/blob/master/chapter11%20setImmediate%E5%92%8Cprocess.nextTick.md
 
 /**
  * 我们首先看一下下面这段代码
