@@ -66,3 +66,45 @@ libuv判断从开启定时器到现在是否已经过去了1毫秒，是的话�
 会执行check阶段。这时候就会执行setImmediate的回调。所以，一开始的那段代码的输出结果是取决于启动定时器的时间到libuv执行定时器阶段是否过去了1毫秒。
  * 
  */
+
+// ----------- setImmediate 和 nextTick
+
+// 加入两个nextTick()的回调函数
+process.nextTick(function () {
+  console.log('nextTick延迟执行1')
+})
+
+process.nextTick(function () {
+  console.log('nextTick延迟执行2')
+})
+// 加入两个setImmediate()的回调函数
+setImmediate(function () {
+  console.log('setImmediate延迟执行1') // 进入􏱰􏿚循环
+  process.nextTick(function () {
+    console.log('强势插入')
+  })
+})
+setImmediate(function () {
+  console.log('setImmediate延迟执行2')
+})
+
+console.log('正常执行')
+
+/**
+ * 输出结果
+ * 
+ * 正常执行
+nextTick延迟执行1
+nextTick延迟执行2
+setImmediate延迟执行1
+强势插入
+setImmediate延迟执行2
+
+process.nextTick() 中的回调函数执行的优先级要高于 setImmediate()。主要因为事件循环对观察者的检查是有
+先后顺序的，process.nextTick() 属于 idle 观察者，setImmediate() 属于 check 观察者。在每一轮循环检查中
+，idle 观察者先于 I/O 观察者，I/O 观察者先于 check 观察者。
+
+process.nextTick() 的回调函数保存在一个数组中，setImmediate() 的结果则是保存在链表中。在行为上，
+process.nextTick() 在每轮循环中会将数组中的回调函数全部执行完，而 setImmediate() 在每轮循环中执行
+链表中的一个回调函数。
+*/
