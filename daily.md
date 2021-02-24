@@ -1,5 +1,9 @@
 # 每日一读 记录每天学习的点点滴滴
 
+## 201/02/24
+
+- [前端优秀实践不完全指南](https://juejin.cn/post/6932647134944886797) 对前端好的实践的探索和尝试，非常值得学习。
+
 ## 2021/02/21
 
 - [理解 nodejs](https://github.com/theanarkh/understand-nodejs) 的原理，一步步的深入 Nodejs
