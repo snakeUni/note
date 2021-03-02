@@ -1,5 +1,9 @@
 # 每日一读 记录每天学习的点点滴滴
 
+## 2021/03/02
+
+- [Figma 比较好的新手引导](https://mp.weixin.qq.com/s?__biz=MzU0MzA3NzE0Ng==&mid=2247501886&idx=1&sn=59f74653234f61081b832572caf0d027&chksm=fb126e4bcc65e75d2131fa636eaee7b2d928e4213e3bbf135bfbcd14fa49a457236619c76954#rd)
+
 ## 2021/03/01
 
 - [内存管理设计精要](https://draveness.me//system-design-memory-management)
