@@ -1,5 +1,9 @@
 # 每日一读 记录每天学习的点点滴滴
 
+## 2021/03/12
+
+- [SSR 话题](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzIwMTM5MTM1NA==&action=getalbum&album_id=1557816410599407616&scene=173&from_msgid=2649473717&from_itemidx=1&count=3#wechat_redirect) 讲述了 ssr 相关的问题，以及分析现有的 ssr 框架获得的心得。
+
 ## 2021/03/11
 
 - [Deco 智能代码 · 开启产研效率革命](https://mp.weixin.qq.com/s/R3Nsrwyy9kFbjG65zA-eCw) 京东对设计稿转代码的又一探索。
