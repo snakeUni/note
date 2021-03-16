@@ -48,5 +48,6 @@
  <summary>系统篇</summary>
 
 - [2 万字系统总结，带你实现 Linux 命令自由？](https://juejin.cn/post/6938385978004340744)
+- [系统设计](https://github.com/snakeUni/system-design-primer)
 
 </detail>
