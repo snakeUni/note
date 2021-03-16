@@ -1,5 +1,9 @@
 # 每日一读 记录每天学习的点点滴滴
 
+## 2021/03/16
+
+- [写给昊昊的前端编译原理科普](https://zhuanlan.zhihu.com/p/356806174) 对编译原理方向的科普，蛮有意思的一篇文章
+
 ## 2021/03/12
 
 - [SSR 话题](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzIwMTM5MTM1NA==&action=getalbum&album_id=1557816410599407616&scene=173&from_msgid=2649473717&from_itemidx=1&count=3#wechat_redirect) 讲述了 ssr 相关的问题，以及分析现有的 ssr 框架获得的心得。
