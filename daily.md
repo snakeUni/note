@@ -4,6 +4,7 @@
 
 - [从 Chrome 源码看 JS Object 的实现](https://zhuanlan.zhihu.com/p/26169639)
 - [基于 esbuild 的 universal bundler 设计](https://juejin.cn/post/6940218189921910797)
+- [替代 webpack？带你了解 snowpack 原理，你还学得动么](https://zhuanlan.zhihu.com/p/149351900)
 
 ## 2021/03/16
 
