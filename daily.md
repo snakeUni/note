@@ -1,5 +1,9 @@
 # 每日一读 记录每天学习的点点滴滴
 
+## 2021/03/25
+
+- [设计稿（UI 视图）自动生成代码方案的探索](https://mp.weixin.qq.com/s/rwl6rX_cGTtVYkVDy94bQQ)
+
 ## 2021/03/20
 
 - [逻辑编排在优酷可视化搭建中的实践之上](https://mp.weixin.qq.com/s/ZVZ1skvmIWIjcSz9HhDU3Q)
