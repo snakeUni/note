@@ -1,7 +1,7 @@
-import { sum } from './index'
+import { clumsy } from './index'
 
 describe('', () => {
-  it('xx', () => {
-    sum(1, 2)
+  it('clumsy test', () => {
+    expect(clumsy(10)).toBe(12)
   })
 })
