@@ -1,5 +1,13 @@
 # 每日一读 记录每天学习的点点滴滴
 
+## 2021/04/03
+
+- [The Nakazawa Management Starter Pack](https://cpojer.net/posts/the-nakazawa-management-starter-pack) 一篇非常好的文章，讲述了做了团队管理需要做的事情，如何建立信任等。
+
+- [Principles of Developer Experience](https://cpojer.net/posts/principles-of-devx) 讲述了开发的一些原则，无论是内部工具还是外部产品。
+
+- [build-your-own-x](https://github.com/danistefanovic/build-your-own-x)
+
 ## 2021/03/25
 
 - [设计稿（UI 视图）自动生成代码方案的探索](https://mp.weixin.qq.com/s/rwl6rX_cGTtVYkVDy94bQQ)
