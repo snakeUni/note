@@ -3,7 +3,9 @@ const path = require('path')
 
 const args = process.argv.slice(2)
 
-const fileName = args[0]
+const fileName = args.reduce((t, c) => {
+  return t + c + ' '
+}, '')
 
 const files = ['index.ts', 'index.test.ts', 'README.md']
 
