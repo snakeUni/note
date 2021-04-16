@@ -1,46 +1,81 @@
-export function isScramble(s1: string, s2: string): boolean {
-  if (s1.length === 1) return s1 === s2
+export function isScramble(s1: string, s2: string) {
+  const length = s1.length,
+    memo = new Array(length)
+      .fill(0)
+      .map(() =>
+        new Array(length).fill(0).map(() => new Array(length + 1).fill(0))
+      )
+  return dfs(0, 0, length, s1, s2, memo)
+}
 
-  // 先找出第一个 s2 的第一个元素就可以找出切断的点,但是有可能会重复，因此
-  // 只要满足就直接返回，否则一直找到 index === lastIndex
-  const first = s2[0]
-  let index = s1.indexOf(first)
-  const lastIndex = s1.lastIndexOf(first)
-
-  while (index !== lastIndex) {
-    const originLeft = s1.slice(0, index + 1)
-    const targetLeft = s2.slice(0, index + 1)
-
-    for (let i = 0; i < originLeft.length; i++) {
-      if (!targetLeft.includes(originLeft[i])) {
-        break
-      }
-    }
-
-    let nextIndex = s1.slice(index + 1).indexOf(first)
-
-    index = index + nextIndex + 1
+const dfs = function (
+  i1: number,
+  i2: number,
+  length: number,
+  s1: string,
+  s2: string,
+  memo: number[][][]
+) {
+  if (memo[i1][i2][length] !== 0) {
+    return memo[i1][i2][length] === 1
   }
 
-  if (index === lastIndex) {
-    const originLeft = s1.slice(0, index + 1)
-    const targetLeft = s2.slice(0, index + 1)
-    const originRight = s1.slice(index + 1)
-    const targetRight = s2.slice(index + 1)
+  // 判断两个子串是否相等
+  if (s1.slice(i1, i1 + length) === s2.slice(i2, i2 + length)) {
+    memo[i1][i2][length] = 1
+    return true
+  }
 
-    // 比较左边
-    for (let i = 0; i < originLeft.length; i++) {
-      if (!targetLeft.includes(originLeft[i])) {
-        return false
-      }
+  // 判断是否存在字符 c 在两个子串中出现的次数不同
+  if (!checkIfSimilar(i1, i2, length, s1, s2)) {
+    memo[i1][i2][length] = -1
+    return false
+  }
+
+  // 枚举分割位置
+  for (let i = 1; i < length; ++i) {
+    // 不交换的情况
+    if (
+      dfs(i1, i2, i, s1, s2, memo) &&
+      dfs(i1 + i, i2 + i, length - i, s1, s2, memo)
+    ) {
+      memo[i1][i2][length] = 1
+      return true
     }
-
-    for (let i = 0; i < originRight.length; i++) {
-      if (!targetRight.includes(originRight[i])) {
-        return false
-      }
+    // 交换的情况
+    if (
+      dfs(i1, i2 + length - i, i, s1, s2, memo) &&
+      dfs(i1 + i, i2, length - i, s1, s2, memo)
+    ) {
+      memo[i1][i2][length] = 1
+      return true
     }
   }
 
+  memo[i1][i2][length] = -1
+  return false
+}
+
+const checkIfSimilar = function (
+  i1: number,
+  i2: number,
+  length: number,
+  s1: string,
+  s2: string
+) {
+  const freq = new Map()
+  for (let i = i1; i < i1 + length; ++i) {
+    const c = s1[i]
+    freq.set(c, (freq.get(c) || 0) + 1)
+  }
+  for (let i = i2; i < i2 + length; ++i) {
+    const c = s2[i]
+    freq.set(c, (freq.get(c) || 0) - 1)
+  }
+  for (const value of freq.values()) {
+    if (value !== 0) {
+      return false
+    }
+  }
   return true
 }

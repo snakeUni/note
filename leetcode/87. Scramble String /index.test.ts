@@ -7,5 +7,6 @@ describe('扰乱字符串', () => {
     expect(isScramble('a', 'a')).toBe(true)
     expect(isScramble('abcdbdacbdac', 'bdacabcdbdac')).toBe(true)
     expect(isScramble('aa', 'ab')).toBe(false)
+    expect(isScramble('ab', 'aa')).toBe(false)
   })
 })

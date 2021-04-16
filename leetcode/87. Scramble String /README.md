@@ -45,3 +45,7 @@
 - s1.length == s2.length
 - 1 <= s1.length <= 30
 - s1 和 s2 由小写英文字母组成
+
+## 题解
+
+[动态规划](https://leetcode-cn.com/problems/scramble-string/solution/rao-luan-zi-fu-chuan-by-leetcode-solutio-8r9t/)
