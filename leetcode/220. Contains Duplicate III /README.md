@@ -35,4 +35,4 @@
 ## 题解
 
 1. 可以使用最暴力的解法，就是两次循环 K 的元素，那么时间复杂度就是 o(nk)
-2. 使用[桶排序](https://zh.wikipedia.org/wiki/%E6%A1%B6%E6%8E%92%E5%BA%8F)来解，时间复杂度为 o(n)
+2. 使用[桶排序](https://zh.wikipedia.org/wiki/%E6%A1%B6%E6%8E%92%E5%BA%8F)来解，时间复杂度为 o(n)。最根本的还是滑动窗口算法。
