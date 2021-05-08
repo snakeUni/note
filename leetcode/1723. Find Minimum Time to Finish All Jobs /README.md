@@ -29,3 +29,7 @@
 
 - 1 <= k <= jobs.length <= 12
 - 1 <= jobs[i] <= 10<sup>7</sup>
+
+## 题解
+
+参照[官方解释](https://leetcode-cn.com/problems/find-minimum-time-to-finish-all-jobs/solution/wan-cheng-suo-you-gong-zuo-de-zui-duan-s-hrhu/)
