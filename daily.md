@@ -1,5 +1,10 @@
 # 每日一读 记录每天学习的点点滴滴
 
+## 2021/05/08
+
+- [技术一号位](https://mp.weixin.qq.com/s/8d0AOo9-yhlUkJYb3NLGMQ) 认识自己是否是在技术一号位，以及如果处于一号位应该做什么样的事情。
+- [遇春：语雀编辑器自研之路](https://mp.weixin.qq.com/s/3XKVwqTOwIXzMMfhb9Ztxw) 关于语雀编辑器的一些历史。
+
 ## 2021/04/03
 
 - [The Nakazawa Management Starter Pack](https://cpojer.net/posts/the-nakazawa-management-starter-pack) 一篇非常好的文章，讲述了做了团队管理需要做的事情，如何建立信任等。
