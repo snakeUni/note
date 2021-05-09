@@ -34,6 +34,7 @@
 - [蚂蚁金服异步串行面试题](https://juejin.cn/post/6860646761392930830)
 - [霖呆呆的近期面试 128 题汇总(含超详细答案) | 掘金技术征文](https://juejin.cn/post/6844904151369908232)
 - [要就来 45 道 Promise 面试题一次爽到底](https://juejin.cn/post/6844904077537574919)
+- [webpack 专栏](https://www.zhihu.com/column/c_1367218175587811328)
 
 </details>
 
