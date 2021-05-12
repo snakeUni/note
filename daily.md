@@ -1,5 +1,9 @@
 # 每日一读 记录每天学习的点点滴滴
 
+## 2021/05/12
+
+- [搭建编辑器的可扩展架构探索和实践](https://mp.weixin.qq.com/s/gNsaJ3XonPJkoy6lLNB3Mg) 对编辑器的新的探索
+
 ## 2021/05/08
 
 - [技术一号位](https://mp.weixin.qq.com/s/8d0AOo9-yhlUkJYb3NLGMQ) 认识自己是否是在技术一号位，以及如果处于一号位应该做什么样的事情。
