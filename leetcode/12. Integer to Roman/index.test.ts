@@ -1,6 +1,6 @@
 import { intToRoman } from './index'
 
-describe('整数转罗马数字', () => {
+describe('Integer to Roman', () => {
   it('test', () => {
     expect(intToRoman(3)).toBe('III')
     expect(intToRoman(4)).toBe('IV')
