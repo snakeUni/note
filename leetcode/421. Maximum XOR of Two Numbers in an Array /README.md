@@ -44,3 +44,7 @@
 
 - 1 <= nums.length <= 2 \* 10<sup>4</sup>
 - 0 <= nums[i] <= 2<sup>31</sup> - 1
+
+## 题解
+
+参考[官方解答](https://leetcode-cn.com/problems/maximum-xor-of-two-numbers-in-an-array/solution/shu-zu-zhong-liang-ge-shu-de-zui-da-yi-h-n9m9/)
