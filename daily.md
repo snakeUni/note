@@ -1,5 +1,9 @@
 # 每日一读 记录每天学习的点点滴滴
 
+## 2021/05/22
+
+- [浏览器文件系统](https://web.dev/file-system-access/) 可以通过非 input 的方式操作文件，目前这个 api 各个浏览器还未支持，但是可以使用 [browser-fs-access](https://github.com/GoogleChromeLabs/browser-fs-access) 代替。
+
 ## 2021/05/12
 
 - [搭建编辑器的可扩展架构探索和实践](https://mp.weixin.qq.com/s/gNsaJ3XonPJkoy6lLNB3Mg) 对编辑器的新的探索
