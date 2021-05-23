@@ -162,6 +162,7 @@ _[「可视化搭建系统」——从设计到架构，探索前端领域技术
 <details>
   <summary>React篇</summary>
 
+- [对 JS 及 React 的一些讨论/记录的思考-记录了很多 React 团队的相关，值得一看](https://zhuanlan.zhihu.com/p/374450428)
 - [inside-fiber-in-depth](https://medium.com/react-in-depth/inside-fiber-in-depth-overview-of-the-new-reconciliation-algorithm-in-react-e1c04700ef6e)
 - [In-depth explanation of state and props update in React](https://medium.com/react-in-depth/in-depth-explanation-of-state-and-props-update-in-react-51ab94563311)
 - [React hooks: The Death of classes and lifecycles?](https://blog.usejournal.com/react-hooks-death-of-classes-and-lifecycles-c8db5956558c)

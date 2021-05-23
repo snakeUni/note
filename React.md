@@ -1,0 +1,46 @@
+# React 一些文章
+
+- [react](https://github.com/facebook/react)
+- [reactjs.org](https://reactjs.org/)
+- [react blog](https://reactjs.org/blog/2020/12/21/data-fetching-with-react-server-components.html)
+
+## React 相关作者以及 twitter
+
+- [Dan](https://twitter.com/dan_abramov)
+  - [Overreacted](https://overreacted.io/)
+  - [whatthefuck.is](https://whatthefuck.is/)
+- [Sebastian Markbåge](https://twitter.com/sebmarkbage)
+- [Brian Vaughn](https://twitter.com/brian_d_vaughn)
+- [Andrew Clark](https://twitter.com/acdlite)
+- [Dominic Gannaway](https://twitter.com/trueadm)
+- [Sophie Alpert](https://twitter.com/sophiebits) react 前成员
+- [Kent C. Dodds](https://twitter.com/kentcdodds) 非 React 成员但是非常熟悉 React
+- [Ryan Florence](https://twitter.com/ryanflorence) react router 和 Remix 的作者
+- [MICHAEL JACKSON](https://twitter.com/mjackson) react router 和 Remix 的作者
+
+## 必看
+
+- [对 JS 及 React 的一些讨论/记录的思考-记录了很多 React 团队的相关，值得一看](https://zhuanlan.zhihu.com/p/374450428)
+- [inside-fiber-in-depth](https://medium.com/react-in-depth/inside-fiber-in-depth-overview-of-the-new-reconciliation-algorithm-in-react-e1c04700ef6e)
+- [In-depth explanation of state and props update in React](https://medium.com/react-in-depth/in-depth-explanation-of-state-and-props-update-in-react-51ab94563311)
+- [everything-i-know-about-react-i-learned-from-twitter 必读](https://speakerdeck.com/jenncreighton/everything-i-know-about-react-i-learned-from-twitter)
+- [The most important lessons I’ve learned after a year of working with React](https://medium.freecodecamp.org/mindset-lessons-from-a-year-with-react-1de862421981)
+- [Scheduling in React 必读](https://philippspiess.com/scheduling-in-react/)
+- [React Fiber Deep Dive with Dan Abramov](https://www.youtube.com/watch?v=aS41Y_eyNrU&app=desktop)
+- [react-fiber-architecture](https://github.com/acdlite/react-fiber-architecture)
+- [Didact Fiber: Incremental reconciliation](https://engineering.hexacta.com/didact-fiber-incremental-reconciliation-b2fe028dcaec)
+- [Why is React doing this?](https://gist.github.com/sebmarkbage/a5ef436427437a98408672108df01919)
+- [build-your-own-react](https://pomb.us/build-your-own-react/)
+- [React hooks: The Death of classes and lifecycles?](https://blog.usejournal.com/react-hooks-death-of-classes-and-lifecycles-c8db5956558c)
+- [How to fetch data with React Hooks?](https://www.robinwieruch.de/react-hooks-fetch-data/)
+- [Dancing between state and effects - a real-world use case](https://github.com/facebook/react/issues/15240)
+- [Using Firebase with React Hooks](https://benmcmahen.com/using-firebase-with-react-hooks/)
+
+## 其他
+
+- [How to use React.lazy and Suspense for components lazy loading](https://medium.freecodecamp.org/how-to-use-react-lazy-and-suspense-for-components-lazy-loading-8d420ecac58)
+- [Cache your React event listeners to improve performance.](https://hackernoon.com/cache-your-react-event-listeners-to-improve-performance-37bda57ac965)
+- [React hooks: get the current state, back to the future](https://dev.to/scastiel/react-hooks-get-the-current-state-back-to-the-future-3op2)
+- [Hooks, State, Closures, and useReducer](https://adamrackis.dev/state-and-use-reducer/)
+- [Dilemmas With React Hooks - Part 1: States And Reducers](https://yearn2learn.netlify.com/dilemmas-with-react-hooks-1)
+- [Getting Started with React - An Overview and Walkthrough](https://www.taniarascia.com/getting-started-with-react/)
