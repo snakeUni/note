@@ -1,5 +1,9 @@
 # 每日一读 记录每天学习的点点滴滴
 
+## 2021/05/25
+
+- [工作五年反思](https://zhuanlan.zhihu.com/p/374777591) 非常值得看的一篇文章，专注于几件事，做好那么几件事就够了，没有人记得第二，只有第一。
+
 ## 2021/05/22
 
 - [浏览器文件系统](https://web.dev/file-system-access/) 可以通过非 input 的方式操作文件，目前这个 api 各个浏览器还未支持，但是可以使用 [browser-fs-access](https://github.com/GoogleChromeLabs/browser-fs-access) 代替。
