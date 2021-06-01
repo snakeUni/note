@@ -34,6 +34,13 @@
   dependencies:
     "@babel/types" "^7.12.13"
 
+"@babel/helper-module-imports@^7.13.12":
+  version "7.13.12"
+  resolved "https://registry.nlark.com/@babel/helper-module-imports/download/@babel/helper-module-imports-7.13.12.tgz?cache=0&sync_timestamp=1618846990492&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Fhelper-module-imports%2Fdownload%2F%40babel%2Fhelper-module-imports-7.13.12.tgz#c6a369a6f3621cb25da014078684da9196b61977"
+  integrity sha1-xqNppvNiHLJdoBQHhoTakZa2GXc=
+  dependencies:
+    "@babel/types" "^7.13.12"
+
 "@babel/helper-split-export-declaration@^7.12.13":
   version "7.12.13"
   resolved "https://registry.npm.taobao.org/@babel/helper-split-export-declaration/download/@babel/helper-split-export-declaration-7.12.13.tgz#e9430be00baf3e88b0e13e6f9d4eaf2136372b05"
@@ -83,7 +90,7 @@
     debug "^4.1.0"
     globals "^11.1.0"
 
-"@babel/types@^7.12.13", "@babel/types@^7.14.2", "@babel/types@^7.14.4":
+"@babel/types@^7.12.13", "@babel/types@^7.13.12", "@babel/types@^7.14.2", "@babel/types@^7.14.4":
   version "7.14.4"
   resolved "https://registry.nlark.com/@babel/types/download/@babel/types-7.14.4.tgz?cache=0&sync_timestamp=1622221311390&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40babel%2Ftypes%2Fdownload%2F%40babel%2Ftypes-7.14.4.tgz#bfd6980108168593b38b3eb48a24aa026b919bc0"
   integrity sha1-v9aYAQgWhZOziz60iiSqAmuRm8A=
