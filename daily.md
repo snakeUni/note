@@ -1,5 +1,9 @@
 # 每日一读 记录每天学习的点点滴滴
 
+## 2021/06/08
+
+- [CLEVER VS INSIGHTFUL CODE](https://www.hillelwayne.com/post/cleverness/) people can build expertise with more expressive specs, and when they need advanced verification they know enough to write insightful specs.
+
 ## 2021/06/03
 
 - [渐进式 Unbundled 开发工具探索之路](https://mp.weixin.qq.com/s/NH46ffu79ks57AGKd1WKMw) 与 vite 类似。
