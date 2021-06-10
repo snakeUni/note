@@ -36,6 +36,10 @@ import { pipeToNodeWritable } from 'react-dom/unstable-fizz'
 
 [autoBatch](https://github.com/reactwg/react-18/discussions/21) 包含了最新的调度逻辑
 
+## QA
+
+- [concurrent 是如何工作的](https://github.com/reactwg/react-18/discussions/27) 讲的非常棒
+
 ## 其他记录
 
 React18 的发布支持了最新的 [SuspenseSSR](https://github.com/reactwg/react-18/discussions/37) 用来实现渐进式的 ssr 分片。
