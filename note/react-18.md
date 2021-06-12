@@ -32,6 +32,11 @@ import { pipeToNodeWritable } from 'react-dom/unstable-fizz'
 - [Suspense 在 17 中的例子](https://codesandbox.io/s/keen-banach-nzut8?file=/src/App.js)
 - [Suspense 在 18 中的例子](https://codesandbox.io/s/romantic-architecture-ht3qi?file=/src/fakeApi.js)
 
+目前 Suspense 还有几成 fetch ，但是可以使用内部提供的 react-fetch 也可以使用已有的 cache 封装自己的 fetch
+
+- [react-fetch example](https://codesandbox.io/s/zealous-cloud-2mxfe?file=/src/App.js)
+- [Cache](https://github.com/reactwg/react-18/discussions/25)
+
 ## autoBatch
 
 [autoBatch](https://github.com/reactwg/react-18/discussions/21) 包含了最新的调度逻辑
