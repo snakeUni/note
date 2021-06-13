@@ -3,6 +3,7 @@
 ## 2021/06/13
 
 - [京东出品微前端框架 MicroApp 介绍与落地实践](https://mp.weixin.qq.com/s/6A6TqQpWgN1_KoxUMx3FFw) 京东的微前端框架，看起来解决了更多的问题相比 qiankun, single-spa
+- [B 端产品可用性度量评估体系](https://mp.weixin.qq.com/s/nNEaev-NjnF9Em_9D4rhaA) 针对提升用户体验的目标拆解出相应的指标，从而完成相应的度量。
 
 ## 2021/06/10
 
