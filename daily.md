@@ -1,5 +1,9 @@
 # 每日一读 记录每天学习的点点滴滴
 
+## 2021/06/13
+
+- [京东出品微前端框架 MicroApp 介绍与落地实践](https://mp.weixin.qq.com/s/6A6TqQpWgN1_KoxUMx3FFw) 京东的微前端框架，看起来解决了更多的问题相比 qiankun, single-spa
+
 ## 2021/06/10
 
 - [useMutableSource](https://zhuanlan.zhihu.com/p/379340340) 对 `useMutableSource` 讲的很赞的一篇文章
