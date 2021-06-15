@@ -32,7 +32,13 @@ import { pipeToNodeWritable } from 'react-dom/unstable-fizz'
 - [Suspense 在 17 中的例子](https://codesandbox.io/s/keen-banach-nzut8?file=/src/App.js)
 - [Suspense 在 18 中的例子](https://codesandbox.io/s/romantic-architecture-ht3qi?file=/src/fakeApi.js)
 
-目前 Suspense 还有几成 fetch ，但是可以使用内部提供的 react-fetch 也可以使用已有的 cache 封装自己的 fetch
+目前 Suspense 还没有集成 fetch ，但是可以使用内部提供的 react-fetch 也可以使用已有的 cache 封装自己的 fetch。
+
+`Suspense` 的心智模型就像 `try catch` 一样，嵌套会被内部的优先捕捉到。
+
+> The nested <Suspense> is how you opt into them being cascading! If you don't want them to cascade, then remove the inner one altogether: https://codesandbox.io/s/recursing-mclaren-1ireo?file=/src/index.js
+
+The mental model is the same as try / catch. If you don't want a nested error handler, remove it, and let the outer one handle it.
 
 - [react-fetch example](https://codesandbox.io/s/zealous-cloud-2mxfe?file=/src/App.js)
 - [Cache](https://github.com/reactwg/react-18/discussions/25)
