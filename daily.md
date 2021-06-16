@@ -1,5 +1,14 @@
 # 每日一读 记录每天学习的点点滴滴
 
+## 2021/06/16
+
+- [三种前端实现 VR 全景看房的方案！说不定哪天就用得上！](https://juejin.cn/post/6973865268426571784) 教你如何做出一个全景 VR。
+- [一次千万级流量的 618 电商 H5 活动页干货分享](https://juejin.cn/post/6973922659125952548) 活动页的分享，干货满满。
+
+## 2021/06/15
+
+- [iMove 基于 X6 + form-render 背后的思考](https://mp.weixin.qq.com/s/EIs35ZrU05Mb2sqbifz5dA) 讲了 imove 的原理, 对流程以及低代码感兴趣的可以看看
+
 ## 2021/06/13
 
 - [京东出品微前端框架 MicroApp 介绍与落地实践](https://mp.weixin.qq.com/s/6A6TqQpWgN1_KoxUMx3FFw) 京东的微前端框架，看起来解决了更多的问题相比 qiankun, single-spa
