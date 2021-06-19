@@ -1,5 +1,9 @@
 # 每日一读 记录每天学习的点点滴滴
 
+## 2021/06/19
+
+- [progressive-rendering-frameworks-samples](https://github.com/GoogleChromeLabs/progressive-rendering-frameworks-samples) 谷歌的渐进式 ssr 的例子，看起来很有意思，通过内部实现了一个 `Hydrated` 组件，通过 `IntersectionObserver` 来监控，出现的时候再进行注水，重点可以参考[这段代码](https://github.com/GoogleChromeLabs/progressive-rendering-frameworks-samples/blob/master/react-progressive-hydration/app/components/hydrator.js#L23-L31)
+
 ## 2021/06/16
 
 - [三种前端实现 VR 全景看房的方案！说不定哪天就用得上！](https://juejin.cn/post/6973865268426571784) 教你如何做出一个全景 VR。
