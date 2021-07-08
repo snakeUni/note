@@ -1,5 +1,9 @@
 # 每日一读 记录每天学习的点点滴滴
 
+## 2021/07/18
+
+- [GMTC 2021 演讲 《字节跳动基于 Serverless 的前端研发模式升级》](https://mp.weixin.qq.com/s/J2fHm_mR7UE65q1vSQ9xpA) 字节前端研发模式的改变，干货满满
+
 ## 2021/06/19
 
 - [progressive-rendering-frameworks-samples](https://github.com/GoogleChromeLabs/progressive-rendering-frameworks-samples) 谷歌的渐进式 ssr 的例子，看起来很有意思，通过内部实现了一个 `Hydrated` 组件，通过 `IntersectionObserver` 来监控，出现的时候再进行注水，重点可以参考[这段代码](https://github.com/GoogleChromeLabs/progressive-rendering-frameworks-samples/blob/master/react-progressive-hydration/app/components/hydrator.js#L23-L31)
