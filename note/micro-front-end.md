@@ -12,5 +12,5 @@
 
 ## micro-app
 
-京东的微前端框架 [micro-app](https://github.com/micro-zoe/micro-app)， 采用的思路比较特殊，使用的类似 React 的形式，通过提个 shadow-dom 的组件
+京东的微前端框架 [micro-app](https://github.com/micro-zoe/micro-app)， 采用的思路比较特殊，使用的类似 React 的形式，通过提供 webcomponent 的组件
 进行快速的接入。
