@@ -1,6 +1,10 @@
 # 每日一读 记录每天学习的点点滴滴
 
-## 2021/07/18
+## 2021/07/12
+
+- [export-default-thing-vs-thing-as-default](https://jakearchibald.com/2021/export-default-thing-vs-thing-as-default/) export default 以及 import 的一些区别
+
+## 2021/07/08
 
 - [GMTC 2021 演讲 《字节跳动基于 Serverless 的前端研发模式升级》](https://mp.weixin.qq.com/s/J2fHm_mR7UE65q1vSQ9xpA) 字节前端研发模式的改变，干货满满
 
