@@ -1,5 +1,8 @@
 # 每日一读 记录每天学习的点点滴滴
 
+## 2021/07/14
+
+- [深入理解 Vue3 Reactivity API](https://zhuanlan.zhihu.com/p/146097763) 对响应式 Api 的一个非常完整的解释。
 ## 2021/07/12
 
 - [export-default-thing-vs-thing-as-default](https://jakearchibald.com/2021/export-default-thing-vs-thing-as-default/) export default 以及 import 的一些区别
