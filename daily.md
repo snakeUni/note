@@ -1,5 +1,9 @@
 # 每日一读 记录每天学习的点点滴滴
 
+## 2021/07/16
+
+- [面向未来与浏览器规范的前端DDD架构设计](https://mp.weixin.qq.com/s/Br4cYZ1UDqwcBRKQTBqsMw) 字节的微前端框架
+
 ## 2021/07/14
 
 - [深入理解 Vue3 Reactivity API](https://zhuanlan.zhihu.com/p/146097763) 对响应式 Api 的一个非常完整的解释。
