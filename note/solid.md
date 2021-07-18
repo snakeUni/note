@@ -1,3 +1,0 @@
-# solid
-
-![](./image/solid.png)

@@ -8,11 +8,11 @@
 
 字节的微前端框架 [Garfish](https://github.com/bytedance/garfish)
 
-![](./image/Garfish.png)
+![](../image/Garfish.png)
 
 ## micro-app
 
 京东的微前端框架 [micro-app](https://github.com/micro-zoe/micro-app)， 采用的思路比较特殊，使用的类似 React 的形式，通过提供 webcomponent 的组件
 进行快速的接入。
 
-![](./image/micro-app.png)
+![](../image/micro-app.png)

@@ -16,4 +16,4 @@ Read first from React's cache.
 
 react-fetch 思维导图
 
-![](./image/react-fetch.png)
+![](../image/react-fetch.png)
