@@ -1,18 +1,26 @@
 # 每日一读 记录每天学习的点点滴滴
 
+## 2021/07/28
+
+- [A Deep Dive into Airbnb’s Server-Driven UI System](https://medium.com/airbnb-engineering/a-deep-dive-into-airbnbs-server-driven-ui-system-842244c5f5) 服务驱动 UI，本质上就是把 schema 映射为对应平台的 UI
+- [Vue.js 作者尤雨溪: 框架设计就是不断地舍取](https://mp.weixin.qq.com/s/xYn2A3MAjDRpZMSvB9IUWQ) 框架设计就是不断地取舍
+
 ## 2021/07/16
 
-- [面向未来与浏览器规范的前端DDD架构设计](https://mp.weixin.qq.com/s/Br4cYZ1UDqwcBRKQTBqsMw) 字节的微前端框架
+- [面向未来与浏览器规范的前端 DDD 架构设计](https://mp.weixin.qq.com/s/Br4cYZ1UDqwcBRKQTBqsMw) 字节的微前端框架
 
 ## 2021/07/14
 
 - [深入理解 Vue3 Reactivity API](https://zhuanlan.zhihu.com/p/146097763) 对响应式 Api 的一个非常完整的解释。
+
 ## 2021/07/12
 
 - [export-default-thing-vs-thing-as-default](https://jakearchibald.com/2021/export-default-thing-vs-thing-as-default/) export default 以及 import 的一些区别
+
 ## 2021/07/08
 
 - [GMTC 2021 演讲 《字节跳动基于 Serverless 的前端研发模式升级》](https://mp.weixin.qq.com/s/J2fHm_mR7UE65q1vSQ9xpA) 字节前端研发模式的改变，干货满满
+
 ## 2021/06/19
 
 - [progressive-rendering-frameworks-samples](https://github.com/GoogleChromeLabs/progressive-rendering-frameworks-samples) 谷歌的渐进式 ssr 的例子，看起来很有意思，通过内部实现了一个 `Hydrated` 组件，通过 `IntersectionObserver` 来监控，出现的时候再进行注水，重点可以参考[这段代码](https://github.com/GoogleChromeLabs/progressive-rendering-frameworks-samples/blob/master/react-progressive-hydration/app/components/hydrator.js#L23-L31)
