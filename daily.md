@@ -1,5 +1,9 @@
 # 每日一读 记录每天学习的点点滴滴
 
+## 2021/08/04
+
+- [傻傻的，3 行代码一个订阅发布中](https://juejin.cn/post/6991992950876028959?from=main_page) 一个非常有意思的实现发布订阅的文章
+
 ## 2021/07/28
 
 - [A Deep Dive into Airbnb’s Server-Driven UI System](https://medium.com/airbnb-engineering/a-deep-dive-into-airbnbs-server-driven-ui-system-842244c5f5) 服务驱动 UI，本质上就是把 schema 映射为对应平台的 UI
