@@ -106,11 +106,12 @@ class Button extends React.Component {
 
 总结：如果使用 class 组件推荐开发者一定执行 super(props)，当然也可以直接按照最新的语法来写, 但是如果主动声明了 constructor 不要忘记使用 super(props)。
 
-其他参考资料
+其他参考资料(都值得去看)
 
 - [proposal-class-fields](https://github.com/tc39/proposal-class-fields)
 - [mdn extends](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Classes/extends)
 - [mdn constructor](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Classes/constructor)
+- [mdn prototype_chain](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
 
 ## 扩展
 
