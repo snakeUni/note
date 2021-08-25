@@ -1,0 +1,9 @@
+# 对 Dan 的博客以及一些 twitter 看完的分析以及侧重点
+
+希望其他人在阅读的时候能够直接提取中心点, 了解 Dan 对 React 的深层次理解。
+
+- [How Does React Tell a Class from a Function?](https://overreacted.io/zh-hans/how-does-react-tell-a-class-from-a-function/)
+
+React 如何区分 Class 和 Function？
+
+---
