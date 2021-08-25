@@ -108,12 +108,145 @@ class Button extends React.Component {
 
 其他参考资料
 
----
-
 - [proposal-class-fields](https://github.com/tc39/proposal-class-fields)
 - [mdn extends](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Classes/extends)
 - [mdn constructor](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Classes/constructor)
 
-基于 class 的继承是原生默认实现了，那么能否手写一个继承呢？
+## 扩展
 
----
+基于 class 的继承是原生默认实现了(实际上只是一个语法糖)，那么能否手写一个继承呢？
+
+假设存在这样的一个父类
+
+```tsx
+// 声明一个类
+function Person({ name, age }: any) {
+  this.name = name
+  this.age = age
+}
+
+// 原型链添加方法
+Person.prototype.add = function add(value: any) {
+  this.age += value
+}
+
+Person.prototype.log = function log() {
+  console.log('name:', this.name, 'age:', this.age)
+}
+```
+
+### 寄生组合继承(推荐)
+
+**核心：通过寄生方式，砍掉父类的实例属性，这样，在调用两次父类的构造的时候，就不会初始化两次实例方法/属性，避免的组合继承的缺点**
+
+```tsx
+function Male({ name, age }) {
+  Person.call(this, { age: age })
+  this.name = name
+}
+
+// 因为Object.create(Person.prototype)方法返回一个以 Person.prototype 为原型的对象，而不用执行 Person 方法。
+Male.prototype = Object.create(Person.prototype)
+// 修复原型
+Male.prototype.constructor = Male
+
+const male = new Male({ name: '小明', age: 20 })
+
+console.log('male.name:', male.name)
+console.log('male.age:', male.age)
+
+male.log()
+```
+
+### 组合继承(一般推荐)
+
+**核心：通过调用父类构造，继承父类的属性并保留传参的优点，然后通过将父类实例作为子类原型，实现函数复用**
+
+```tsx
+function Male({ name, age }) {
+  Person.call(this, { age: age })
+  this.name = name
+}
+
+Male.prototype = new Person()
+
+const male = new Male({ name: '小明', age: 20 })
+
+console.log('male.name:', male.name) // "male.name:",  "小明"
+console.log('male.age:', male.age) // "male.age:",  20
+
+male.log() // "name:",  "小明",  "age:",  20
+console.log('Male.prototype:', Male.prototype.constructor) // 只想的是 person 所以需要修复原型
+```
+
+原型修复
+
+```tsx
+function Male({ name, age }) {
+  Person.call(this, { age: age })
+  this.name = name
+}
+
+Male.prototype = new Person()
+// 原型修复
+Male.prototype.constructor = Male
+
+const male = new Male({ name: '小明', age: 20 })
+```
+
+缺点：
+
+- 调用了两次父类构造函数，生成了两份实例（子类实例将子类原型上的那份屏蔽了）
+
+### 基于原型链的继承(不推荐)
+
+**核心： 将父类的实例作为子类的原型**
+
+```tsx
+// 声明一个子类
+function Male() {}
+
+Male.prototype = new Person({ name: '小明', age: 20 })
+
+const male = new Male()
+
+console.log('male.name:', male.name) // "male.name:",  "小明"
+console.log('male.age:', male.age) // "male.age:",  20
+
+male.log() // "name:",  "小明",  "age:",  20
+console.log(male instanceof Person) // true
+```
+
+特点：
+
+- 简单，易于实现
+- 父类新增原型方法/原型属性，子类都能访问到。
+
+缺点：
+
+- 如果要新增原型属性和方法，必须要在 new Animal()这样的语句之后执行，不能放到构造器中
+- 无法实现多继承
+- 创建子类实例时，无法向父类构造函数传参(无法像 class 那样)。
+- 来自原型对象的引用属性是所有实例共享，修改一处所有的都会被更改。
+
+### 实例继承(不推荐)
+
+**核心：为父类实例添加新特性，作为子类实例返回**
+
+```tsx
+function Male({ name, age }: any) {
+  const male = new Person({ name, age })
+  return male
+}
+```
+
+但是此时 ts 会报错，所以这种方式不推荐使用。
+
+特点：
+
+- 不限制调用方式，不管是 new 子类()还是子类(),返回的对象具有相同的效果
+
+缺点：
+
+- 实例是父类的实例，不是子类的实例
+- 不支持多继承
