@@ -16,12 +16,14 @@
 2. 或者有可能第二个圈变成了蓝色，第三个圈变成了黄色！
 
 ![c1](https://pbs.twimg.com/media/E6QV0ZuXsAMGwAd?format=jpg&name=360x360)
+![cc](https://pbs.twimg.com/media/E6QV0agWYAA2O5a?format=jpg&name=large)
 
 通常这无关紧要。但是想象一下每个圆圈内部都有状态。像一个复选框或一个输入框。那么“移动”和“改变”的区别就很明显了！在第一种情况下，您*希望*状态也移动。在第二种情况下，你不想这样。
 
 那么 keys 是什么呢？Keys 是您给 React 的提示，以便它知道如何知道这两种情况中的哪一种。 `circles.map(c => <Circle color={circle.id} key={c.id}/>` 这是一种方式告诉 React “什么使两个圆圈成为*相同*的圆圈，即使在渲染之间”。
 
 ![c2](https://pbs.twimg.com/media/E6QXrR2XoAAXdP_?format=jpg&name=360x360)
+![c22](https://pbs.twimg.com/media/E6QXrRyXMAMJ_dI?format=jpg&name=large)
 
 React 本身不能构造出一个好的 key。只有*你*知道你的数据是如何构建的，以及两个渲染中的两个圆圈在概念上是否是“相同的”圆圈（即使它的所有数据都发生了变化）。通常您会使用在数据创建期间生成的 ID。例如来自数据库。
 
