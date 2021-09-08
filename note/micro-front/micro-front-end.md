@@ -4,6 +4,8 @@
 
 微前端的路由处理，通过一个控制层来接受路由，并且对不同的路由进行预处理在分发到各个子系统中。
 
+- [从零到一实现企业级微前端框架，保姆级教学](https://juejin.cn/post/7004661323124441102#heading-11)
+
 ## Garfish
 
 字节的微前端框架 [Garfish](https://github.com/bytedance/garfish)
