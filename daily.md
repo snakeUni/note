@@ -1,5 +1,9 @@
 # 每日一读 记录每天学习的点点滴滴
 
+## 2021/10/07
+
+- [Vite build](https://patak.dev/vite/build.html) 对 vite 进行了大概的讲解，尤大推荐。
+
 ## 2021/08/04
 
 - [傻傻的，3 行代码一个订阅发布中](https://juejin.cn/post/6991992950876028959?from=main_page) 一个非常有意思的实现发布订阅的文章
