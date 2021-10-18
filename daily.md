@@ -1,5 +1,9 @@
 # 每日一读 记录每天学习的点点滴滴
 
+## 2021/10/18
+
+- [在微前端中加载 Vite 应用](https://mp.weixin.qq.com/s?__biz=MzI5NjM5NDQxMg==&mid=2247494512&idx=1&sn=cce6c9b65493ab4888f0721bd997932e)
+
 ## 2021/10/07
 
 - [Vite build](https://patak.dev/vite/build.html) 对 vite 进行了大概的讲解，尤大推荐。
