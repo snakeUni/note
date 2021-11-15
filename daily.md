@@ -1,5 +1,9 @@
 # 每日一读 记录每天学习的点点滴滴
 
+## 2021/11/15
+
+- [一个专业的 Node.js 工程师， 需要了解下如何做好日志](https://mp.weixin.qq.com/s?__biz=MzIyNDU2NTc5Mw==&mid=2247498439&idx=1&sn=85fdb4250dc9f1d57bef26acd21b23b2&chksm=e80fb589df783c9f6225b463f2c212c85d8eb3e49be21a02827c0632df476b63edd3620513a1&scene=132#wechat_redirect)
+
 ## 2021/10/18
 
 - [在微前端中加载 Vite 应用](https://mp.weixin.qq.com/s?__biz=MzI5NjM5NDQxMg==&mid=2247494512&idx=1&sn=cce6c9b65493ab4888f0721bd997932e)
