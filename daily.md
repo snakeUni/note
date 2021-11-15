@@ -3,6 +3,7 @@
 ## 2021/11/15
 
 - [一个专业的 Node.js 工程师， 需要了解下如何做好日志](https://mp.weixin.qq.com/s?__biz=MzIyNDU2NTc5Mw==&mid=2247498439&idx=1&sn=85fdb4250dc9f1d57bef26acd21b23b2&chksm=e80fb589df783c9f6225b463f2c212c85d8eb3e49be21a02827c0632df476b63edd3620513a1&scene=132#wechat_redirect)
+- [精读《web streams》](https://zhuanlan.zhihu.com/p/425322116)
 
 ## 2021/10/18
 
