@@ -1,5 +1,9 @@
 # 每日一读 记录每天学习的点点滴滴
 
+## 2021/11/28
+
+- [Linux I/O 基本原理](https://zhuanlan.zhihu.com/p/436292700) 文章详细的讲解了 Linux I/O 的原理，值得一看。
+
 ## 2021/11/16
 
 - [RUST 是 JavaScript 基建的未来](https://zhuanlan.zhihu.com/p/433300816)
