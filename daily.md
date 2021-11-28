@@ -3,6 +3,7 @@
 ## 2021/11/28
 
 - [Linux I/O 基本原理](https://zhuanlan.zhihu.com/p/436292700) 文章详细的讲解了 Linux I/O 的原理，值得一看。
+- [聊聊 JS 的二进制家族：Blob、ArrayBuffer 和 Buffer](https://zhuanlan.zhihu.com/p/97768916) 详细讲解了 Blob、ArrayBuffer 和 Buffer 以及他们之前的区别和联系。
 
 ## 2021/11/16
 
