@@ -1,6 +1,6 @@
 # How to become a maintainer on big projects
 
-以前所有都是来自 Dan 的 twitter，具体可以查看[此线程](https://twitter.com/dan_abramov/status/1463718359262973953), 翻译部分来自谷歌翻译。
+以下所有都是来自 Dan 的 twitter，具体可以查看[此线程](https://twitter.com/dan_abramov/status/1463718359262973953), 翻译部分来自谷歌翻译。
 
 How do open source maintainers pick which contributors to “invest” in (time, effort, mentorship, etc)? I don’t know about others but for me the main thing isn’t coding skill. The main thing I’m looking for in a contributor is good judgement. This concept may sound fuzzy… Thread
 
