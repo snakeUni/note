@@ -1,5 +1,9 @@
 # 每日一读 记录每天学习的点点滴滴
 
+## 2021/12/13
+
+- [Linux 硬链接和软连接的区别与总结](https://xzchsia.github.io/2020/03/05/linux-hard-soft-link/) 一张图足以说明一切
+
 ## 2021/11/28
 
 - [Linux I/O 基本原理](https://zhuanlan.zhihu.com/p/436292700) 文章详细的讲解了 Linux I/O 的原理，值得一看。
