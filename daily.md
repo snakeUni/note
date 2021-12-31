@@ -1,5 +1,9 @@
 # 每日一读 记录每天学习的点点滴滴
 
+## 2021/12/31
+
+- [从实现原理看低代码](https://zhuanlan.zhihu.com/p/451340998) 对低代码一个很好的阐述
+
 ## 2021/12/21
 
 - [D2 分享 - ESM Bundleless 在低代码场景的实践](https://mp.weixin.qq.com/s/LFMWpxPU2GceWX48r3keXQ) 低代码下的 bundleless
