@@ -1,5 +1,9 @@
 # 每日一读 记录每天学习的点点滴滴
 
+## 2022/01/11
+
+- [SEE Conf: Umi 4 设计思路文字稿](https://mp.weixin.qq.com/s/FTZ93pScf3gykd39voEpng) 对 umi4 有个详细的介绍。
+
 ## 2022/01/07
 
 - [2022 年如何成为一名优秀的大前端 Leader](https://zhuanlan.zhihu.com/p/453878901)
