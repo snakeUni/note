@@ -1,5 +1,9 @@
 # 每日一读 记录每天学习的点点滴滴
 
+## 2022/01/13
+
+- [不优雅的 React Hooks](https://zhuanlan.zhihu.com/p/455317250) 本文阐述了使用 Hooks 引起的一些问题，但是任何事情都是有两面性的，客观的去看待，不同的场景使用不同的技术。
+
 ## 2022/01/12
 
 - [深入浅出 tnpm rapid 模式 - 如何比 pnpm 快 10 秒](https://zhuanlan.zhihu.com/p/455809528)
