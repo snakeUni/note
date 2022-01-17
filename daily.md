@@ -1,5 +1,11 @@
 # 每日一读 记录每天学习的点点滴滴
 
+## 2021/01/17
+
+- [Parcel CSS](https://parceljs.org/blog/parcel-css/) Parcel 组织的新产品，可以用于 Parcel，也可以和其他工具集成使用。基于 Rust，速度比 cssnano 快 100 倍，比 esbuild 快 4 倍，同时产物尺寸也更小。
+
+![css](https://mmbiz.qpic.cn/mmbiz_png/g6znRZCbCboPRTDibEhvEFZsaWr4VKTia47HaYp6xC4mbOUZDBRJZwMZGDDQaWtPyUr8tib6JPJHEy0gAYfldnqYw/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+
 ## 2022/01/13
 
 - [不优雅的 React Hooks](https://zhuanlan.zhihu.com/p/455317250) 本文阐述了使用 Hooks 引起的一些问题，但是任何事情都是有两面性的，客观的去看待，不同的场景使用不同的技术。
