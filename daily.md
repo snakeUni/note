@@ -3,6 +3,7 @@
 ## 2021/01/21
 
 - [大规模 Node.js 网关的架构设计与工程实践](https://mp.weixin.qq.com/s/1lcf_3lN4PNbRPj5tAba2w)
+- [How React server components work: an in-depth guide](https://blog.plasmic.app/posts/how-react-server-components-work/)
 
 ## 2021/01/17
 
