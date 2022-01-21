@@ -1,5 +1,9 @@
 # 每日一读 记录每天学习的点点滴滴
 
+## 2021/01/21
+
+- [大规模 Node.js 网关的架构设计与工程实践](https://mp.weixin.qq.com/s/1lcf_3lN4PNbRPj5tAba2w)
+
 ## 2021/01/17
 
 - [Parcel CSS](https://parceljs.org/blog/parcel-css/) Parcel 组织的新产品，可以用于 Parcel，也可以和其他工具集成使用。基于 Rust，速度比 cssnano 快 100 倍，比 esbuild 快 4 倍，同时产物尺寸也更小。
