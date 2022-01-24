@@ -1,5 +1,10 @@
 # 每日一读 记录每天学习的点点滴滴
 
+## 2021/01/24
+
+- [Vitekit](https://egoist.sh/building-vitekit-1) 作者计划 14 天手写 Vitekit，其 kit 命名来自 SvelteKit。对于这个话题还挺感兴趣，但是到第二天貌似就断更了。
+- [TypeScript 4.6 Beta](https://devblogs.microsoft.com/typescript/announcing-typescript-4-6-beta/)
+
 ## 2021/01/21
 
 - [大规模 Node.js 网关的架构设计与工程实践](https://mp.weixin.qq.com/s/1lcf_3lN4PNbRPj5tAba2w)
