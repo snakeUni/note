@@ -1,5 +1,9 @@
 # 每日一读 记录每天学习的点点滴滴
 
+## 2021/01/25
+
+- [React: Event Bubbling and Capturing](https://www.robinwieruch.de/react-event-bubbling-capturing/) 在 React 中的事件冒泡和事件捕获。
+
 ## 2021/01/24
 
 - [Vitekit](https://egoist.sh/building-vitekit-1) 作者计划 14 天手写 Vitekit，其 kit 命名来自 SvelteKit。对于这个话题还挺感兴趣，但是到第二天貌似就断更了。
