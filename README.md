@@ -10,6 +10,10 @@
 - [Jason Miller Preact 作者](https://jasonformat.com/)
 - [Marius Schulz Typescript 为主](https://mariusschulz.com/blog)
 
+# Daily
+
+[daily](./daily.md) 用于记录每天看到的一些不错的文章。
+
 # Weekly
 
 - [2019-03-15](./weekly/2019-03-15.md)
