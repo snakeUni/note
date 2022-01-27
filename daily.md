@@ -7,6 +7,7 @@
   - [I. 三种比较典型的内存泄漏](https://cnodejs.org/topic/58eb5d378cda07442731569f)
   - [浅谈 Node.js 热更新](https://zhuanlan.zhihu.com/p/460359101)
 - [电商前端技术团队的年度总结](https://juejin.cn/post/7057439721080750087) 总结的比较不错的一篇文章，从性能，体验，业务多个方向出发来解决实际场景遇到的问题。
+- [又过年了，盘一盘近一年阅读量最高的十篇文章](https://mp.weixin.qq.com/s/c-fJO_VEdvLsk2m-zRMRGg) 每一篇文章都值得去看。
 
 ## 2021/01/25
 
