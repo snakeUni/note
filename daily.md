@@ -6,6 +6,7 @@
 - [Node 案发现场揭秘 —— 未定义 “window” 对象引发的 SSR 内存泄露](https://zhuanlan.zhihu.com/p/461945753) 作者讲述了排查的过程。
   - [I. 三种比较典型的内存泄漏](https://cnodejs.org/topic/58eb5d378cda07442731569f)
   - [浅谈 Node.js 热更新](https://zhuanlan.zhihu.com/p/460359101)
+- [电商前端技术团队的年度总结](https://juejin.cn/post/7057439721080750087) 总结的比较不错的一篇文章，从性能，体验，业务多个方向出发来解决实际场景遇到的问题。
 
 ## 2021/01/25
 
