@@ -3,6 +3,7 @@
 ## 2021/01/28
 
 - [腾讯企鹅辅导 H5 性能极致优化](https://mp.weixin.qq.com/s?__biz=MzI1ODE4NzE1Nw==&mid=2247490349&idx=1&sn=139c52fb354eba09c0c3c5a92dc5ffa2&chksm=ea0d51d7dd7ad8c1be5be5b17fd79f5ccc8d84fe013040232a0861290728112c75fb6061499f&scene=21#wechat_redirect) 优化部分写的很赞，目前页面还不是 SSR 直出，然而效果已经很棒了。
+- [做了两年前端 leader 后我想说几句](https://mp.weixin.qq.com/s?__biz=MzI1ODE4NzE1Nw==&mid=2247487870&idx=1&sn=a67b4b10cdd809017f0992b78252210b&chksm=ea0d5b84dd7ad2927fb5d1e41882e9e801fc5e9a38c8aeadf190cae765f8472676da0df5cdee&scene=178&cur_album_id=1806166719669796864#rd) 作为一个前端 leader 的总结。
 
 ## 2021/01/27
 
