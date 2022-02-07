@@ -1,15 +1,20 @@
 # 每日一读 记录每天学习的点点滴滴
 
-## 2021/01/29
+## 2022/02/07
+
+- [技术人的产品观](https://mp.weixin.qq.com/s/qPJU_WhFxgzPVXR9oUdKhg) 通用知识和领域知识同等重要，领域知识可以让你走的更远。
+- [产品：换了个人设，多卖 8 倍货！3 个行动点有效促进私域成交！](https://mp.weixin.qq.com/s?__biz=MjM5NDQ5MjUyMA==&mid=2651414497&idx=1&sn=d149324014f4a9db03be7b110e0dc8b1&chksm=bd7b06e68a0c8ff02404ddf8d4e6a370f4a81dc37ea43fe51ea9af1420daf909a2323e467586&scene=132#wechat_redirect) 如何去做私域。
+
+## 2022/01/29
 
 - [浅谈 Node.js 热更新](https://zhuanlan.zhihu.com/p/460359101)
 
-## 2021/01/28
+## 2022/01/28
 
 - [腾讯企鹅辅导 H5 性能极致优化](https://mp.weixin.qq.com/s?__biz=MzI1ODE4NzE1Nw==&mid=2247490349&idx=1&sn=139c52fb354eba09c0c3c5a92dc5ffa2&chksm=ea0d51d7dd7ad8c1be5be5b17fd79f5ccc8d84fe013040232a0861290728112c75fb6061499f&scene=21#wechat_redirect) 优化部分写的很赞，目前页面还不是 SSR 直出，然而效果已经很棒了。
 - [做了两年前端 leader 后我想说几句](https://mp.weixin.qq.com/s?__biz=MzI1ODE4NzE1Nw==&mid=2247487870&idx=1&sn=a67b4b10cdd809017f0992b78252210b&chksm=ea0d5b84dd7ad2927fb5d1e41882e9e801fc5e9a38c8aeadf190cae765f8472676da0df5cdee&scene=178&cur_album_id=1806166719669796864#rd) 作为一个前端 leader 的总结。
 
-## 2021/01/27
+## 2022/01/27
 
 - [React 体系下关于 Mobx 与 Redux 的一些思考](https://zhuanlan.zhihu.com/p/461844358) 很好的讲解了关于不可变和可变引起的优劣势。
 - [Node 案发现场揭秘 —— 未定义 “window” 对象引发的 SSR 内存泄露](https://zhuanlan.zhihu.com/p/461945753) 作者讲述了排查的过程。
@@ -18,21 +23,21 @@
 - [电商前端技术团队的年度总结](https://juejin.cn/post/7057439721080750087) 总结的比较不错的一篇文章，从性能，体验，业务多个方向出发来解决实际场景遇到的问题。
 - [又过年了，盘一盘近一年阅读量最高的十篇文章](https://mp.weixin.qq.com/s/c-fJO_VEdvLsk2m-zRMRGg) 每一篇文章都值得去看。
 
-## 2021/01/25
+## 2022/01/25
 
 - [React: Event Bubbling and Capturing](https://www.robinwieruch.de/react-event-bubbling-capturing/) 在 React 中的事件冒泡和事件捕获。
 
-## 2021/01/24
+## 2022/01/24
 
 - [Vitekit](https://egoist.sh/building-vitekit-1) 作者计划 14 天手写 Vitekit，其 kit 命名来自 SvelteKit。对于这个话题还挺感兴趣，但是到第二天貌似就断更了。
 - [TypeScript 4.6 Beta](https://devblogs.microsoft.com/typescript/announcing-typescript-4-6-beta/)
 
-## 2021/01/21
+## 2022/01/21
 
 - [大规模 Node.js 网关的架构设计与工程实践](https://mp.weixin.qq.com/s/1lcf_3lN4PNbRPj5tAba2w)
 - [How React server components work: an in-depth guide](https://blog.plasmic.app/posts/how-react-server-components-work/)
 
-## 2021/01/17
+## 2022/01/17
 
 - [Parcel CSS](https://parceljs.org/blog/parcel-css/) Parcel 组织的新产品，可以用于 Parcel，也可以和其他工具集成使用。基于 Rust，速度比 cssnano 快 100 倍，比 esbuild 快 4 倍，同时产物尺寸也更小。
 
