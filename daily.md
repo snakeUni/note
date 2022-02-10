@@ -1,5 +1,9 @@
 # 每日一读 记录每天学习的点点滴滴
 
+## 2022/02/10
+
+- [动手打造一款 canvas 排版引擎](https://zhuanlan.zhihu.com/p/464845135)
+
 ## 2022/02/07
 
 - [技术人的产品观](https://mp.weixin.qq.com/s/qPJU_WhFxgzPVXR9oUdKhg) 通用知识和领域知识同等重要，领域知识可以让你走的更远。
