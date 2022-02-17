@@ -4,6 +4,7 @@
 
 - [为什么大厂前端监控都在用 GIF 做埋点？](https://juejin.cn/post/7065123244881215518) 解释了埋点系统用 GIF 的原因
 - [弄懂 SourceMap，前端开发提效 100%](https://zhuanlan.zhihu.com/p/467566753) 对 SourceMap 讲的非常细致的一篇了。
+- [如何为 Node.js 的 require 函数添加钩子？](https://mp.weixin.qq.com/s/BFu4SouMdXFYLELRjHhUyg) 本文讲述了如何劫持 require 函数。包括 yarn pnp 也都对 require 进行了相关劫持。
 
 ## 2022/02/15
 
