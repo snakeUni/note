@@ -3,6 +3,7 @@
 ## 2022/02/17
 
 - [为什么大厂前端监控都在用 GIF 做埋点？](https://juejin.cn/post/7065123244881215518) 解释了埋点系统用 GIF 的原因
+- [弄懂 SourceMap，前端开发提效 100%](https://zhuanlan.zhihu.com/p/467566753) 对 SourceMap 讲的非常细致的一篇了。
 
 ## 2022/02/15
 
