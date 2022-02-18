@@ -1,5 +1,9 @@
 # 每日一读 记录每天学习的点点滴滴
 
+## 2022/02/18
+
+- [Why Efficient Hydration in JavaScript Frameworks is so Challenging](https://dev.to/this-is-learning/why-efficient-hydration-in-javascript-frameworks-is-so-challenging-1ca3) 作者谈论 SSR 中有哪些方法可以提升性能。
+
 ## 2022/02/17
 
 - [为什么大厂前端监控都在用 GIF 做埋点？](https://juejin.cn/post/7065123244881215518) 解释了埋点系统用 GIF 的原因
