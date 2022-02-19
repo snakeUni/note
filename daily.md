@@ -1,5 +1,9 @@
 # 每日一读 记录每天学习的点点滴滴
 
+## 2022/02/19
+
+- [Facebook 工程师文化独特之处](https://zhuanlan.zhihu.com/p/468644178) 很多时候技术应该和产品的目标是一致的。
+
 ## 2022/02/18
 
 - [Why Efficient Hydration in JavaScript Frameworks is so Challenging](https://dev.to/this-is-learning/why-efficient-hydration-in-javascript-frameworks-is-so-challenging-1ca3) 作者谈论 SSR 中有哪些方法可以提升性能。
