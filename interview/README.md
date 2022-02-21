@@ -37,6 +37,7 @@
 - [webpack 专栏](https://www.zhihu.com/column/c_1367218175587811328)
 - [面试必问——前端页面性能指标基本介绍](https://mp.weixin.qq.com/s?__biz=MzI1ODE4NzE1Nw==&mid=2247489415&idx=1&sn=4f9415aa6a7bd4c406272cab7888b391&chksm=ea0d5d7ddd7ad46b5a3b1735d5f74bd37366ac85e2a9af59d58b945aedcbafafc068f13c797b&scene=21#wechat_redirect)
 - [弄懂 SourceMap，前端开发提效 100%](https://zhuanlan.zhihu.com/p/467566753) 对 SourceMap 讲的非常细致的一篇了。
+- [字节前端面试手册(完整版)开放下载](https://mp.weixin.qq.com/s/m5lZOytzTJI32mCY-G2jPA)
 
 </details>
 
