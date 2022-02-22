@@ -1,5 +1,9 @@
 # 每日一读 记录每天学习的点点滴滴
 
+## 2022/02/22
+
+- [Event Collector —— Web 环境的标记埋点方案](https://juejin.cn/post/7067087906124333087) 一个标记埋点的不错的方案。
+
 ## 2022/02/21
 
 - [monorepo.tools](https://monorepo.tools/) monorepo 工具的对比。
