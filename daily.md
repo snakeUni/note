@@ -1,5 +1,9 @@
 # 每日一读 记录每天学习的点点滴滴
 
+## 2022/02/23
+
+- [谈谈性能优化 - 从用户体验聊起](https://mp.weixin.qq.com/s/SU2PGcssUTwmDzw8qzt9VA) 性能优化不仅是速度快，用户其他的体验也极其重要。
+
 ## 2022/02/22
 
 - [Event Collector —— Web 环境的标记埋点方案](https://juejin.cn/post/7067087906124333087) 一个标记埋点的不错的方案。
