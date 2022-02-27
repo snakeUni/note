@@ -1,5 +1,9 @@
 # 每日一读 记录每天学习的点点滴滴
 
+## 2022/02/27
+
+- [Optimizing third-party script loading in Next.js](https://web.dev/script-component/) Next.js 是如何优化第三方脚本的。
+
 ## 2022/02/24
 
 - [前端 Leader 如何做好团队规划？阿里内部培训总结公开](https://zhuanlan.zhihu.com/p/36911993) 作者从多个方面介绍了如何做好团队规划。
