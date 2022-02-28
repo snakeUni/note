@@ -1,5 +1,9 @@
 # 每日一读 记录每天学习的点点滴滴
 
+## 2022/02/28
+
+- [Improving Web Performance with React Hydration Strategies](https://medium.com/cdiscount-engineering/improving-web-performance-with-react-hydration-strategies-3117f71a1695) 作者讲解了 hydrated 的几个策略，渐进式的注水比较容易实现。
+
 ## 2022/02/27
 
 - [Optimizing third-party script loading in Next.js](https://web.dev/script-component/) Next.js 是如何优化第三方脚本的。
