@@ -16,7 +16,11 @@ FP，[FCP](https://web.dev/i18n/zh/fcp/)，[TTI](https://web.dev/tti/), [TBT](ht
 
 - [Largest Contentful Paint (LCP)](https://web.dev/lcp/) ：最大内容绘制，测量加载性能。为了提供良好的用户体验，LCP 应在页面首次开始加载后的 2.5 秒内发生。
 
-  如何优化 LCP，可以参考 [优化 Largest Contentful Paint 最大内容绘制](https://web.dev/optimize-lcp/)
+  - 如何优化 LCP，可以参考 [优化 Largest Contentful Paint 最大内容绘制](https://web.dev/optimize-lcp/)
+    - [缓慢的服务器响应速度](https://web.dev/optimize-lcp/#slow-servers)
+    - [阻塞渲染的 JavaScript 和 CSS](https://web.dev/optimize-lcp/#render-blocking-resources)
+    - [缓慢的资源加载速度](https://web.dev/optimize-lcp/#slow-resource-load-times)
+    - [客户端渲染](https://web.dev/optimize-lcp/#client-side-rendering)
 
 - [First Input Delay (FID)](https://web.dev/fid/) ：首次输入延迟，测量交互性。为了提供良好的用户体验，页面的 FID 应为 100 毫秒或更短。
 
@@ -106,6 +110,16 @@ Link: <https://fonts.gstatic.com/>; rel=dns-prefetch
 
 ## 其他文章引用
 
-- _[优化 Largest Contentful Paint 最大内容绘制(重要)](https://web.dev/optimize-lcp/)_
+### 重要部分
+
+- _[Largest Contentful Paint (LCP)](https://web.dev/lcp/)_
+- _[优化 Largest Contentful Paint 最大内容绘制](https://web.dev/optimize-lcp/)_
+- _[First Input Delay (FID)](https://web.dev/fid/)_
+- _[优化 First Input Delay 首次输入延迟](https://web.dev/optimize-fid/)_
+- _[Cumulative Layout Shift (CLS)](https://web.dev/cls/)_
+- _[优化 Cumulative Layout Shift 累积布局偏移](https://web.dev/optimize-cls/)_
 - _[渲染页面：浏览器的工作原理](https://developer.mozilla.org/zh-CN/docs/Web/Performance/How_browsers_work)_
+
+### 其他
+
 - _[感知性能](https://developer.mozilla.org/zh-CN/docs/Learn/Performance/perceived_performance)_
