@@ -16,19 +16,51 @@ FP，[FCP](https://web.dev/i18n/zh/fcp/)，[TTI](https://web.dev/tti/), [TBT](ht
 
 - [Largest Contentful Paint (LCP)](https://web.dev/lcp/) ：最大内容绘制，测量加载性能。为了提供良好的用户体验，LCP 应在页面首次开始加载后的 2.5 秒内发生。
 
-  - 如何优化 LCP，可以参考 [优化 Largest Contentful Paint 最大内容绘制](https://web.dev/optimize-lcp/)
+  - [优化 Largest Contentful Paint 最大内容绘制](https://web.dev/optimize-lcp/)
     - [缓慢的服务器响应速度](https://web.dev/optimize-lcp/#slow-servers)
+      - [将用户路由到附近的 CDN](https://web.dev/optimize-lcp/#cdn)
+      - [缓存资产](https://web.dev/optimize-lcp/#-2)
+      - [优先使用缓存提供 HTML 页面](https://web.dev/optimize-lcp/#html)
+      - [尽早建立第三方连接](https://web.dev/optimize-lcp/#-3)
+      - [使用签名交换（SXG）](https://web.dev/optimize-lcp/#sxg)
     - [阻塞渲染的 JavaScript 和 CSS](https://web.dev/optimize-lcp/#render-blocking-resources)
+      - [减少 CSS 阻塞时间](https://web.dev/optimize-lcp/#css)
+      - [削减 CSS](https://web.dev/optimize-lcp/#css-2)
+      - [延迟加载非关键 CSS](https://web.dev/optimize-lcp/#css-3)
+      - [内联关键 CSS](https://web.dev/optimize-lcp/#css-4)
+      - [减少 JavaScript 阻塞时间](https://web.dev/optimize-lcp/#javascript)
     - [缓慢的资源加载速度](https://web.dev/optimize-lcp/#slow-resource-load-times)
+      - [优化和压缩图像](https://web.dev/optimize-lcp/#-4)
+      - [预加载重要资源](https://web.dev/optimize-lcp/#-5)
+      - [压缩文本文件](https://web.dev/optimize-lcp/#-6)
+      - [自适应服务](https://web.dev/optimize-lcp/#-7)
+      - [使用 Service Worker 缓存资产](https://web.dev/optimize-lcp/#service-worker)
     - [客户端渲染](https://web.dev/optimize-lcp/#client-side-rendering)
+      - [最小化关键 JavaScript](https://web.dev/optimize-lcp/#javascript-2)
+      - [使用服务端渲染](https://web.dev/optimize-lcp/#-8)
+      - [使用预渲染](https://web.dev/optimize-lcp/#-9)
+    - [使用 PRPL 模式实现即时加载](https://web.dev/apply-instant-loading-with-prpl/)
+      - [尽快渲染初始路线](https://web.dev/apply-instant-loading-with-prpl/#-2)
+      - [预缓存资产](https://web.dev/apply-instant-loading-with-prpl/#-3)
+      - [延迟加载](https://web.dev/apply-instant-loading-with-prpl/#-4)
+    - [优化关键渲染路径](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/)
 
 - [First Input Delay (FID)](https://web.dev/fid/) ：首次输入延迟，测量交互性。为了提供良好的用户体验，页面的 FID 应为 100 毫秒或更短。
 
-  如何优化 FID，可以参考 [优化 First Input Delay 首次输入延迟](https://web.dev/optimize-fid/)
+  - [优化 First Input Delay 首次输入延迟](https://web.dev/optimize-fid/)
+    - [分割长任务](https://web.dev/optimize-fid/#long-tasks)
+    - 优化您的页面，做好交互准备
+      - [第一方脚本执行会延迟交互准备](https://web.dev/optimize-fid/#-2)
+      - [数据获取会影响交互准备的许多方面](https://web.dev/optimize-fid/#-3)
+      - [第三方脚本执行也会加剧交互延迟](https://web.dev/optimize-fid/#-4)
+    - [使用 Web Worker](https://web.dev/optimize-fid/#web-worker)
+      - [减少 JavaScript 执行时间](https://web.dev/optimize-fid/#reduce-javascript-execution)
+    - [最小化主线程工作](https://web.dev/mainthread-work-breakdown/)
+    - [保持较低的请求数和较小的传输大小](https://web.dev/resource-summary/)
 
 - [Cumulative Layout Shift (CLS)](https://web.dev/cls/) ：累积布局偏移，测量视觉稳定性。为了提供良好的用户体验，页面的 CLS 应保持在 0.1. 或更少。
 
-  如何优化 CLS，可以参考 [优化 Cumulative Layout Shift 累积布局偏移](https://web.dev/optimize-cls/)
+  - [优化 Cumulative Layout Shift 累积布局偏移](https://web.dev/optimize-cls/)
 
 ## 通用优化
 
