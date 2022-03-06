@@ -1,5 +1,9 @@
 # 每日一读 记录每天学习的点点滴滴
 
+## 2022/03/06
+
+- [从 0 到 1：美团端侧 CDN 容灾解决方案](https://tech.meituan.com/2022/01/13/phoenix-cdn.html)
+
 ## 2022/02/28
 
 - [Improving Web Performance with React Hydration Strategies](https://medium.com/cdiscount-engineering/improving-web-performance-with-react-hydration-strategies-3117f71a1695) 作者讲解了 hydrated 的几个策略，渐进式的注水比较容易实现。
