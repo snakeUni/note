@@ -46,6 +46,10 @@
 
 - [我的前端性能优化知识体系](https://juejin.cn/post/7063754993072865287) 一篇比较好的对性能指标的介绍。
 
+## 2022/03/10
+
+- [A Proposal For Type Syntax in JavaScript](https://devblogs.microsoft.com/typescript/a-proposal-for-type-syntax-in-javascript/) 最新的提议，js 中支持类型，很是期待。
+
 ## 2022/02/10
 
 - [动手打造一款 canvas 排版引擎](https://zhuanlan.zhihu.com/p/464845135)
