@@ -49,6 +49,7 @@
 ## 2022/03/10
 
 - [A Proposal For Type Syntax in JavaScript](https://devblogs.microsoft.com/typescript/a-proposal-for-type-syntax-in-javascript/) 最新的提议，js 中支持类型，很是期待。
+- [proposal-types-as-comments](https://github.com/giltayar/proposal-types-as-comments) 相关提议。
 
 ## 2022/02/10
 
