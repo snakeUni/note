@@ -45,5 +45,9 @@ export type State = 'pending' | 'fulfilled' | 'rejected'
 export interface States<T> {
   state: State
   value?: T
-  reason?: any
+}
+
+export interface Handler<T, TResult1 = any, TResult2 = any> {
+  onfulfilled: ((value: T) => TResult1) | undefined | null
+  onrejected: ((reason: any) => TResult2) | undefined | null
 }
