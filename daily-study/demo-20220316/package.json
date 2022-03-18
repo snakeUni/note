@@ -4,9 +4,13 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "ts-node index.ts"
+    "start": "ts-node index.ts",
+    "build": "rm -rf dist && tsc",
+    "test": "node dist/tests/index.js",
+    "watch": "tsc --watch"
   },
   "dependencies": {
+    "promises-aplus-tests": "^2.1.2",
     "ts-node": "^10.7.0",
     "typescript": "^4.6.2"
   }

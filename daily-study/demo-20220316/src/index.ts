@@ -26,6 +26,61 @@ export class Promisee<T = any> {
 
   private resolve(value: T) {
     if (this.hasResolved()) return
+    // 2.3.1 规则 If promise and x refer to the same object, reject promise with a TypeError as the reason.
+    if ((value as any) === this) {
+      throw new TypeError('resolving object can not be the same object')
+    } else if (value instanceof Promisee) {
+      // 2.3.2. If x is a promise, adopt its state [3.4]:
+      value.then(this.resolve.bind(this), this.reject.bind(this))
+    } else if (Util.isFunction(value) || Util.isObject(value)) {
+      // Otherwise, if x is an object or function
+      // 2.3.3.3.3. If both resolvePromise and rejectPromise are called, or multiple calls to the same argument are made, the first call takes precedence, and any further calls are ignored.
+      let hasCalled = false
+      try {
+        const then = (value as any).then
+        // 2.3.3.3. If then is a function, call it with x as this, first argument resolvePromise, and second argument rejectPromise, where:
+        if (Util.isFunction(then)) {
+          // call it with x as this
+          then.call(
+            value,
+            (result: any) => {
+              // 2.3.3.3.1. If/when resolvePromise is called with a value y, run [[Resolve]](promise, y).
+              // 2.3.3.3.3. 规则
+              if (!hasCalled) {
+                this.resolve(result)
+              }
+              hasCalled = true
+            },
+            (error: any) => {
+              // 2.3.3.3.2. If/when rejectPromise is called with a reason r, reject promise with r.
+              // 2.3.3.3.3. 规则
+              if (!hasCalled) {
+                this.reject(error)
+              }
+              hasCalled = true
+            }
+          )
+        } else {
+          // 2.3.3.4. If then is not a function, fulfill promise with x.
+          this.fulfill(value)
+        }
+      } catch (error) {
+        // If retrieving the property x.then results in a thrown exception e, reject promise with e as the reason.
+        if (!hasCalled) {
+          // 2.3.3.3.4. If calling then throws an exception e,
+          // 2.3.3.3.4.1. If resolvePromise or rejectPromise have been called, ignore it.
+          // 2.3.3.3.4.2. Otherwise, reject promise with e as the reason.
+          this.reject(error)
+        }
+      }
+    } else {
+      // 2.3.4. If x is not an object or function, fulfill promise with x.
+      this.fulfill(value)
+    }
+  }
+
+  private fulfill(value: T) {
+    if (this.hasResolved()) return
     this.setState({ state: 'fulfilled', value })
     this.scheduleHandler()
   }
@@ -40,10 +95,6 @@ export class Promisee<T = any> {
     return this.isFulfilled() || this.isRejected()
   }
 
-  private isPending() {
-    return this.state === 'pending'
-  }
-
   private isFulfilled() {
     return this.state === 'fulfilled'
   }
@@ -53,10 +104,8 @@ export class Promisee<T = any> {
   }
 
   private setState(nextState: States<T>) {
-    if (this.isPending()) {
-      this.state = nextState.state
-      this.value = nextState.value
-    }
+    this.state = nextState.state
+    this.value = nextState.value
   }
 
   private scheduleHandler() {
@@ -90,18 +139,30 @@ export class Promisee<T = any> {
         return new Promisee((resolve, reject) => {
           this.pushHandlers(
             value => {
-              try {
-                resolve(onfulfilled?.(value))
-              } catch (error) {
-                reject(error)
-              }
+              setTimeout(() => {
+                try {
+                  if (Util.isFunction(onfulfilled)) {
+                    resolve(onfulfilled?.(value))
+                  } else {
+                    resolve(value)
+                  }
+                } catch (error) {
+                  reject(error)
+                }
+              }, 0)
             },
             reason => {
-              try {
-                resolve(onrejected?.(reason))
-              } catch (error) {
-                reject(error)
-              }
+              setTimeout(() => {
+                try {
+                  if (Util.isFunction(onrejected)) {
+                    resolve(onrejected?.(reason))
+                  } else {
+                    reject(reason)
+                  }
+                } catch (error) {
+                  reject(error)
+                }
+              }, 0)
             }
           )
         })
@@ -110,7 +171,11 @@ export class Promisee<T = any> {
         return new Promisee((resolve, reject) => {
           setTimeout(() => {
             try {
-              resolve(onfulfilled?.(this.value))
+              if (Util.isFunction(onfulfilled)) {
+                resolve(onfulfilled?.(this.value))
+              } else {
+                resolve(this.value)
+              }
             } catch (error) {
               reject(error)
             }
@@ -121,7 +186,11 @@ export class Promisee<T = any> {
         return new Promisee((resolve, reject) => {
           setTimeout(() => {
             try {
-              resolve(onrejected?.(this.value))
+              if (Util.isFunction(onrejected)) {
+                resolve(onrejected?.(this.value))
+              } else {
+                reject(this.value)
+              }
             } catch (error) {
               reject(error)
             }

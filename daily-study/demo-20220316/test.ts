@@ -1,1 +1,0 @@
-import { Promisee } from './index'
