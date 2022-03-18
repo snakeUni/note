@@ -21,17 +21,17 @@ export class Promisee<T = any> {
       reject: (reason?: any) => void
     ) => void
   ) {
-    executor(this.resolve.bind(this), this.reject.bind(this))
+    executor(this._resolve.bind(this), this._reject.bind(this))
   }
 
-  private resolve(value: T) {
+  private _resolve(value: T) {
     if (this.hasResolved()) return
     // 2.3.1 规则 If promise and x refer to the same object, reject promise with a TypeError as the reason.
     if ((value as any) === this) {
       throw new TypeError('resolving object can not be the same object')
     } else if (value instanceof Promisee) {
       // 2.3.2. If x is a promise, adopt its state [3.4]:
-      value.then(this.resolve.bind(this), this.reject.bind(this))
+      value.then(this._resolve.bind(this), this._reject.bind(this))
     } else if (Util.isFunction(value) || Util.isObject(value)) {
       // Otherwise, if x is an object or function
       // 2.3.3.3.3. If both resolvePromise and rejectPromise are called, or multiple calls to the same argument are made, the first call takes precedence, and any further calls are ignored.
@@ -47,7 +47,7 @@ export class Promisee<T = any> {
               // 2.3.3.3.1. If/when resolvePromise is called with a value y, run [[Resolve]](promise, y).
               // 2.3.3.3.3. 规则
               if (!hasCalled) {
-                this.resolve(result)
+                this._resolve(result)
               }
               hasCalled = true
             },
@@ -55,7 +55,7 @@ export class Promisee<T = any> {
               // 2.3.3.3.2. If/when rejectPromise is called with a reason r, reject promise with r.
               // 2.3.3.3.3. 规则
               if (!hasCalled) {
-                this.reject(error)
+                this._reject(error)
               }
               hasCalled = true
             }
@@ -70,7 +70,7 @@ export class Promisee<T = any> {
           // 2.3.3.3.4. If calling then throws an exception e,
           // 2.3.3.3.4.1. If resolvePromise or rejectPromise have been called, ignore it.
           // 2.3.3.3.4.2. Otherwise, reject promise with e as the reason.
-          this.reject(error)
+          this._reject(error)
         }
       }
     } else {
@@ -85,7 +85,7 @@ export class Promisee<T = any> {
     this.scheduleHandler()
   }
 
-  private reject(reason?: any) {
+  private _reject(reason?: any) {
     if (this.hasResolved()) return
     this.setState({ state: 'rejected', value: reason })
     this.scheduleHandler()
@@ -201,9 +201,12 @@ export class Promisee<T = any> {
   }
 
   /**
-   * 捕获错误
-   * @param onrejected
-   * @returns
+   * If the promise is rejected, the onrejected callback is called with the reason. If the callback
+   * returns a value, the promise is resolved with that value. If the callback returns undefined or
+   * null, the promise is rejected with the same reason
+   * @param {((reason: any) => TResult) | undefined | null} [onrejected] - A function that will be
+   * called if the promise is rejected.
+   * @returns A Promisee.
    */
   catch<TResult = never>(
     onrejected?: ((reason: any) => TResult) | undefined | null
@@ -236,5 +239,89 @@ export class Promisee<T = any> {
         throw reason
       }
     )
+  }
+
+  /**
+   * Creates a new resolved promise for the provided value.
+   * @param value A promise.
+   * @returns A promise whose internal state matches the provided promise.
+   */
+  static resolve<T>(value?: T) {
+    return new Promisee(resolve => {
+      resolve(value)
+    })
+  }
+
+  /**
+   * Creates a new rejected promise for the provided reason.
+   * @param reason The reason the promise was rejected.
+   * @returns A new rejected Promise.
+   */
+  static reject<T = never>(reason?: any) {
+    return new Promisee((_, reject) => {
+      reject(reason)
+    })
+  }
+
+  /**
+   * Creates a Promise that is resolved with an array of results when all of the provided Promises
+   * resolve, or rejected when any Promise is rejected.
+   * @param values An array of Promises.
+   * @returns A new Promise.
+   */
+  static all<T>(values: Iterable<T>) {
+    return new Promisee((resolve, reject) => {
+      const nums = (values as any).length
+      let resolvedCount = 0
+      const result = new Array(nums)
+      for (let i = 0; i < nums; i++) {
+        Promisee.resolve((values as any)[i])
+          .then(res => {
+            resolvedCount++
+            result.push(res)
+            if (resolvedCount === nums.length) {
+              return resolve(result)
+            }
+          })
+          .catch(error => {
+            reject(error)
+          })
+      }
+    })
+  }
+
+  static race<T>(values: Iterable<T>) {
+    return new Promisee((resolve, reject) => {
+      for (let i = 0; i < (values as any).length; i++) {
+        Promisee.resolve((values as any)[i])
+          .then(res => {
+            resolve(res)
+          })
+          .catch(error => {
+            reject(error)
+          })
+      }
+    })
+  }
+
+  static any<T>(values: Iterable<T>) {
+    return new Promisee((resolve, reject) => {
+      let rejectedCount = 0
+      const rejectedError = []
+      for (let i = 0; i < (values as any).length; i++) {
+        Promisee.resolve((values as any)[i])
+          .then(res => {
+            resolve(res)
+          })
+          .catch(error => {
+            rejectedCount++
+            rejectedError.push(error)
+
+            if (rejectedCount === (values as any).length) {
+              // 这里暂时无法模拟，因为目前错误属于实践性的
+            }
+          })
+      }
+    })
   }
 }
