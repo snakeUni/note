@@ -1,5 +1,9 @@
 # 每日一读 记录每天学习的点点滴滴
 
+## 2022/03/18
+
+- [在字节跳动做在线文档的那些事儿](https://mp.weixin.qq.com/s/wLSurUk2WY8kQtpwR0yRlg) 对文档感兴趣的话可以看看。
+
 ## 2022/03/06
 
 - [从 0 到 1：美团端侧 CDN 容灾解决方案](https://tech.meituan.com/2022/01/13/phoenix-cdn.html)
