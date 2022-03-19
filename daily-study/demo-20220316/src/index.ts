@@ -271,15 +271,15 @@ export class Promisee<T = any> {
    */
   static all<T>(values: Iterable<T>) {
     return new Promisee((resolve, reject) => {
-      const nums = (values as any).length
+      const arrayValues = [...values]
       let resolvedCount = 0
-      const result = new Array(nums)
-      for (let i = 0; i < nums; i++) {
-        Promisee.resolve((values as any)[i])
+      const result: any[] = []
+      for (let v of arrayValues) {
+        Promisee.resolve(v)
           .then(res => {
             resolvedCount++
             result.push(res)
-            if (resolvedCount === nums.length) {
+            if (resolvedCount === arrayValues.length) {
               return resolve(result)
             }
           })
@@ -290,10 +290,17 @@ export class Promisee<T = any> {
     })
   }
 
+  /**
+   * Creates a Promise that is resolved or rejected when any of the provided Promises are resolved
+   * or rejected.
+   * @param values An iterable of Promises.
+   * @returns A new Promise.
+   */
   static race<T>(values: Iterable<T>) {
     return new Promisee((resolve, reject) => {
-      for (let i = 0; i < (values as any).length; i++) {
-        Promisee.resolve((values as any)[i])
+      const arrayValues = [...values]
+      for (let v of arrayValues) {
+        Promisee.resolve(v)
           .then(res => {
             resolve(res)
           })
@@ -304,21 +311,60 @@ export class Promisee<T = any> {
     })
   }
 
+  /**
+   * The any function returns a promise that is fulfilled by the first given promise to be fulfilled, or rejected with an AggregateError containing an array of rejection reasons if all of the given promises are rejected. It resolves all elements of the passed iterable to promises as it runs this algorithm.
+   * @param values An array or iterable of Promises.
+   * @returns A new Promise.
+   */
   static any<T>(values: Iterable<T>) {
     return new Promisee((resolve, reject) => {
       let rejectedCount = 0
-      const rejectedError = []
-      for (let i = 0; i < (values as any).length; i++) {
-        Promisee.resolve((values as any)[i])
+      const arrayValues = [...values]
+      const rejectedError: Error[] = []
+      for (let v of arrayValues) {
+        Promisee.resolve(v)
           .then(res => {
             resolve(res)
           })
           .catch(error => {
             rejectedCount++
-            rejectedError.push(error)
+            rejectedError.push(new Error(error))
 
-            if (rejectedCount === (values as any).length) {
-              // 这里暂时无法模拟，因为目前错误属于实践性的
+            if (rejectedCount === arrayValues.length) {
+              const error = new AggregateError(
+                rejectedError,
+                'All Promises rejected'
+              )
+              reject(error)
+            }
+          })
+      }
+    })
+  }
+
+  /**
+   * Creates a Promise that is resolved with an array of results when all
+   * of the provided Promises resolve or reject.
+   * @param values An array of Promises.
+   * @returns A new Promise.
+   */
+  static allSettled<T>(values: Iterable<T>) {
+    return new Promisee(resolve => {
+      const arrayValues = [...values]
+      const result: any[] = []
+      const length = arrayValues.length
+      for (let v of arrayValues) {
+        Promisee.resolve(v)
+          .then(res => {
+            result.push(res)
+            if (result.length === length) {
+              resolve(result)
+            }
+          })
+          .catch(error => {
+            result.push(error)
+            if (result.length === length) {
+              resolve(result)
             }
           })
       }

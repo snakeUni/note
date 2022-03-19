@@ -97,14 +97,13 @@ class Promisee {
         this.value = nextState.value;
     }
     scheduleHandler() {
-        var _a, _b;
         for (let i = 0; i < this.handlers.length; i++) {
             const handler = this.handlers[i];
             if (this.isFulfilled() && Util.isFunction(handler.onfulfilled)) {
-                (_a = handler.onfulfilled) === null || _a === void 0 ? void 0 : _a.call(handler, this.value);
+                handler.onfulfilled?.(this.value);
             }
             else if (this.isRejected() && Util.isFunction(handler.onrejected)) {
-                (_b = handler.onrejected) === null || _b === void 0 ? void 0 : _b.call(handler, this.value);
+                handler.onrejected?.(this.value);
             }
         }
     }
@@ -123,7 +122,7 @@ class Promisee {
                         setTimeout(() => {
                             try {
                                 if (Util.isFunction(onfulfilled)) {
-                                    resolve(onfulfilled === null || onfulfilled === void 0 ? void 0 : onfulfilled(value));
+                                    resolve(onfulfilled?.(value));
                                 }
                                 else {
                                     resolve(value);
@@ -137,7 +136,7 @@ class Promisee {
                         setTimeout(() => {
                             try {
                                 if (Util.isFunction(onrejected)) {
-                                    resolve(onrejected === null || onrejected === void 0 ? void 0 : onrejected(reason));
+                                    resolve(onrejected?.(reason));
                                 }
                                 else {
                                     reject(reason);
@@ -155,7 +154,7 @@ class Promisee {
                     setTimeout(() => {
                         try {
                             if (Util.isFunction(onfulfilled)) {
-                                resolve(onfulfilled === null || onfulfilled === void 0 ? void 0 : onfulfilled(this.value));
+                                resolve(onfulfilled?.(this.value));
                             }
                             else {
                                 resolve(this.value);
@@ -172,7 +171,7 @@ class Promisee {
                     setTimeout(() => {
                         try {
                             if (Util.isFunction(onrejected)) {
-                                resolve(onrejected === null || onrejected === void 0 ? void 0 : onrejected(this.value));
+                                resolve(onrejected?.(this.value));
                             }
                             else {
                                 reject(this.value);
@@ -198,7 +197,7 @@ class Promisee {
         return new Promisee((resolve, reject) => {
             setTimeout(() => {
                 try {
-                    resolve(onrejected === null || onrejected === void 0 ? void 0 : onrejected(this.value));
+                    resolve(onrejected?.(this.value));
                 }
                 catch (error) {
                     reject(error);
@@ -214,10 +213,10 @@ class Promisee {
      */
     finally(onfinally) {
         return this.then(value => {
-            onfinally === null || onfinally === void 0 ? void 0 : onfinally();
+            onfinally?.();
             return value;
         }, reason => {
-            onfinally === null || onfinally === void 0 ? void 0 : onfinally();
+            onfinally?.();
             throw reason;
         });
     }
@@ -249,15 +248,15 @@ class Promisee {
      */
     static all(values) {
         return new Promisee((resolve, reject) => {
-            const nums = values.length;
+            const arrayValues = [...values];
             let resolvedCount = 0;
-            const result = new Array(nums);
-            for (let i = 0; i < nums; i++) {
-                Promisee.resolve(values[i])
+            const result = [];
+            for (let v of arrayValues) {
+                Promisee.resolve(v)
                     .then(res => {
                     resolvedCount++;
                     result.push(res);
-                    if (resolvedCount === nums.length) {
+                    if (resolvedCount === arrayValues.length) {
                         return resolve(result);
                     }
                 })
@@ -267,10 +266,17 @@ class Promisee {
             }
         });
     }
+    /**
+     * Creates a Promise that is resolved or rejected when any of the provided Promises are resolved
+     * or rejected.
+     * @param values An iterable of Promises.
+     * @returns A new Promise.
+     */
     static race(values) {
         return new Promisee((resolve, reject) => {
-            for (let i = 0; i < values.length; i++) {
-                Promisee.resolve(values[i])
+            const arrayValues = [...values];
+            for (let v of arrayValues) {
+                Promisee.resolve(v)
                     .then(res => {
                     resolve(res);
                 })
@@ -280,20 +286,55 @@ class Promisee {
             }
         });
     }
+    /**
+     * The any function returns a promise that is fulfilled by the first given promise to be fulfilled, or rejected with an AggregateError containing an array of rejection reasons if all of the given promises are rejected. It resolves all elements of the passed iterable to promises as it runs this algorithm.
+     * @param values An array or iterable of Promises.
+     * @returns A new Promise.
+     */
     static any(values) {
         return new Promisee((resolve, reject) => {
             let rejectedCount = 0;
+            const arrayValues = [...values];
             const rejectedError = [];
-            for (let i = 0; i < values.length; i++) {
-                Promisee.resolve(values[i])
+            for (let v of arrayValues) {
+                Promisee.resolve(v)
                     .then(res => {
                     resolve(res);
                 })
                     .catch(error => {
                     rejectedCount++;
-                    rejectedError.push(error);
-                    if (rejectedCount === values.length) {
-                        // 这里暂时无法模拟，因为目前错误属于实践性的
+                    rejectedError.push(new Error(error));
+                    if (rejectedCount === arrayValues.length) {
+                        const error = new AggregateError(rejectedError, 'All Promises rejected');
+                        reject(error);
+                    }
+                });
+            }
+        });
+    }
+    /**
+     * Creates a Promise that is resolved with an array of results when all
+     * of the provided Promises resolve or reject.
+     * @param values An array of Promises.
+     * @returns A new Promise.
+     */
+    static allSettled(values) {
+        return new Promisee(resolve => {
+            const arrayValues = [...values];
+            const result = [];
+            const length = arrayValues.length;
+            for (let v of arrayValues) {
+                Promisee.resolve(v)
+                    .then(res => {
+                    result.push(res);
+                    if (result.length === length) {
+                        resolve(result);
+                    }
+                })
+                    .catch(error => {
+                    result.push(error);
+                    if (result.length === length) {
+                        resolve(result);
                     }
                 });
             }
