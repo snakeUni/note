@@ -1,0 +1,16 @@
+{
+  "name": "note",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/snakeUni/note.git",
+  "author": "Uni <1025687605@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^10.0.1",
+    "gray-matter": "^4.0.3",
+    "minimist": "^1.2.5"
+  },
+  "scripts": {
+    "build": "node ./script.js"
+  }
+}
