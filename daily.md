@@ -1,5 +1,9 @@
 # 每日一读 记录每天学习的点点滴滴
 
+## 2022/03/22
+
+- [Tao of Node - Design, Architecture & Best Practices](https://alexkondov.com/tao-of-node/) 关于 node 的一个教程。
+
 ## 2022/03/19
 
 - [关于电竞职业选手转前端开发这件事](https://juejin.cn/post/7076377297623711757) 推荐阅读，很激励别人。
