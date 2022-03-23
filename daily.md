@@ -1,5 +1,9 @@
 # 每日一读 记录每天学习的点点滴滴
 
+## 2022/03/23
+
+- [Running commands with execa in Node.js](https://blog.logrocket.com/running-commands-with-execa-in-node-js/) 通过 execa 执行命令
+
 ## 2022/03/22
 
 - [Tao of Node - Design, Architecture & Best Practices](https://alexkondov.com/tao-of-node/) 关于 node 的一个教程。
