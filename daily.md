@@ -3,7 +3,29 @@
 ## 2022/03/23
 
 - [Running commands with execa in Node.js](https://blog.logrocket.com/running-commands-with-execa-in-node-js/) 通过 execa 执行命令
-- [为什么 try catch 能捕捉 await 后 promise 错误？ 和执行栈有关系吗？](https://www.zhihu.com/question/522726685) 高分回答为什么 promise 被 await 后就可以被上层的 try catch 捕获了。而原始 promise 的回调中如果出现错误并不会被捕获，这个和 setTimeout 抛错是同理的。
+- [为什么 try catch 能捕捉 await 后 promise 错误？ 和执行栈有关系吗？](https://www.zhihu.com/question/522726685) 高分回答为什么 promise 被 await 后就可以被上层的 try catch 捕获了。而原始 promise 的回调中如果出现错误并不会被捕获，这个和 setTimeout 抛错是同理的。比如
+
+```ts
+try {
+  throw new Error('111')
+} catch (error) {
+  console.log('error:', error)
+}
+```
+
+此时的错误可以被捕获到，但是改成这样
+
+```ts
+try {
+  setTimeout(() => {
+    throw new Error('111')
+  })
+} catch (error) {
+  console.log('error:', error)
+}
+```
+
+就捕获不到了。
 
 ## 2022/03/22
 
