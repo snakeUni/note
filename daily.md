@@ -1,5 +1,9 @@
 # 每日一读 记录每天学习的点点滴滴
 
+## 2022/03/24
+
+- [View the formatted RFC.](https://github.com/reactjs/rfcs/blob/suspense-18/text/0000-suspense-in-react-18.md) React18 新的 `Suspense` Api，相比于旧的改了不好。并且支持最新的 `stream` 渲染了。相关 [pr](https://github.com/reactjs/rfcs/pull/213)
+
 ## 2022/03/23
 
 - [Running commands with execa in Node.js](https://blog.logrocket.com/running-commands-with-execa-in-node-js/) 通过 execa 执行命令
