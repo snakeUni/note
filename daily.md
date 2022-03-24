@@ -3,6 +3,7 @@
 ## 2022/03/24
 
 - [View the formatted RFC.](https://github.com/reactjs/rfcs/blob/suspense-18/text/0000-suspense-in-react-18.md) React18 新的 `Suspense` Api，相比于旧的改了不好。并且支持最新的 `stream` 渲染了。相关 [pr](https://github.com/reactjs/rfcs/pull/213)
+- [React18 RFC](https://github.com/reactjs/rfcs/blob/react-18/text/0000-react-18.md) React18 的 RFC。介绍了关于即将发布的 18 版本一些 feature。
 
 ## 2022/03/23
 
