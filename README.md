@@ -1,3 +1,14 @@
+# Note And Articles
+
+记录其他人的优秀的文章以及个人的笔记。每个目录结构都如下，比如 `node 文件夹`
+
+```ts
+├── notes
+└── technical-articles
+```
+
+`notes` 用于记录自己的个人笔记，`technical-articles` 用于记录其他人的文章。
+
 > If you are interested in React Hook, star [uni-hook](https://github.com/snakeUni/uni-hook)  
 > If you are interested in test, star [uni-test](https://github.com/snakeUni/uni-test)
 

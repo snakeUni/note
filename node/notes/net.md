@@ -1,3 +1,6 @@
+# net 模块
+
+```ts
 const net = require('net')
 
 var server = net.createServer(function (socket) {
@@ -28,14 +31,16 @@ client.on('data', function (data) {
 client.on('end', function () {
   console.log('client disconnected')
 })
+```
 
-/**
- * 输出如下
- * server bound
+输入如下
+
+```text
+server bound
 client connected
 欢迎光临 <<深入浅出 Node.js>> 示例:
 
 你好
 连接断开
 client disconnected
- */
+```

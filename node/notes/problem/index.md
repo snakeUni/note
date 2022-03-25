@@ -1,8 +1,7 @@
 # 一些问题记录
 
-[NodeJS - setTimeout(fn,0) vs setImmediate(fn)](https://stackoverflow.com/questions/24117267/nodejs-settimeoutfn-0-vs-setimmediatefn) setTimeout 0 与 setImmediate 的区别。
-
-[如何解决 nodejs 中 cpu 密集型的任务](https://zhuanlan.zhihu.com/p/220478526)
+- [NodeJS - setTimeout(fn,0) vs setImmediate(fn)](https://stackoverflow.com/questions/24117267/nodejs-settimeoutfn-0-vs-setimmediatefn) setTimeout 0 与 setImmediate 的区别。
+- [如何解决 nodejs 中 cpu 密集型的任务](https://zhuanlan.zhihu.com/p/220478526)
 
 ## 再次看深入浅出 nodejs 的想法
 
