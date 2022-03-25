@@ -12,7 +12,7 @@
 > If you are interested in React Hook, star [uni-hook](https://github.com/snakeUni/uni-hook)  
 > If you are interested in test, star [uni-test](https://github.com/snakeUni/uni-test)
 
-# 值得看的大神的博客
+## 值得看的大神的博客
 
 - [V8](https://v8.dev/blog)
 - [React 团队 Dan Abramov](https://overreacted.io/)
@@ -21,11 +21,11 @@
 - [Jason Miller Preact 作者](https://jasonformat.com/)
 - [Marius Schulz Typescript 为主](https://mariusschulz.com/blog)
 
-# Daily
+## Daily
 
 [daily](./daily.md) 用于记录每天看到的一些不错的文章。
 
-# Weekly
+## Weekly
 
 - [2019-03-15](./weekly/2019-03-15.md)
 - [2019-03-22](./weekly/2019-03-22.md)
@@ -51,7 +51,7 @@
 - [2019-09-21 sketch 插件开发专场](./weekly/2019-09-21.md)
 - [2019-12-06 Drag and Drop](./weekly/2019-12-06.md)
 
-# Articles
+## Articles
 
 _[everything-i-know-about-react-i-learned-from-twitter 必读](https://speakerdeck.com/jenncreighton/everything-i-know-about-react-i-learned-from-twitter)_  
 _[the-cost-of-javascript-in-2018](https://medium.com/@addyosmani/the-cost-of-javascript-in-2018-7d8950fbb5d4)_  

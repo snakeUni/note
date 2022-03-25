@@ -6,7 +6,7 @@
 
 比如存在这样一个场景
 
-<img src="./image/1.png"/>
+<img src="./manage-dep-image/1.png"/>
 
 这是一个基础的筛选场景，可以根据顶部的 tab 进行筛选，也可以点击底部的分页器进行分页。
 
@@ -330,11 +330,11 @@ useEffect(() => {
 
 当带有搜索词进入页面的时候需要展示搜索好的数据，并且携带切换的 Tab
 
-![](./image/2.png)
+![](./manage-dep-image/2.png)
 
 当再次点击上面的搜索框时，会展示最近搜索的词语
 
-![](./image/3.png)
+![](./manage-dep-image/3.png)
 
 因为这两种都同属于一个页面，只是属于不同的组件，假设展示商品的组件叫 `GoodSearchResult`, 展示最近搜索的组件叫 `RecentSearchResult`, 搜索的组件叫 `SearchBox`。那么页面的代码可能是这样的:
 
