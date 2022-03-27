@@ -1,5 +1,9 @@
 # 每日一读
 
+## 2022/03/27
+
+- [微服务前端数据加载的最佳实践](https://zhuanlan.zhihu.com/p/351044054) 关于微服务下前端数据加载的最佳实践，写的很棒。
+
 ## 2022/03/26
 
 - [一文彻底搞懂前端沙箱](https://mp.weixin.qq.com/s?__biz=Mzk0MDMwMzQyOA==&mid=2247493311&idx=1&sn=701ca8e88f02a028d653431a2d752a37&scene=21#wechat_redirect) 文章偏长，最新的标准沙箱应该是 Realm
