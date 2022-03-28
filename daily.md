@@ -3,6 +3,7 @@
 ## 2022/03/28
 
 - [为自己的团队定制 CSS 框架](https://www.yuque.com/luchen/buzhou/bs9tzt) 写的蛮好的，尤其是结合 css-modules
+- [如何从一个技术高手转技术管理？](https://www.21cto.com/article/how-to-transfer-from-a-technical-master-to-technical-management) 打开格局，抓大放小。抓重避轻。
 
 ## 2022/03/27
 
