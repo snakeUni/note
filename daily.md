@@ -1,5 +1,9 @@
 # 每日一读
 
+## 2022/03/30
+
+- [React v18.0](https://reactjs.org/blog/2022/03/29/react-v18.html) React18 发布。
+
 ## 2022/03/28
 
 - [为自己的团队定制 CSS 框架](https://www.yuque.com/luchen/buzhou/bs9tzt) 写的蛮好的，尤其是结合 css-modules
