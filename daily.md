@@ -1,5 +1,9 @@
 # 每日一读
 
+## 2022/04/01
+
+- [DeepKit：基于 TypeScript 的颠覆性新兴 Web 框架](https://zhuanlan.zhihu.com/p/490924660) 将 ts 运用于运行时。
+
 ## 2021/03/31
 
 - [Gaining security and privacy by partitioning the cache](https://developer.chrome.com/blog/http-cache-partitioning/) 缓存策略的改变。一篇非常好的文章介绍 chrome 缓存策略的转换。总结如下：
