@@ -3,6 +3,7 @@
 ## 2022/04/01
 
 - [DeepKit：基于 TypeScript 的颠覆性新兴 Web 框架](https://zhuanlan.zhihu.com/p/490924660) 将 ts 运用于运行时。
+- [Code Kitchen：一个支持多文件与私有库的离线 React Playground 方案](https://mp.weixin.qq.com/s/3a_744VivmnpzrkGs3pW8g) 既然其他的 playground 方案满足不了，不如自己造一个。
 
 ## 2021/03/31
 
