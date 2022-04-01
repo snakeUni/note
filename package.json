@@ -13,11 +13,12 @@
     "minimist": "^1.2.5"
   },
   "scripts": {
-    "build": "node ./script.js"
+    "build": "node ./script.js",
+    "casePolice": "yarn case-police --fix"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "case-police --fix"
+      "pre-commit": "yarn casePolice"
     }
   }
 }

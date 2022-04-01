@@ -19,7 +19,7 @@
 - [React 团队 Sophie Alpert](https://sophiebits.com/)
 - [Kent C. Dodds](https://kentcdodds.com/)
 - [Jason Miller Preact 作者](https://jasonformat.com/)
-- [Marius Schulz Typescript 为主](https://mariusschulz.com/blog)
+- [Marius Schulz TypeScript 为主](https://mariusschulz.com/blog)
 
 ## Daily
 
@@ -81,9 +81,9 @@ _[「可视化搭建系统」——从设计到架构，探索前端领域技术
 
 - [Making the Switch Away from Icon Fonts to SVG: Converting Font Icons to SVG](https://www.sarasoueidan.com/blog/icon-fonts-to-svg/)
 - [深拷贝的终极探索](https://juejin.im/post/5bc1ae9be51d450e8b140b0c)
-- [如何编写 Typescript 声明文件](https://juejin.im/post/5bc406795188255c451ed3b3)
+- [如何编写 TypeScript 声明文件](https://juejin.im/post/5bc406795188255c451ed3b3)
 - [JavaScript 计时器之旅](https://juejin.im/post/5bc32e52f265da0ae3441cb8)
-- [VSCode 插件开发全攻略](https://www.cnblogs.com/liuxianan/p/vscode-plugin-overview.html)
+- [VS Code 插件开发全攻略](https://www.cnblogs.com/liuxianan/p/vscode-plugin-overview.html)
 - [无尽滚动的复杂度 -- 来自 Google 大神的拆解](https://juejin.im/post/58a3c81e128fe10058c57a8b)
 - [每个 JavaScript 工程师都应懂的 33 个概念](https://github.com/stephentian/33-js-concepts)
 - [一次性搞懂 JavaScript 正则表达式之语法](https://juejin.im/post/5bda4e6fe51d45681f245274)

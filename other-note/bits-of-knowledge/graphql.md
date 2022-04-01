@@ -1,6 +1,6 @@
 # GraphQL
 
-在 `Rest Api` 中，通常改变数据，都是使用 `post` 方法, 在 `graphql` 中也是有一样的方法，通常请求是使用 `query`, 如果需要写数据，通常伴随这一些副作用。可以使用
+在 `Rest API` 中，通常改变数据，都是使用 `post` 方法, 在 `graphql` 中也是有一样的方法，通常请求是使用 `query`, 如果需要写数据，通常伴随这一些副作用。可以使用
 `Mutations`
 
 定义一个 mutation

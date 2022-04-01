@@ -41,7 +41,7 @@
 
 ## 2022/03/24
 
-- [View the formatted RFC.](https://github.com/reactjs/rfcs/blob/suspense-18/text/0000-suspense-in-react-18.md) React18 新的 `Suspense` Api，相比于旧的改了不好。并且支持最新的 `stream` 渲染了。相关 [pr](https://github.com/reactjs/rfcs/pull/213)
+- [View the formatted RFC.](https://github.com/reactjs/rfcs/blob/suspense-18/text/0000-suspense-in-react-18.md) React18 新的 `Suspense` API，相比于旧的改了不好。并且支持最新的 `stream` 渲染了。相关 [pr](https://github.com/reactjs/rfcs/pull/213)
 - [React18 RFC](https://github.com/reactjs/rfcs/blob/react-18/text/0000-react-18.md) React18 的 RFC。介绍了关于即将发布的 18 版本一些 feature。
 
 ## 2022/03/23
@@ -154,7 +154,7 @@ try {
 
 ## 2022/01/27
 
-- [React 体系下关于 Mobx 与 Redux 的一些思考](https://zhuanlan.zhihu.com/p/461844358) 很好的讲解了关于不可变和可变引起的优劣势。
+- [React 体系下关于 MobX 与 Redux 的一些思考](https://zhuanlan.zhihu.com/p/461844358) 很好的讲解了关于不可变和可变引起的优劣势。
 - [Node 案发现场揭秘 —— 未定义 “window” 对象引发的 SSR 内存泄露](https://zhuanlan.zhihu.com/p/461945753) 作者讲述了排查的过程。
   - [I. 三种比较典型的内存泄漏](https://cnodejs.org/topic/58eb5d378cda07442731569f)
   - [浅谈 Node.js 热更新](https://zhuanlan.zhihu.com/p/460359101)
@@ -251,7 +251,7 @@ try {
 
 ## 2021/07/14
 
-- [深入理解 Vue3 Reactivity API](https://zhuanlan.zhihu.com/p/146097763) 对响应式 Api 的一个非常完整的解释。
+- [深入理解 Vue3 Reactivity API](https://zhuanlan.zhihu.com/p/146097763) 对响应式 API 的一个非常完整的解释。
 
 ## 2021/07/12
 
@@ -402,7 +402,7 @@ try {
 
 ## 2020/12/16
 
-- [Figma + Gitlab CI 一键交付 SVG 多色图标库](https://mp.weixin.qq.com/s/-aWtVV3nnig_-kHW2h2Pcg) 业务中经常有很多图标需要处理，目前设计师在使用 kitchen 这样的插件，但是对于开发者来说也要进行二次更新代码，才能够实现。
+- [Figma + GitLab CI 一键交付 SVG 多色图标库](https://mp.weixin.qq.com/s/-aWtVV3nnig_-kHW2h2Pcg) 业务中经常有很多图标需要处理，目前设计师在使用 kitchen 这样的插件，但是对于开发者来说也要进行二次更新代码，才能够实现。
 
 ## 2020/12/06
 
@@ -430,7 +430,7 @@ try {
 
 ## 2020/11/08
 
-- [尤大分享 vite 和 vitePress](https://docs.google.com/presentation/d/1X1hrFw18v67bEniTPpaI_DBulLdkKNFEc_3nVEm95mM/edit#slide=id.p)
+- [尤大分享 vite 和 VitePress](https://docs.google.com/presentation/d/1X1hrFw18v67bEniTPpaI_DBulLdkKNFEc_3nVEm95mM/edit#slide=id.p)
 
 ## 2020/11/06
 
