@@ -45,6 +45,7 @@
  <summary>算法篇</summary>
 
 - [肝了好多天-动态规划十连-超细腻解析｜刷题打卡](https://juejin.cn/post/6937193443953393700)
+- [fucking-algorithm](https://github.com/labuladong/fucking-algorithm) 包含各种算法的讲解。
 
 </detail>
 
