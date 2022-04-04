@@ -1,3 +1,7 @@
+// https://leetcode-cn.com/problems/range-sum-query-mutable/
+/**
+ * 本题的解法建议看官方解法，官方解法使用了多种方式。
+ */
 export class NumArray {
   nums: number[]
   constructor(nums: number[]) {
