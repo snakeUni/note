@@ -1,3 +1,5 @@
+// https://leetcode-cn.com/problems/prime-number-of-set-bits-in-binary-representation/solution/er-jin-zhi-biao-shi-zhong-zhi-shu-ge-ji-jy35g/
+// 管解的第二种方法很棒
 export function countPrimeSetBits(left: number, right: number): number {
   // 找出二进制中 1 的个数
   // https://leetcode-cn.com/problems/number-of-1-bits/
