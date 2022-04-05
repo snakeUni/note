@@ -32,4 +32,9 @@ React 只会对其中的每个元素进行更新而不是将其重新排序。�
 
 ## 微前端的工作原理？
 
-TODO
+微前端是解决巨石应用而出的一门技术。类似于后端的微服务技术。微服务把整个应用拆分一个一个小的服务，服务之前互相不干扰，独立部署。微前端实际上也是类似的技术，将整个大的应用拆分为一个一个小的应用。通过主容器去加载每一个子应用。子应用不用区分技术栈，无论是 React 应用还是 Vue 应用都可以。通过主容器加载子容器的 `html` 文件，然后解析出相应的 `js`，`css` 链接。如果是内联的则通过 `<style>` 的形式插入。如果不是则可以用过 `fetch` 去请求对应的资源。当然不同的框架各自的方式是不一样的。有的框架仍然在使用 `iframe` 的形式，比如腾讯的一个微前端框架就是如此。目前微前端的框架有很多。具体想知道每个框架的作用，可以参考以下。
+
+- [micro-frontends](https://github.com/neuland/micro-frontends)
+- [micro-app](https://github.com/micro-zoe/micro-app)
+- [garfish](https://github.com/modern-js-dev/garfish)
+- [qiankun](https://github.com/umijs/qiankun)
