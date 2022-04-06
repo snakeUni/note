@@ -70,3 +70,17 @@ HTTP/2 中的新二进制分帧层解决了 HTTP/1.x 中存在的队首阻塞问
 
 - [一文读懂 HTTP/2 特性](https://zhuanlan.zhihu.com/p/26559480)
 - [HTTP/2 简介](https://developers.google.com/web/fundamentals/performance/http2?hl=zh-cn)
+
+## 原型链
+
+[JS 中 \_\_proto\_\_ 和 prototype 存在的意义是什么？](https://www.zhihu.com/question/56770432/answer/315342130) 这个回答的非常好。
+
+```text
+prototype 指向一块内存，这个内存里面有共用属性
+
+__proto__ 指向同一块内存
+
+prototype 和 __proto__ 的不同点在于
+
+prototype 是构造函数的属性(构造函数也是对象，因此构造函数也有 __proto__ 属性)，而 __proto__ 是对象的属性
+```
