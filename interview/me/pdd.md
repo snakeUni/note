@@ -110,3 +110,7 @@ prototype 是构造函数的属性(构造函数也是对象，因此构造函数
 
 - 轮播图形式的，只加载第一屏。后续的等到滑动的时候再加载后续的几屏。
 - Tab 优化，Tab 可以只加载当前的，当点击下一个 Tab 的时候加载下一个 Tab, 同时再多加载一个 Tab,这样体验也得到了优化。
+
+## get 与 post 的区别
+
+看 [get 与 post 请求的区别是？](https://github.com/BetaSu/fe-hunter/issues/47#issuecomment-1090104352) 就足够了。
