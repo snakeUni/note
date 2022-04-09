@@ -87,6 +87,8 @@ prototype 是构造函数的属性(构造函数也是对象，因此构造函数
 
 ## webpack, rollup 的区别
 
+TODO
+
 ## 深度遍历(dfs)和广度遍历(bfs)
 
 [深度优先遍历 和 广度优先遍历](https://juejin.cn/post/6844903807759941646) 这篇文章讲的非常棒，图文的形式来讲解。总结一下
@@ -114,3 +116,124 @@ prototype 是构造函数的属性(构造函数也是对象，因此构造函数
 ## get 与 post 的区别
 
 看 [get 与 post 请求的区别是？](https://github.com/BetaSu/fe-hunter/issues/47#issuecomment-1090104352) 就足够了。
+
+## JS 实现并发请求，可以控制请求的数量。并且可以尽快的请求完
+
+```text
+实现一个批量请求函数 multiRequest(urls, maxNum)，要求如下：
+• 要求最大并发数 maxNum
+• 每当有一个请求返回，就留下一个空位，可以增加新的请求
+• 所有请求完成后，结果按照 urls 里面的顺序依次打出
+```
+
+有题目可知几个重点，并发请求，并且有个数限制和按照次序依次打出，即使后面的先请求完也不能先打印出。列集中方式实现
+
+示例 1：通过递归的形式。所有请求完成后，结果按照 urls 里面的顺序依次打出
+
+```ts
+function multiRequest(urls, maxNum) {
+  let length = urls.length
+  const result = new Array(len).fill(false)
+  let count = 0
+
+  return new Promise((resolve, reject) => {
+    while (count < maxNum) {
+      next()
+    }
+
+    function next() {
+      let current = count++
+
+      if (current >= length) {
+        // 请求全部完成就将promise置为成功状态, 然后将result作为promise值返回
+        !result.includes(false) && resolve(result)
+        return
+      }
+      const url = urls[current]
+
+      fetch(url)
+        .then(res => {
+          result[current] = res
+
+          if (current < length) {
+            next()
+          }
+        })
+        .catch(error => {
+          result[current] = error
+
+          if (current < length) {
+            next()
+          }
+        })
+    }
+  })
+}
+```
+
+示例 2.1：通过循环的形式。使用 async await
+
+```ts
+async function multiRequest(urls, maxNum) {
+  const ret = []
+  const executing = [] // 存储正在执行的异步任务
+
+  for (const item of urls) {
+    const p = fetch(urls)
+    ret.push(p)
+
+    if (maxNum <= urls.length) {
+      const e = p.then(() => executing.splice(executing.indexOf(e), 1))
+      executing.pish(e)
+
+      // 利用 await 的功能
+      if (executing.length >= maxNum) {
+        await Promise.race(executing)
+      }
+    }
+  }
+
+  return Promise.all(ret)
+}
+```
+
+示例 2.1：通过递归的的形式。使用队列的形式，完成就出列。
+
+```ts
+function multiRequest(urls, maxNum) {
+  let i = 0
+  const ret = []
+  const executing = []
+
+  const enqueue = () => {
+    if (i === urls.length) {
+      return Promise.resolve()
+    }
+
+    const item = urls[i++]
+    const p = fetch(item)
+    ret.push(p)
+
+    let r = Promise.resolve()
+
+    if (maxNum <= urls.length) {
+      const e = p.then(() => executing.splice(executing.indexOf(e), 1))
+      executing.push(e)
+
+      if (executing.length >= maxNum) {
+        r = Promise.race(executing)
+      }
+    }
+
+    return r.then(() => enqueue())
+  }
+
+  return enqueue().then(() => Promise.all(ret))
+}
+```
+
+相关文章：
+
+- [JavaScript 中如何实现并发控制？](https://juejin.cn/post/6976028030770610213)
+- [字节跳动面试官：请用 JS 实现 Ajax 并发请求控制](https://segmentfault.com/a/1190000038924244)
+- [浅析如何实现一个并发请求控制函数并限制并发数](https://www.cnblogs.com/goloving/p/14607625.html)
