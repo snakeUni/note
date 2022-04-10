@@ -75,15 +75,31 @@ HTTP/2 中的新二进制分帧层解决了 HTTP/1.x 中存在的队首阻塞问
 
 [JS 中 \_\_proto\_\_ 和 prototype 存在的意义是什么？](https://www.zhihu.com/question/56770432/answer/315342130) 这个回答的非常好。
 
-```text
-prototype 指向一块内存，这个内存里面有共用属性
+- `prototype` 指向一块内存，这个内存里面有共用属性
+- `__proto__` 和 `prototype` 指向同一块内存
+- `prototype` 是构造函数的属性(构造函数也是对象，因此构造函数也有 `__proto__` 属性)，而 `__proto__` 是对象的属性
 
-__proto__ 指向同一块内存
+可以通过简单例子来看，比如
 
-prototype 和 __proto__ 的不同点在于
+```ts
+function Person() {}
 
-prototype 是构造函数的属性(构造函数也是对象，因此构造函数也有 __proto__ 属性)，而 __proto__ 是对象的属性
+// 构造函数有 prototype，原型上可以挂载很多方法，其中构造函数指向自身。
+Person.prototype.constructor === Person
+
+// 实例 Person
+const person = new Person()
+
+// 实例话后，对象有 __proto__ 属性，通过 __proto__ 属性来达到链接的作用
+person.__proto__ === Person.prototype //因为实例的 __proto__ 和构造函数的 prototype 指向同一处，从而实现方法的集成。
+
+// 同时 Person 构造函数又是对象，因为 Person.__proto__ 继续指向上一层的原型，上一层是对象
+Person.prototype.__proto__ === Object.prototype
+
+// 因为对象或者是函数都是通过 __proto__ 属性与上一层的原型进行链接。从而实现原型链。
 ```
+
+也可以看 React 的一篇文章 [how-does-react-tell-a-class-from-a-function](../../react/notes/dan-blog/how-does-react-tell-a-class-from-a-function.md)
 
 ## webpack, rollup 的区别
 
@@ -237,3 +253,192 @@ function multiRequest(urls, maxNum) {
 - [JavaScript 中如何实现并发控制？](https://juejin.cn/post/6976028030770610213)
 - [字节跳动面试官：请用 JS 实现 Ajax 并发请求控制](https://segmentfault.com/a/1190000038924244)
 - [浅析如何实现一个并发请求控制函数并限制并发数](https://www.cnblogs.com/goloving/p/14607625.html)
+
+## 继承的有多少种方式，以及各自的优缺点是啥
+
+基于 class 的继承是原生默认实现了(实际上只是一个语法糖)，那么能否手写一个继承呢？
+
+假设存在这样的一个父类
+
+```ts
+// 声明一个类
+function Person({ name, age }) {
+  this.name = name
+  this.age = age
+}
+
+// 原型链添加方法
+Person.prototype.add = function add(value) {
+  this.age += value
+}
+
+Person.prototype.log = function log() {
+  console.log('name:', this.name, 'age:', this.age)
+}
+```
+
+### 寄生组合继承(推荐)
+
+**核心：通过寄生方式，砍掉父类的实例属性，这样，在调用两次父类的构造的时候，就不会初始化两次实例方法/属性，避免的组合继承的缺点**
+
+```tsx
+function Male({ name, age }) {
+  Person.call(this, { age: age })
+  this.name = name
+}
+
+// 因为Object.create(Person.prototype)方法返回一个以 Person.prototype 为原型的对象，而不用执行 Person 方法。
+Male.prototype = Object.create(Person.prototype)
+// 修复原型
+Male.prototype.constructor = Male
+
+const male = new Male({ name: '小明', age: 20 })
+
+console.log('male.name:', male.name)
+console.log('male.age:', male.age)
+
+male.log()
+```
+
+### 组合继承(一般推荐)
+
+**核心：通过调用父类构造，继承父类的属性并保留传参的优点，然后通过将父类实例作为子类原型，实现函数复用**
+
+```tsx
+function Male({ name, age }) {
+  Person.call(this, { age: age })
+  this.name = name
+}
+
+Male.prototype = new Person({})
+
+const male = new Male({ name: '小明', age: 20 })
+
+console.log('male.name:', male.name) // "male.name:",  "小明"
+console.log('male.age:', male.age) // "male.age:",  20
+
+male.log() // "name:",  "小明",  "age:",  20
+console.log('Male.prototype:', Male.prototype.constructor) // 只想的是 person 所以需要修复原型
+```
+
+原型修复
+
+```tsx
+function Male({ name, age }) {
+  Person.call(this, { age: age })
+  this.name = name
+}
+
+Male.prototype = new Person()
+// 原型修复
+Male.prototype.constructor = Male
+
+const male = new Male({ name: '小明', age: 20 })
+```
+
+缺点：
+
+- 调用了两次父类构造函数，生成了两份实例（子类实例将子类原型上的那份屏蔽了）
+
+### 基于原型链的继承(不推荐)
+
+**核心： 将父类的实例作为子类的原型**
+
+```tsx
+// 声明一个子类
+function Male() {}
+
+Male.prototype = new Person({ name: '小明', age: 20 })
+
+const male = new Male()
+
+console.log('male.name:', male.name) // "male.name:",  "小明"
+console.log('male.age:', male.age) // "male.age:",  20
+
+male.log() // "name:",  "小明",  "age:",  20
+console.log(male instanceof Person) // true
+```
+
+特点：
+
+- 简单，易于实现
+- 父类新增原型方法/原型属性，子类都能访问到。
+
+缺点：
+
+- 如果要新增原型属性和方法，必须要在 new Animal()这样的语句之后执行，不能放到构造器中
+- 无法实现多继承
+- 创建子类实例时，无法向父类构造函数传参(无法像 class 那样)。
+- 来自原型对象的引用属性是所有实例共享，修改一处所有的都会被更改。
+
+### 实例继承(不推荐)
+
+**核心：为父类实例添加新特性，作为子类实例返回**
+
+```tsx
+function Male({ name, age }: any) {
+  const male = new Person({ name, age })
+  return male
+}
+```
+
+但是此时 ts 会报错，所以这种方式不推荐使用。
+
+特点：
+
+- 不限制调用方式，不管是 new 子类()还是子类(),返回的对象具有相同的效果
+
+缺点：
+
+- 实例是父类的实例，不是子类的实例
+- 不支持多继承
+
+## Object.create 过程
+
+`Object.create()` 方法创建一个新对象，使用现有的对象来提供新创建的对象的`__proto__`。 （请打开浏览器控制台以查看运行结果。）
+
+比如
+
+```ts
+const person = {
+  isHuman: false,
+  printIntroduction: function () {
+    console.log(`My name is ${this.name}. Am I human? ${this.isHuman}`)
+  }
+}
+
+const me = Object.create(person)
+
+me.name = 'Matthew' // "name" is a property set on "me", but not on "person"
+me.isHuman = true // inherited properties can be overwritten
+
+me.printIntroduction()
+// expected output: "My name is Matthew. Am I human? true"
+```
+
+此时 `me.__proto__ = person`
+
+可以自己实现一个 `Object.create`
+
+```ts
+function create(proto, propertiesObject) {
+  if (typeof proto !== 'object' && typeof proto !== 'function') {
+    throw new TypeError('Object prototype may only be an Object: ' + proto)
+  } else if (proto === null) {
+    throw new Error(
+      "This browser's implementation of Object.create is a shim and doesn't support 'null' as the first argument."
+    )
+  }
+
+  if (typeof propertiesObject !== 'undefined')
+    throw new Error(
+      "This browser's implementation of Object.create is a shim and doesn't support a second argument."
+    )
+
+  function F() {}
+  F.prototype = proto
+  return new F()
+}
+```
+
+- [Object.create](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object/create)
