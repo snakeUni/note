@@ -1,5 +1,9 @@
 # 每日一读
 
+## 2022/04/13
+
+- [深入浅出前端监控](https://mp.weixin.qq.com/s/lwsfTGMasiITT3khmrsfqA) 对前端监控感兴趣的可以看看，蛮不错的。
+
 ## 2022/04/01
 
 - [DeepKit：基于 TypeScript 的颠覆性新兴 Web 框架](https://zhuanlan.zhihu.com/p/490924660) 将 ts 运用于运行时。
