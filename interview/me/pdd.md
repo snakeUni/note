@@ -442,3 +442,11 @@ function create(proto, propertiesObject) {
 ```
 
 - [Object.create](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object/create)
+
+## http 缓存 & 前端缓存
+
+### 前端缓存
+
+前端缓存主要会使用 `localStorage` 以及 `sessionStorage`，这两个的区别是 `localStorage` 会一直保存着信息知道用户主动清楚。会保存到内存中。但是 `sessionStorage` 只作用域当前窗口，关闭后 `sessionStorage` 就会被清除。他们都有大小的限制，大约 `5MB`，这两个统称为 `webStorage`。当这两个都无法满足的时候，通常会使用 `indexDB` 来代替，`indexDB` 没有大小的限制。但是正常情况下，用到 `indexDB` 的地方不是很多，`webStorage` 已经足够使用。但是如果想做离线缓存啥的，数据量特别大的时候可以考虑使用 `indexDB`。
+
+### http 缓存
