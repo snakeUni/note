@@ -317,7 +317,7 @@ useEffect(() => {
 }, [request.page, request.type])
 ```
 
-可能在 SSR 框架中会有环境变量来判断是否是在服务端运行，比如 Nextjs 中使用 `process.browser` 来判断是否在服务端运行，但是 `useEffect` 是只在客户端运行的，因此这个环境变量在这里并不会起作用。
+可能在 SSR 框架中会有环境变量来判断是否是在服务端运行，比如 Next.js 中使用 `process.browser` 来判断是否在服务端运行，但是 `useEffect` 是只在客户端运行的，因此这个环境变量在这里并不会起作用。
 
 现在我们理一理需要处理哪几个问题：
 

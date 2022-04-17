@@ -6,7 +6,7 @@
   "author": "Uni <1025687605@qq.com>",
   "license": "MIT",
   "dependencies": {
-    "case-police": "^0.2.5",
+    "case-police": "^0.5.3",
     "fs-extra": "^10.0.1",
     "gray-matter": "^4.0.3",
     "husky": "^7.0.4",

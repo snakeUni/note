@@ -200,7 +200,7 @@ async function multiRequest(urls, maxNum) {
 
     if (maxNum <= urls.length) {
       const e = p.then(() => executing.splice(executing.indexOf(e), 1))
-      executing.pish(e)
+      executing.push(e)
 
       // 利用 await 的功能
       if (executing.length >= maxNum) {
@@ -251,7 +251,7 @@ function multiRequest(urls, maxNum) {
 相关文章：
 
 - [JavaScript 中如何实现并发控制？](https://juejin.cn/post/6976028030770610213)
-- [字节跳动面试官：请用 JS 实现 Ajax 并发请求控制](https://segmentfault.com/a/1190000038924244)
+- [字节跳动面试官：请用 JS 实现 AJAX 并发请求控制](https://segmentfault.com/a/1190000038924244)
 - [浅析如何实现一个并发请求控制函数并限制并发数](https://www.cnblogs.com/goloving/p/14607625.html)
 
 ## 继承的有多少种方式，以及各自的优缺点是啥
