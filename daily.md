@@ -1,5 +1,9 @@
 # 每日一读
 
+## 2022/04/19
+
+- [你不知道的 React v18 的任务调度机制](https://mp.weixin.qq.com/s/qyr6MnPtvnELDSbPJ2VtIw)
+
 ## 2022/04/13
 
 - [深入浅出前端监控](https://mp.weixin.qq.com/s/lwsfTGMasiITT3khmrsfqA) 对前端监控感兴趣的可以看看，蛮不错的。
