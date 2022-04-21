@@ -1,5 +1,9 @@
 # 每日一读
 
+## 2022/04/21
+
+- [我在淘宝做弹窗，2022 年初的回顾与展望](https://mp.weixin.qq.com/s/fIOo1bWlvKLxcjhFJjtSSg) 一篇非常好的文章关于一个做一个产品从 0 到 1 的过程。
+
 ## 2022/04/19
 
 - [你不知道的 React v18 的任务调度机制](https://mp.weixin.qq.com/s/qyr6MnPtvnELDSbPJ2VtIw)
