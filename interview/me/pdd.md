@@ -468,3 +468,10 @@ JIT 优点： 1.可以根据当前硬件情况实时编译生成最优机器指�
 [web safe](../../other-note/basic/web-safe.md)
 
 ## 跨域问题以及处理方法
+
+## 如何理解 EventLoop
+
+这两篇对事件循环讲的很透彻。
+
+- [Node.js 事件循环](http://nodejs.cn/learn/the-nodejs-event-loop) 将的非常清楚。 因为它阐明了 Node.js 如何做到异步且具有非阻塞的 I/O，所以它基本上阐明了 Node.js 的“杀手级应用”，正是这一点使它成功了。
+- [详解 JavaScript 中的 Event Loop（事件循环）机制](https://zhuanlan.zhihu.com/p/33058983)
