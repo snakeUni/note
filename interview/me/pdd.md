@@ -569,9 +569,60 @@ function throttle(fn: () => void, time: number) {
 }
 ```
 
-这个实现看起来是没啥问题的，但是可能会出现一种情况，固定时间间隔内执行，但是回调的执行时间不确定，可能会导致两次回调执行的时间非常接近，也有可能导致两次回调的执行时间是 `2 * time`。因此还是需要用时间进行记录回调的真正执行时刻。
+本次实现是有问题的，因为无法第一次执行，不妨再次改造
 
 ```ts
+function throttle(fn: () => void, time: number) {
+  let timer = null,
+    inThrottle = false
+  return function () {
+    if (!inThrottle) {
+      fn.apply(this, arguments)
+      inThrottle = true
+    } else {
+      if (!timer) {
+        timer = setTimeout(() => {
+          fn.apply(this, arguments)
+          timer = null
+        }, time)
+      }
+    }
+  }
+}
+```
+
+目前第一次就可以执行回调函数了，但是当点击第二次的时候无法在规定的 `time` 内执行，因为执行 `setTimeout` 也是在 `time` 时间后，因此需要一个时间来计时。
+
+```ts
+// 针对时间回调执行的开始在 time 内
+function throttle(fn: () => void, time: number) {
+  let inThrottle = false,
+    lastFn = null,
+    lastTime = 0
+
+  return function () {
+    if (!inThrottle) {
+      fn.apply(this, arguments)
+      inThrottle = true
+      lastTime = Date.now() // 注意这里
+    } else {
+      clearTimeout(lastFn)
+
+      lastFn.current = setTimeout(() => {
+        if (Date.now() - lastTime >= time) {
+          lastTime = Date.now() // 注意这里
+          fn.apply(this, arguments)
+        }
+      }, Math.max(wait - (Date.now() - lastTime), 0)) // 注意这里
+    }
+  }
+}
+```
+
+这个实现看起来是没啥问题的，但是可能会出现一种情况，固定时间间隔内执行，但是回调的执行时间不确定，可能会导致两次回调执行的时间非常接近，也有可能导致两次回调的执行时间是 `2 * time`。因此还是需要用时间进行记录回调的真正`执行完成时刻`(其实 throttle 没有一个准确的定义，也可以说是每次函数开始执行的时间在 `time` 内即可，通常函数执行会非常快，因为这里的时间记录放在前后是一样的，除非情况很特殊)。
+
+```ts
+// 针对时间回调执行的结束在 time 内
 function throttle(fn: () => void, time: number) {
   let inThrottle = false,
     lastFn = null,
@@ -640,3 +691,5 @@ function useThrottleValue<T = any>(value: T, time = 0) {
   return throttledValue
 }
 ```
+
+至此 `throttle` 是实现以及 `debounce` 的实现均已完全搞定。
