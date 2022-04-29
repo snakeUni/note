@@ -485,4 +485,158 @@ JIT 优点： 1.可以根据当前硬件情况实时编译生成最优机器指�
 
 ## 讲出防抖和节流的区别，分别实现
 
-实现完后能否在此基础上实现一个 `useDebouncedValue`，类似 `useDeferredValue` 的效果。
+防抖：在事件被触发 n 秒后 , 再次执行回调 ; 如果 n 秒内触发 , 重新计时 ;。通常用于控制按钮点击造成多次请求。
+
+节流：高频事件触发，但在 n 秒内只会执行一次，所以节流会稀释函数的执行频率。
+
+如何更好的记住这两者的区别呢？
+
+防抖：王者的回城类似防抖机制，可以随时被打断，一旦被打断需要重新回城。
+
+节流：英雄的平 A 操作，平 A 次数的多少取决了攻击速度的快慢。
+
+### debounce 相关实现
+
+`debounce` 实现
+
+```ts
+function debounce(fn: () => void, delay) {
+  let timer = null
+  return function () {
+    if (timer) {
+      clearTimeout(timer)
+    } else {
+      timer = setTimeout(() => {
+        fn.apply(this, arguments)
+        timer = null
+      })
+    }
+  }
+}
+```
+
+`useDebounce` 实现
+
+```ts
+function useDebounce(
+  fn: (...args: any[]) => void,
+  wait: number = 0,
+  debounceProps?: { immediate: boolean }
+) {
+  let timeout = useRef<any>(null)
+  const debounced: any = function (...args: Array<any>) {
+    if (timeout.current) clearTimeout(timeout.current)
+    timeout.current = setTimeout(() => {
+      fn.apply(this, args)
+      timeout.current = null
+    }, wait)
+  }
+
+  return debounced
+}
+```
+
+`useDebounceValue` 实现
+
+```ts
+function useDebounceValue<T = any>(value: T, delay: number = 0) {
+  const [debouncedValue, setDebouncedValue] = useState(value)
+  const debounce = useDebounce(() => {
+    setDebouncedValue(value)
+  }, delay)
+
+  useEffect(() => {
+    debounce()
+  }, [value])
+
+  return debouncedValue
+}
+```
+
+### throttle 相关实现
+
+```ts
+function throttle(fn: () => void, time: number) {
+  let timer = null
+  return function () {
+    if (!timer) {
+      timer = setTimeout(() => {
+        fn.apply(this, arguments)
+        timer = null
+      }, time)
+    }
+  }
+}
+```
+
+这个实现看起来是没啥问题的，但是可能会出现一种情况，固定时间间隔内执行，但是回调的执行时间不确定，可能会导致两次回调执行的时间非常接近，也有可能导致两次回调的执行时间是 `2 * time`。因此还是需要用时间进行记录回调的真正执行时刻。
+
+```ts
+function throttle(fn: () => void, time: number) {
+  let inThrottle = false,
+    lastFn = null,
+    lastTime = 0
+
+  return function () {
+    if (!inThrottle) {
+      fn.apply(this, arguments)
+      inThrottle = true
+      lastTime = Date.now()
+    } else {
+      clearTimeout(lastFn)
+
+      lastFn.current = setTimeout(() => {
+        if (Date.now() - lastTime >= time) {
+          fn.apply(this, arguments)
+          lastTime = Date.now()
+        }
+      }, Math.max(wait - (Date.now() - lastTime), 0))
+    }
+  }
+}
+```
+
+`useThrottle`
+
+```ts
+function useThrottle(fn: (...arg: any[]) => any, wait: number = 0) {
+  const inThrottle = useRef(false)
+  const lastFn = useRef<any>()
+  const lastTime = useRef(0)
+
+  return function (...arg: any[]) {
+    if (!inThrottle.current) {
+      fn(...arg)
+      lastTime.current = Date.now()
+      inThrottle.current = true
+    } else {
+      clearTimeout(lastFn.current)
+
+      lastFn.current = setTimeout(function () {
+        if (Date.now() - lastTime.current >= wait) {
+          fn(...arg)
+          lastTime.current = Date.now()
+        }
+      }, Math.max(wait - (Date.now() - lastTime.current), 0))
+    }
+  }
+}
+```
+
+`useThrottleValue`
+
+```ts
+function useThrottleValue<T = any>(value: T, time = 0) {
+  const [throttledValue, setThrottledValue] = useState(value)
+
+  const throttle = useThrottle(() => {
+    setThrottledValue(value)
+  }, time)
+
+  useEffect(() => {
+    throttle()
+  }, [value])
+
+  return throttledValue
+}
+```
