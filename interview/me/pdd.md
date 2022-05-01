@@ -693,3 +693,71 @@ function useThrottleValue<T = any>(value: T, time = 0) {
 ```
 
 至此 `throttle` 是实现以及 `debounce` 的实现均已完全搞定。
+
+## 二叉树的遍历
+
+- 先(前)序遍历：根结点 ---> 左子树 ---> 右子树
+- 中序遍历：左子树---> 根结点 ---> 右子树
+- 后序遍历：左子树 ---> 右子树 ---> 根结点
+- 层序遍历：每一层从左向右的方式进行遍历
+
+### 先(前)序遍历
+
+```ts
+function dfs(root: TreeNode): number[] {
+  const res = []
+  const loop = (root: TreeNode) => {
+    if (!root) return
+    res.push(root.val)
+    loop(root.left)
+    loop(root.right)
+  }
+
+  loop(root)
+  return res
+}
+```
+
+### 中序遍历
+
+```ts
+function dfs(root: TreeNode): number[] {
+  const res = []
+  const loop = (root: TreeNode) => {
+    if (!root) return
+    loop(root.left)
+    res.push(root.val)
+    loop(root.right)
+  }
+
+  loop(root)
+  return res
+}
+```
+
+### 后序遍历
+
+```ts
+function dfs(root: TreeNode): number[] {
+  const res = []
+  const loop = (root: TreeNode) => {
+    if (!root) return
+    loop(root.left)
+    loop(root.right)
+    res.push(root.val)
+  }
+
+  loop(root)
+  return res
+}
+```
+
+### 总结
+
+总结一下，在二叉树的前序、中序、后序遍历中，递归实现的伪代码为：
+
+![1](https://pic.leetcode-cn.com/5536f7c9458480bdeb66712b111041af4e5a3507e571c50082737c650b4d8d62.png)
+
+迭代实现的伪代码为：
+
+![2](https://pic.leetcode-cn.com/bf35476ff3cc603e6ca44757f444525d3bb17f4dd059c17e4e7c1ff6533eedc9.png)
