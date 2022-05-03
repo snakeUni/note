@@ -762,3 +762,8 @@ function dfs(root: TreeNode): number[] {
 迭代实现的伪代码为：
 
 ![2](https://pic.leetcode-cn.com/bf35476ff3cc603e6ca44757f444525d3bb17f4dd059c17e4e7c1ff6533eedc9.png)
+
+## NodeJs 流 & web Streams
+
+- [understanding-streams-in-nodejs](https://nodesource.com/blog/understanding-streams-in-nodejs) 讲解了 NodeJs 中的几个常见的流。讲的很透彻。
+- [web streams](../../daily-study/2021-11-16.md)
