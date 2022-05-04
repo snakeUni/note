@@ -44,3 +44,5 @@
 - 1 <= k <= n <= 500
 
 ## 扩展 约瑟夫环
+
+- [约瑟夫环](https://leetcode-cn.com/problems/find-the-winner-of-the-circular-game/solution/pythonjavajavascriptgo-by-himymben-x57d/)
