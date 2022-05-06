@@ -767,3 +767,7 @@ function dfs(root: TreeNode): number[] {
 
 - [understanding-streams-in-nodejs](https://nodesource.com/blog/understanding-streams-in-nodejs) 讲解了 NodeJs 中的几个常见的流。讲的很透彻。
 - [web streams](../../daily-study/2021-11-16.md)
+
+## TCP 协议的三次握手和四次分手
+
+- [通俗大白话来理解 TCP 协议的三次握手和四次分手](https://github.com/jawil/blog/issues/14) 对 TCP 三次和四次握手的讲解，很透彻。
