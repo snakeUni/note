@@ -353,17 +353,22 @@ export class Promisee<T = any> {
       const arrayValues = [...values]
       const result: any[] = []
       const length = arrayValues.length
-      for (let v of arrayValues) {
+      let resolvedCount = 0,
+        rejectedCount = 0
+      for (let i = 0; i < arrayValues.length; i++) {
+        const v = arrayValues[i]
         Promisee.resolve(v)
           .then(res => {
-            result.push(res)
-            if (result.length === length) {
+            resolvedCount++
+            result[i] = res
+            if (resolvedCount === length) {
               resolve(result)
             }
           })
           .catch(error => {
-            result.push(error)
-            if (result.length === length) {
+            rejectedCount++
+            result[i] = error
+            if (rejectedCount === length) {
               resolve(result)
             }
           })
