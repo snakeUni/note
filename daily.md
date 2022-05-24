@@ -1,5 +1,9 @@
 # 每日一读
 
+## 2022/05/24
+
+- [Layouts RFC](https://nextjs.org/blog/layouts-rfc) NextJs 支持嵌套式的 layout 路由。蛮好的。
+
 ## 2022/05/10
 
 - [Scroll，你玩明白了嘛？](https://mp.weixin.qq.com/s/EhD8YIh8yAGRgXcibeEFsw) 对 scroll 的几种行为分析的很好。
