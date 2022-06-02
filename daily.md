@@ -3,6 +3,7 @@
 ## 2022/06/02
 
 - [遇到过 ESM 与 CJS 转换时的 default 问题么？](https://mp.weixin.qq.com/s/z8ee6V43xpBKNjP1-ydEqw)
+- [前端安全之 CSRF 攻击原理和防护方法](https://zhuanlan.zhihu.com/p/522562168) 写的非常棒
 
 ## 2022/05/24
 
