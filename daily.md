@@ -1,5 +1,9 @@
 # 每日一读
 
+## 2022/06/06
+
+- [用 Node.js 手写一个 DNS 服务器](https://zhuanlan.zhihu.com/p/524465089) 一篇非常棒的文章写关于 DNS 的解析过程，以及如何实现这样一个过程。
+
 ## 2022/06/02
 
 - [遇到过 ESM 与 CJS 转换时的 default 问题么？](https://mp.weixin.qq.com/s/z8ee6V43xpBKNjP1-ydEqw)
