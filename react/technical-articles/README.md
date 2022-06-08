@@ -22,6 +22,8 @@
 
 - [对 JS 及 React 的一些讨论/记录的思考-记录了很多 React 团队的相关，值得一看](https://zhuanlan.zhihu.com/p/374450428)
 - [inside-fiber-in-depth](https://medium.com/react-in-depth/inside-fiber-in-depth-overview-of-the-new-reconciliation-algorithm-in-react-e1c04700ef6e)
+- [[译]深入 React fiber 架构及源码](https://zhuanlan.zhihu.com/p/57346388) 上一篇的翻译
+- [[译]深入 React fiber 链表和 DFS](https://zhuanlan.zhihu.com/p/57856350) 另外一篇的翻译
 - [In-depth explanation of state and props update in React](https://medium.com/react-in-depth/in-depth-explanation-of-state-and-props-update-in-react-51ab94563311)
 - [everything-i-know-about-react-i-learned-from-twitter 必读](https://speakerdeck.com/jenncreighton/everything-i-know-about-react-i-learned-from-twitter)
 - [The most important lessons I’ve learned after a year of working with React](https://medium.freecodecamp.org/mindset-lessons-from-a-year-with-react-1de862421981)
