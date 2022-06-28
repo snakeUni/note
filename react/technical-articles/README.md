@@ -1,4 +1,4 @@
-# React 一些文章
+# React 官方文档
 
 - [react](https://github.com/facebook/react)
 - [reactjs.org](https://reactjs.org/)
@@ -18,7 +18,7 @@
 - [Ryan Florence](https://twitter.com/ryanflorence) react router 和 Remix 的作者
 - [MICHAEL JACKSON](https://twitter.com/mjackson) react router 和 Remix 的作者
 
-## 必看
+## 必看原理解析
 
 - [对 JS 及 React 的一些讨论/记录的思考-记录了很多 React 团队的相关，值得一看](https://zhuanlan.zhihu.com/p/374450428)
 - [inside-fiber-in-depth](https://medium.com/react-in-depth/inside-fiber-in-depth-overview-of-the-new-reconciliation-algorithm-in-react-e1c04700ef6e)
@@ -37,6 +37,7 @@
 - [How to fetch data with React Hooks?](https://www.robinwieruch.de/react-hooks-fetch-data/)
 - [Dancing between state and effects - a real-world use case](https://github.com/facebook/react/issues/15240)
 - [Using Firebase with React Hooks](https://benmcmahen.com/using-firebase-with-react-hooks/)
+- [深入剖析 React Concurrent](https://zhuanlan.zhihu.com/p/60307571) 写的非常棒的一篇文章。
 
 ## 其他
 
