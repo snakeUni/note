@@ -1,5 +1,9 @@
 # 每日一读
 
+## 2022/06/30
+
+- [How We Built Hydrogen: A React Framework for Building Custom Storefronts](https://shopify.engineering/how-we-built-hydrogen) 建造高性能的框架基于 React 的一些技术。
+
 ## 2022/06/07
 
 - [如何基于 UDP 协议实现可靠传输？](https://zhuanlan.zhihu.com/p/524824554) 对 UDP 讲解的非常棒。
