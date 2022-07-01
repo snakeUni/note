@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="A">I am the #A element</div>
+  </body>
+  <script>
+    document.getElementById('A').addEventListener(
+      'click',
+      function (e) {
+        console.log('When #A is clicked, I shall run first!')
+      },
+      false
+    )
+
+    document.getElementById('A').addEventListener(
+      'click',
+      function (e) {
+        console.log('When #A is clicked, I shall run second!')
+        e.stopImmediatePropagation()
+      },
+      false
+    )
+
+    document.getElementById('A').addEventListener(
+      'click',
+      function (e) {
+        console.log(
+          'When #A is clicked, I would have run third, if not for stopImmediatePropagation'
+        )
+      },
+      false
+    )
+  </script>
+</html>

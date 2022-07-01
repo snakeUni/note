@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    #C {
+      width: 400px;
+      height: 50px;
+      border: 5px solid orange;
+      color: orange;
+      position: relative;
+    }
+
+    #C::after {
+      position: absolute;
+      top: 0;
+      left: 0;
+      border: 1px solid orange;
+      content: '#C';
+    }
+
+    #B {
+      padding: 30px;
+      border: 5px solid green;
+      color: green;
+      position: relative;
+    }
+
+    #B::after {
+      position: absolute;
+      top: 0;
+      left: 0;
+      border: 1px solid green;
+      content: '#B';
+    }
+
+    #A {
+      padding: 30px;
+      border: 5px solid blue;
+      color: blue;
+      position: relative;
+    }
+
+    #A::after {
+      position: absolute;
+      top: 0;
+      left: 0;
+      border: 1px solid blue;
+      content: '#A';
+    }
+
+    body {
+      padding: 30px;
+      border: 5px solid purple;
+      color: purple;
+      position: relative;
+    }
+
+    body::after {
+      position: absolute;
+      top: 0;
+      left: 0;
+      border: 1px solid purple;
+      content: '<body>';
+    }
+
+    html {
+      padding: 30px;
+      border: 5px solid red;
+      color: red;
+      position: relative;
+    }
+
+    html::after {
+      position: absolute;
+      top: 0;
+      left: 0;
+      border: 1px solid red;
+      content: '<html>';
+    }
+  </style>
+  <body>
+    <div id="A">
+      <div id="B">
+        <div id="C"></div>
+      </div>
+    </div>
+  </body>
+  <script>
+    // 捕获阶段
+    document.addEventListener(
+      'click',
+      function (e) {
+        console.log('click on document in capturing phase')
+      },
+      true
+    )
+    // document.documentElement == <html>
+    document.documentElement.addEventListener(
+      'click',
+      function (e) {
+        console.log('click on <html> in capturing phase')
+      },
+      true
+    )
+    document.body.addEventListener(
+      'click',
+      function (e) {
+        console.log('click on <body> in capturing phase')
+      },
+      true
+    )
+    document.getElementById('A').addEventListener(
+      'click',
+      function (e) {
+        console.log('click on #A in capturing phase')
+      },
+      true
+    )
+    document.getElementById('B').addEventListener(
+      'click',
+      function (e) {
+        // e.stopPropagation()
+        console.log('click on #B in capturing phase')
+      },
+      true
+    )
+    document.getElementById('C').addEventListener(
+      'click',
+      function (e) {
+        console.log('click on #C in capturing phase')
+      },
+      true
+    )
+
+    // 冒泡阶段
+    document.addEventListener(
+      'click',
+      function (e) {
+        console.log('click on document in bubbling phase')
+      },
+      false
+    )
+    // document.documentElement == <html>
+    document.documentElement.addEventListener(
+      'click',
+      function (e) {
+        console.log('click on <html> in bubbling phase')
+      },
+      false
+    )
+    document.body.addEventListener(
+      'click',
+      function (e) {
+        console.log('click on <body> in bubbling phase')
+      },
+      false
+    )
+    document.getElementById('A').addEventListener(
+      'click',
+      function (e) {
+        e.stopPropagation()
+        console.log('click on #A in bubbling phase')
+      },
+      false
+    )
+    document.getElementById('B').addEventListener(
+      'click',
+      function (e) {
+        console.log('click on #B in bubbling phase')
+      },
+      false
+    )
+    document.getElementById('C').addEventListener(
+      'click',
+      function (e) {
+        console.log('click on #C in bubbling phase')
+      },
+      false
+    )
+  </script>
+</html>
