@@ -344,3 +344,234 @@ Maybe we should just play some of their music right here instead?
 可以看出 a 标签的默认行为已经被停止了。
 
 其他的默认行为比如 form 的 submit，通过在 button 上增加属性 `type="submit"` 可以默认触发 form 的 `submit` 函数，这种也可以通过调用 `preventDefault()` 函数来禁止掉默认行为。
+
+## 扩展
+
+了解了原生事件系统后，我们可以探索下 React 的事件系统，React 事件系统在 v16 和 v17 发生了一个大的变化。如下图
+
+![1](https://reactjs.org/static/bb4b10114882a50090b8ff61b3c4d0fd/31868/react_17_delegation.png)
+
+在 v16 相关事件挂载到 document 上，而 v17 挂载到 root 节点上。
+
+下面我们将通过对比 v16 和 v17 来对 React 事件系统进行对比，从而也可以加深对原生事件系统的理解。
+
+假设存在这样一个代码片段
+
+```js
+function App() {
+  return (
+    <div id="xxx">
+      <div
+        onClick={event => {
+          console.log('click #A')
+        }}
+      >
+        #A
+      </div>
+      <div
+        onClick={event => {
+          console.log('click #B')
+        }}
+      >
+        #B
+      </div>
+    </div>
+  )
+}
+
+const root = document.getElementById('root')
+
+ReactDOM.render(<App />, root)
+
+root.addEventListener('click', e => {
+  e.stopPropagation()
+  console.log('click root')
+})
+```
+
+A 和 B 都加了点击事件，同时 root 节点增加了原生的 click 的监听器，在回调函数中调用 `stopPropagation()`。此时点击 A 或者 B
+
+在 v16 中，A 和 B 的 click 事件都没有触发，只触发了 `root` 节点的 click 事件。
+
+![v16-1](./v16-1.gif)
+
+在 v17 中，A 和 B 的 click 事件都触发了，同时也触发了 `root` 节点的 click 事件。
+
+![v17-1](./v17-1.gif)
+
+因为在 `root` 节点的回调中，我们调用了 `stopPropagation()`，因此在 v16 版本中不会触发 A 和 B 的时间，因为在 v16 中节点是挂载到 `document` 上，而在 v17 中是挂载到 `root` 节点上，所以 v17 正常，v16 存在问题。
+
+继续修改上述的代码，后续我们只针对 v17 进行修改。
+
+```js
+const root = document.getElementById('root')
+
+function App() {
+  return (
+    <div
+      id="xxx"
+      onClick={() => {
+        console.log('xxxxx')
+      }}
+    >
+      <div
+        onClick={event => {
+          event.stopPropagation()
+          console.log('click #A')
+        }}
+      >
+        #A
+      </div>
+      <div
+        onClick={event => {
+          console.log('click #B')
+        }}
+      >
+        #B
+      </div>
+    </div>
+  )
+}
+
+ReactDOM.render(<App />, root)
+
+root.addEventListener('click', e => {
+  console.log('click root')
+})
+
+document.getElementById('xxx').addEventListener('click', e => {
+  console.log('native xxx')
+})
+```
+
+在 A 事件上调用 `stopPropagation()`，同时给 `xxx` 元素上增加一个原生的事件，一个 React 的事件。此时点击 A 元素会输入什么？
+
+```js
+native xxx
+click #A
+click root
+```
+
+可见 `xxx` 元素上的 React 事件并没有触发，因为 React 内部会处理相关事件，使其与原生保持一致。但是我们通过调用 `addEventListener` 增加的事件，React 并没有进行处理。根据之前说的冒泡的顺序`是从当前元素一直冒泡到顶部节点`。而 A 的 React 事件是挂载到 `root` 节点上，`root` 节点是 `xxx` 节点的父，因此根据顺序应该是 `xxx => root`。所以输出的顺序是 `native xxx => click #A => click root`。
+
+继续修改上述代码，在 `xxx` 节点增加捕获事件，同时在回调中调用 `stopPropagation()`
+
+```js
+const root = document.getElementById('root')
+
+root.addEventListener('click', e => {
+  e.stopImmediatePropagation()
+  console.log('root click stopImmediatePropagation')
+})
+function App() {
+  return (
+    <div
+      id="xxx"
+      onClick={() => {
+        console.log('xxxxx')
+      }}
+      onClickCapture={event => {
+        event.stopPropagation()
+        console.log('click xxxx capture')
+      }}
+    >
+      <div
+        onClick={event => {
+          event.stopPropagation()
+          console.log('click #A')
+        }}
+        onClickCapture={e => {
+          console.log('click #B capture')
+        }}
+      >
+        #A
+      </div>
+      <div
+        onClick={event => {
+          console.log('click #B')
+        }}
+      >
+        #B
+      </div>
+    </div>
+  )
+}
+
+ReactDOM.render(<App />, root)
+
+root.addEventListener('click', e => {
+  console.log('click root')
+})
+
+document.getElementById('xxx').addEventListener('click', e => {
+  console.log('native xxx')
+})
+```
+
+此时点击 A 看发生了什么？输出如下
+
+```js
+click xxxx capture
+```
+
+根据上述原生事件发生的顺序，如果在某个阶段阻止了事件的传播，那么后续的阶段也就会被停止。因此当我们在 `xxx` 节点增加了捕获事件后，后续的事件都不将会触发，`root` 节点的原生事件也不会被出发。因此默认增加的原生监听器是冒泡事件。
+
+继续修改上述代码，在 `root` 节点调用 `stopImmediatePropagation()`
+
+```js
+const root = document.getElementById('root')
+
+root.addEventListener('click', e => {
+  e.stopImmediatePropagation()
+  console.log('root click stopImmediatePropagation')
+})
+
+function App() {
+  return (
+    <div
+      id="xxx"
+      onClick={() => {
+        console.log('xxxxx')
+      }}
+    >
+      <div
+        onClick={event => {
+          console.log('click #A')
+        }}
+      >
+        #A
+      </div>
+      <div
+        onClick={event => {
+          console.log('click #B')
+        }}
+      >
+        #B
+      </div>
+    </div>
+  )
+}
+
+ReactDOM.render(<App />, root)
+
+root.addEventListener('click', e => {
+  console.log('click root')
+})
+
+document.getElementById('xxx').addEventListener('click', e => {
+  console.log('native xxx')
+})
+```
+
+点击 A 原生，会发生什么？输出如下
+
+```js
+native xxx
+root click stopImmediatePropagation
+```
+
+根据上文说的 `stopImmediatePropagation()` 会组织后续监听事件的执行。因此现在 A 事件 和 B 事件以及 root 事件都不会触发了。那么为什么会输出 `native xxx` 呢？因为这个是原生添加到 `xxx` 元素的监听器，并不受 `root` 的影响。
+
+目前 React 并没有暴露出 `stopImmediatePropagation` 事件，因为我们没办法在一个元素上写两个 `click`。因此问题不大。
+
+可以看出 React 现在事件基本和原生事件流保持一致了，但是如果要结合原生事件一起使用的话，只要弄清楚事件流即可。
