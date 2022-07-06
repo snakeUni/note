@@ -60,3 +60,5 @@ oldIndex < lastPlacedIndex 因此需要向右移动
 - [源码](https://github.com/facebook/react/blob/bd081376665f5f081dcf4bf72f06b7e563c8046d/packages/react-reconciler/src/ReactChildFiber.new.js#L736)
 - [源码解析](https://github.com/BetaSu/big-react/blob/master/packages/react-reconciler/ReactChildFiber.js#L265)
 - [为什么 React 的 Diff 算法不采用 Vue 的双端对比算法？](https://juejin.cn/post/7116141318853623839)
+- [解析 Vue3.0 的 dom-diff 核心算法——最长递增子序列](https://kinyaying.github.io/%E8%A7%A3%E6%9E%90Vue3.0%E7%9A%84dom-diff%E6%A0%B8%E5%BF%83%E7%AE%97%E6%B3%95%E2%80%94%E2%80%94%E6%9C%80%E9%95%BF%E9%80%92%E5%A2%9E%E5%AD%90%E5%BA%8F%E5%88%97/)
+- [vue diff 源码](https://github.com/vuejs/core/blob/540e26f49c09edf09b6a60ac2a978fdec52686bf/packages/runtime-core/src/renderer.ts#L2353-L2392)
