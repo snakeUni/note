@@ -151,6 +151,7 @@ Link: <https://fonts.gstatic.com/>; rel=dns-prefetch
 - _[Cumulative Layout Shift (CLS)](https://web.dev/cls/)_
 - _[优化 Cumulative Layout Shift 累积布局偏移](https://web.dev/optimize-cls/)_
 - _[渲染页面：浏览器的工作原理](https://developer.mozilla.org/zh-CN/docs/Web/Performance/How_browsers_work)_
+- _[看了 web.dev 的 631 篇博客，我总结了这些内容](https://zhuanlan.zhihu.com/p/538956390)_
 
 ### 其他
 
