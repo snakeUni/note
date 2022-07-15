@@ -1,5 +1,9 @@
 # 每日一读
 
+## 2022/07/15
+
+- [性能提升 30%以上, JDHybrid h5 加载优化实践](https://juejin.cn/post/7120045012494057479) 原生是荣如何助力 H5 实现性能的提升的。
+
 ## 2022/06/30
 
 - [How We Built Hydrogen: A React Framework for Building Custom Storefronts](https://shopify.engineering/how-we-built-hydrogen) 建造高性能的框架基于 React 的一些技术。
