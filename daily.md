@@ -1,5 +1,9 @@
 # 每日一读
 
+## 2022/07/18
+
+- [Node.js: checking if an ESM module is “main”](https://2ality.com/2022/07/nodejs-esm-main.html)
+
 ## 2022/07/15
 
 - [性能提升 30%以上, JDHybrid h5 加载优化实践](https://juejin.cn/post/7120045012494057479) 原生是荣如何助力 H5 实现性能的提升的。
