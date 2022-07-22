@@ -1,5 +1,9 @@
 # 每日一读
 
+## 2022/07/22
+
+- [如何提升前端线上问题发现率？我们是这样做的](https://mp.weixin.qq.com/s/rPrSPIfgKG2VfAvf5DXvTA)
+
 ## 2022/07/18
 
 - [Node.js: checking if an ESM module is “main”](https://2ality.com/2022/07/nodejs-esm-main.html)
