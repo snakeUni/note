@@ -1,5 +1,9 @@
 # 每日一读
 
+## 2022/08/12
+
+- [React Suspense 数据请求支持](https://github.com/facebook/react/pull/25084/files)
+
 ## 2022/07/22
 
 - [如何提升前端线上问题发现率？我们是这样做的](https://mp.weixin.qq.com/s/rPrSPIfgKG2VfAvf5DXvTA)
