@@ -1,5 +1,9 @@
 # 每日一读
 
+## 2022/08/13
+
+- [Bundle-less 的思考和实践分享](https://mp.weixin.qq.com/s/nk5SN8AKwyFkUTEOiLCBdQ)
+
 ## 2022/08/12
 
 - [React Suspense 数据请求支持](https://github.com/facebook/react/pull/25084/files)
