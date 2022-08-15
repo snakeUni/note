@@ -1,5 +1,10 @@
 # 每日一读
 
+## 2022/08/15
+
+- [什么是前端差异化竞争？来看看 Astro](https://mp.weixin.qq.com/s/oJUMrqZ02JUQOd60s4vrAg) Astro 实现了部分注水，追求性能的极致体验。比较适合内容类的站点。
+- [Islands Architecture](https://jasonformat.com/islands-architecture/) 孤岛架构。
+
 ## 2022/08/13
 
 - [Bundle-less 的思考和实践分享](https://mp.weixin.qq.com/s/nk5SN8AKwyFkUTEOiLCBdQ)

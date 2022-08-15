@@ -11,3 +11,5 @@
 - [Async Fragments: Rediscovering Progressive HTML Rendering with Marko](https://tech.ebayinc.com/engineering/async-fragments-rediscovering-progressive-html-rendering-with-marko/) 讲述了如何实现流式的渲染即使不使用 `expressjs`以及渐进式相比于非渐进式的好处，与 facebook 的 [bigpipe](https://engineering.fb.com/2010/06/04/web/bigpipe-pipelining-web-pages-for-high-performance/) 都很相似。可以直接查看[在线例子](https://marko-progressive-rendering.herokuapp.com/?renderMode=progressive-out-of-order&jsLocation=middle)
 
 - [React Server Component width Dan](https://dev.to/swyx/an-annotated-guide-to-the-react-server-components-demo-2a83#2021-architecture-qampa-notes)
+
+- [什么是前端差异化竞争？来看看 Astro](https://mp.weixin.qq.com/s/oJUMrqZ02JUQOd60s4vrAg) Astro 实现了部分注水，追求性能的极致体验。比较适合内容类的站点。
