@@ -1,5 +1,9 @@
 # 每日一读
 
+## 2022/09/14
+
+- [京东零售平台：前端组件资源共享与中心化管理实践](https://mp.weixin.qq.com/s/tZpf6aG3x6yOmajYAaPuAg) 如何实现组件的分享，讲的非常的清晰，很多团队值得一试。
+
 ## 2022/08/17
 
 - [Parsing command line arguments with util.parseArgs() in Node.js](https://2ality.com/2022/08/node-util-parseargs.html)
