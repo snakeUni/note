@@ -1,5 +1,9 @@
 # 每日一读
 
+## 2022/09/20
+
+- [做了 6 年程序员，我学到的 10 条经验](https://lutaonan.com/blog/things-i-learnt-after-6-years-as-software-engineer/) 写的很棒,保持着一颗敬畏之心。
+
 ## 2022/09/14
 
 - [京东零售平台：前端组件资源共享与中心化管理实践](https://mp.weixin.qq.com/s/tZpf6aG3x6yOmajYAaPuAg) 如何实现组件的分享，讲的非常的清晰，很多团队值得一试。
