@@ -1,5 +1,9 @@
 # 每日一读
 
+## 2022/09/25
+
+- [React 18 vs 17 benchmarks](https://www.reddit.com/r/reactjs/comments/xmr9tg/comment/ippsuin/) Dan 说明了 18 和 17 的区别。
+
 ## 2022/09/23
 
 - [Remesh 介绍：用以开发大型复杂 Web App 的 DDD 框架](https://mp.weixin.qq.com/s/Xur4s28bmqGsxV7f4d2GZQ) Remesh 框架的介绍
