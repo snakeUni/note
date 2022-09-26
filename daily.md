@@ -1,5 +1,9 @@
 # 每日一读
 
+## 2022/09/26
+
+- [为什么 B 站的弹幕可以不挡人物](https://juejin.cn/post/7141012605535010823) 巧妙的 css 属性 `mask-image` 来实现遮挡的效果
+
 ## 2022/09/25
 
 - [React 18 vs 17 benchmarks](https://www.reddit.com/r/reactjs/comments/xmr9tg/comment/ippsuin/) Dan 说明了 18 和 17 的区别。
