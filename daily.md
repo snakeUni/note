@@ -1,5 +1,9 @@
 # 每日一读
 
+## 2022/10/06
+
+- [谈谈 JS 二进制：File、Blob、FileReader、ArrayBuffer、Base64](https://zhuanlan.zhihu.com/p/568915443) 一个比较不错的文章对一些二进制对象的介绍
+
 ## 2022/09/27
 
 - [The new wave of Javascript web frameworks](https://frontendmastery.com/posts/the-new-wave-of-javascript-web-frameworks/) js 框架的过程。
