@@ -3,6 +3,7 @@
 ## 2022/10/07
 
 - [How I am so productive](https://kentcdodds.com/blog/how-i-am-so-productive) kent 是如何安排一天并保持高效的。
+- [最详细的 Module Federation 的实现原理讲解](https://juejin.cn/post/7151281452716392462) MF 讲解的蛮详细的。
 
 ## 2022/10/06
 
