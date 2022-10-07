@@ -1,5 +1,9 @@
 # 每日一读
 
+## 2022/10/07
+
+- [How I am so productive](https://kentcdodds.com/blog/how-i-am-so-productive) kent 是如何安排一天并保持高效的。
+
 ## 2022/10/06
 
 - [谈谈 JS 二进制：File、Blob、FileReader、ArrayBuffer、Base64](https://zhuanlan.zhihu.com/p/568915443) 一个比较不错的文章对一些二进制对象的介绍
