@@ -1,5 +1,11 @@
 # 每日一读
 
+## 2022/10/09
+
+- [When to use the different log levels](https://stackoverflow.com/questions/2031163/when-to-use-the-different-log-levels) log 什么时候去使用
+
+![log-level](./assets/log-level.png)
+
 ## 2022/10/07
 
 - [How I am so productive](https://kentcdodds.com/blog/how-i-am-so-productive) kent 是如何安排一天并保持高效的。
