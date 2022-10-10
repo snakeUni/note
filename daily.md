@@ -1,5 +1,9 @@
 # 每日一读
 
+## 2022/10/10
+
+- [解决页面间体验问题的纯前端容器 Lath](https://mp.weixin.qq.com/s/tMVSOHi7tH_c6NEVsbMVSQ) 用户体验问题一直都是很重要的一个点，从容器角度来解决各种不好解决的问题。
+
 ## 2022/10/09
 
 - [When to use the different log levels](https://stackoverflow.com/questions/2031163/when-to-use-the-different-log-levels) log 什么时候去使用
