@@ -1,5 +1,9 @@
 # 每日一读
 
+## 2022/10/12
+
+- [The Web’s Next Transition](https://www.epicweb.dev/the-webs-next-transition) 详细讲述了 web 的发展，以及各自的优缺点。
+
 ## 2022/10/10
 
 - [解决页面间体验问题的纯前端容器 Lath](https://mp.weixin.qq.com/s/tMVSOHi7tH_c6NEVsbMVSQ) 用户体验问题一直都是很重要的一个点，从容器角度来解决各种不好解决的问题。
