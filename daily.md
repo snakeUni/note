@@ -1,5 +1,9 @@
 # 每日一读
 
+## 2022/10/14
+
+- [通天塔页面搭建提效揭秘：设计稿自动生成楼层](https://mp.weixin.qq.com/s/aB8BEABKCPRBMwD_z6r2Gw) 通天塔是如何做搭建的。
+
 ## 2022/10/13
 
 - [改了 3 个字符，10 倍的沙箱性能提升？！！](https://mp.weixin.qq.com/s/gwFH_48rMoUIdOvNpqvo3g) qiankun 沙箱性能提升。
