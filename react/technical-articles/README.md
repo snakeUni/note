@@ -3,6 +3,7 @@
 - [react](https://github.com/facebook/react)
 - [reactjs.org](https://reactjs.org/)
 - [react blog](https://reactjs.org/blog/2020/12/21/data-fetching-with-react-server-components.html)
+- [first-class-support-for-promises](https://github.com/acdlite/rfcs/blob/first-class-promises/text/0000-first-class-support-for-promises.md) React 新的提议
 
 ## React 相关作者以及 twitter
 
