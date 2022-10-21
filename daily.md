@@ -1,5 +1,9 @@
 # 每日一读
 
+## 2022/10/21
+
+- [【第 2759 期】异步分片计算在腾讯文档的实践](https://mp.weixin.qq.com/s/d5M_-8XqFGYnpif7GQNmLA) 一个比较好的实现一个简单的分片。
+
 ## 2022/10/14
 
 - [通天塔页面搭建提效揭秘：设计稿自动生成楼层](https://mp.weixin.qq.com/s/aB8BEABKCPRBMwD_z6r2Gw) 通天塔是如何做搭建的。
