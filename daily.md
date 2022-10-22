@@ -1,5 +1,9 @@
 # 每日一读
 
+## 2022/10/22
+
+- [字节前端监控 SDK 体积与性能优化实践](https://mp.weixin.qq.com/s/FZUTFvOutS5NvURjj9jOFA) 开发中容易忽略注入的第三方脚本对性能的影响。
+
 ## 2022/10/21
 
 - [【第 2759 期】异步分片计算在腾讯文档的实践](https://mp.weixin.qq.com/s/d5M_-8XqFGYnpif7GQNmLA) 一个比较好的实现一个简单的分片。
