@@ -1,5 +1,9 @@
 # 每日一读
 
+## 2022/11/05
+
+- [Request.cache](https://developer.mozilla.org/zh-CN/docs/Web/API/Request/cache) fetch 携带 cache
+
 ## 2022/10/27
 
 - [为什么说 90% 的前端不会调试 Ant Design 源码](https://juejin.cn/post/7158430758070140942) 这是一篇涉及多个知识点的的文章。
