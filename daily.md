@@ -1,5 +1,9 @@
 # 每日一读
 
+## 2022/11/11
+
+- [基于 MF 的组件化共享工作流](https://mp.weixin.qq.com/s/u5oAcIYiGrl1qOujOYjzqw) 组件共享一个很好的方案
+
 ## 2022/11/05
 
 - [Request.cache](https://developer.mozilla.org/zh-CN/docs/Web/API/Request/cache) fetch 携带 cache
