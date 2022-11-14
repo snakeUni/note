@@ -1,5 +1,9 @@
 # 每日一读
 
+## 2022/11/14
+
+- [deferred data](https://reactrouter.com/en/main/guides/deferred) 使用 defer 后，数据请求方式会从 `document -> JavaScript -> Lazy Loaded Route -> data fetch` => `document -> JavaScript -> Lazy Loaded Route & data (in parallel)`
+
 ## 2022/11/11
 
 - [基于 MF 的组件化共享工作流](https://mp.weixin.qq.com/s/u5oAcIYiGrl1qOujOYjzqw) 组件共享一个很好的方案
