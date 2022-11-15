@@ -1,5 +1,9 @@
 # 每日一读
 
+## 2022/11/15
+
+- [从 React 源码彻底搞懂 Ref 的全部 api](https://zhuanlan.zhihu.com/p/583741032) 一篇比较好的文章，解析了 react 几个 api。
+
 ## 2022/11/14
 
 - [deferred data](https://reactrouter.com/en/main/guides/deferred) 使用 defer 后，数据请求方式会从 `document -> JavaScript -> Lazy Loaded Route -> data fetch` => `document -> JavaScript -> Lazy Loaded Route & data (in parallel)`
