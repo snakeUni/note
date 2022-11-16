@@ -1,5 +1,9 @@
 # 每日一读
 
+## 2022/11/16
+
+- [重新理解 Web](https://zhuanlan.zhihu.com/p/581977751) 对 web 比较好的一次科普了。
+
 ## 2022/11/15
 
 - [从 React 源码彻底搞懂 Ref 的全部 api](https://zhuanlan.zhihu.com/p/583741032) 一篇比较好的文章，解析了 react 几个 api。
