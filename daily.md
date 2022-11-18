@@ -1,5 +1,9 @@
 # 每日一读
 
+## 2022/11/18
+
+- [抓包理解 DNS 流程和 CDN 原理](https://zhuanlan.zhihu.com/p/584431040)
+
 ## 2022/11/16
 
 - [重新理解 Web](https://zhuanlan.zhihu.com/p/581977751) 对 web 比较好的一次科普了。
