@@ -1,5 +1,9 @@
 # 每日一读
 
+## 2022/11/30
+
+- [Modern web debugging in Chrome DevTools](https://developer.chrome.com/blog/devtools-modern-web-debugging/)
+
 ## 2022/11/28
 
 - [基于 Module Federation 的模块化跨栈方案探索｜ 得物技术](https://mp.weixin.qq.com/s?__biz=MzkxNTE3ODU0NA==&mid=2247490593&idx=1&sn=b147737622d42e7d0589ec7973cc5737&chksm=c162497ef615c0680f31370f49832e116646eb6e82a471be0ac600d5e13186421096b9b4e5c0&scene=132#wechat_redirect) 得物的模块联邦技术
