@@ -1,5 +1,9 @@
 # 每日一读
 
+## 2022/12/07
+
+- [React Conditional Rendering With Type Safety and Exhaustive Checking](https://www.lloydatkinson.net/posts/2022/react-conditional-rendering-with-type-safety-and-exhaustive-checking/)
+
 ## 2022/11/30
 
 - [Modern web debugging in Chrome DevTools](https://developer.chrome.com/blog/devtools-modern-web-debugging/)
