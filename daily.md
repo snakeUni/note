@@ -1,5 +1,9 @@
 # 每日一读
 
+## 2022/12/08
+
+- [React Streaming SSR 原理解析](https://mp.weixin.qq.com/s/GVts2QW3H_aTrB9anGwl5g) 从源码角度讲解了 SSR 的原理
+
 ## 2022/12/07
 
 - [React Conditional Rendering With Type Safety and Exhaustive Checking](https://www.lloydatkinson.net/posts/2022/react-conditional-rendering-with-type-safety-and-exhaustive-checking/)

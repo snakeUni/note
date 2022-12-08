@@ -13,3 +13,5 @@
 - [React Server Component width Dan](https://dev.to/swyx/an-annotated-guide-to-the-react-server-components-demo-2a83#2021-architecture-qampa-notes)
 
 - [什么是前端差异化竞争？来看看 Astro](https://mp.weixin.qq.com/s/oJUMrqZ02JUQOd60s4vrAg) Astro 实现了部分注水，追求性能的极致体验。比较适合内容类的站点。
+
+- [React Streaming SSR 原理解析](https://mp.weixin.qq.com/s/GVts2QW3H_aTrB9anGwl5g) 从源码角度讲解了 SSR 的原理
