@@ -1,5 +1,10 @@
 # 每日一读
 
+## 2022/12/22
+
+- [HTML Attribute VS DOM Property](https://dotnettutorials.net/lesson/html-attribute-vs-dom-property/) React 也是对齐的是 Dom Property
+  这也就回答了为啥使用的是 classname 而不是 class
+
 ## 2022/12/08
 
 - [React Streaming SSR 原理解析](https://mp.weixin.qq.com/s/GVts2QW3H_aTrB9anGwl5g) 从源码角度讲解了 SSR 的原理
