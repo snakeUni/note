@@ -1,5 +1,13 @@
 # 每日一读
 
+## 2023-01-03
+
+- [从 0 到 1：美团端侧 CDN 容灾解决方案](https://tech.meituan.com/2022/01/13/phoenix-cdn.html) 有时资源会加载失败，但是加载失败了却无法很好的做出应对之策，因此需要对资源做好监控以及对应的容灾策略。
+
+---
+
+# 2022 年集合
+
 ## 2022/12/22
 
 - [HTML Attribute VS DOM Property](https://dotnettutorials.net/lesson/html-attribute-vs-dom-property/) React 也是对齐的是 Dom Property
