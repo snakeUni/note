@@ -1,5 +1,10 @@
 # 每日一读
 
+## 2023-01-10
+
+- [Handling errors like a pro in TypeScript](https://engineering.udacity.com/handling-errors-like-a-pro-in-typescript-d7a314ad4991) 如果设置错误，这种经常会在后端出现定义自己的错误格式。前端也可以定义自己的错误格式。
+- [为 iframe 正名，你可能并不需要微前端](https://juejin.cn/post/7185070739064619068) 是否需要微前端根据自己的业务来判断。
+
 ## 2023-01-04
 
 - [Why React Re-Renders](https://www.joshwcomeau.com/react/why-react-re-renders/) 一篇写的非常不错的文章
