@@ -3,6 +3,7 @@
 ## 2023-01-28
 
 - [How to debounce and throttle in React without losing your mind](https://www.developerway.com/posts/debouncing-in-react) 实现一个 debounce hook
+- [Optimize Time to First Byte](https://web.dev/optimize-ttfb/)
 
 ## 2023-01-10
 
