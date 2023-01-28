@@ -1,5 +1,9 @@
 # 每日一读
 
+## 2023-01-28
+
+- [How to debounce and throttle in React without losing your mind](https://www.developerway.com/posts/debouncing-in-react) 实现一个 debounce hook
+
 ## 2023-01-10
 
 - [Handling errors like a pro in TypeScript](https://engineering.udacity.com/handling-errors-like-a-pro-in-typescript-d7a314ad4991) 如果设置错误，这种经常会在后端出现定义自己的错误格式。前端也可以定义自己的错误格式。
