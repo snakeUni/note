@@ -3,7 +3,10 @@
 ## 2023-01-29
 
 - [Zod: The Next Biggest thing after Typescript](https://dev.to/jareechang/zod-the-next-biggest-thing-after-typescript-4phh) zod 实现了类型和 schema 的互相转换。
-- [花了好几个小时，终于懂了什么叫 SWR](https://juejin.cn/post/7192467269316788280)
+- [花了好几个小时，终于懂了什么叫 SWR](https://juejin.cn/post/7192467269316788280) 讲的确实不错，结论如下
+  - max-age 内直接读取缓存，不会请求服务器。
+  - max-age ~ max-age + swr 之间，会读取缓存的同时，在后台请求更新缓存。
+  - max-age + swr 后，请求会直接打到服务器，返回最新的内容。
 - [Stale-while-revalidate](https://developer.chrome.com/docs/workbox/caching-strategies-overview/#stale-while-revalidate) 一张图解释 swr
 
 ## 2023-01-28
