@@ -3,6 +3,8 @@
 ## 2023-01-29
 
 - [Zod: The Next Biggest thing after Typescript](https://dev.to/jareechang/zod-the-next-biggest-thing-after-typescript-4phh) zod 实现了类型和 schema 的互相转换。
+- [花了好几个小时，终于懂了什么叫 SWR](https://juejin.cn/post/7192467269316788280)
+- [Stale-while-revalidate](https://developer.chrome.com/docs/workbox/caching-strategies-overview/#stale-while-revalidate) 一张图解释 swr
 
 ## 2023-01-28
 
