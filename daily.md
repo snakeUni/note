@@ -1,5 +1,9 @@
 # 每日一读
 
+## 2023-01-29
+
+- [Zod: The Next Biggest thing after Typescript](https://dev.to/jareechang/zod-the-next-biggest-thing-after-typescript-4phh) zod 实现了类型和 schema 的互相转换。
+
 ## 2023-01-28
 
 - [How to debounce and throttle in React without losing your mind](https://www.developerway.com/posts/debouncing-in-react) 实现一个 debounce hook
