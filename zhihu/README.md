@@ -2,6 +2,7 @@
 
 收藏一些好的回答。
 
+- [2022 大前端总结和 2023 就业分析](https://zhuanlan.zhihu.com/p/603410758)
 - [js 中函数声明被作为 var 声明还是 let const 声明？](https://www.zhihu.com/question/479537603/answer/2540391427)
 - [fetch 的 keepalive 和 http 自身的 keep-alive 机制有没有关系?](https://www.zhihu.com/question/540397795/answer/2550485344)
 - [正则全局替换用 replaceAll() 还是 replace()?](https://www.zhihu.com/question/540401691/answer/2566292841)
