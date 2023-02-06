@@ -1,5 +1,9 @@
 # 每日一读
 
+## 2023-02-06
+
+- [Replace Create React App recommendation with Vite](https://github.com/reactjs/reactjs.org/pull/5487#issuecomment-1409720741) Dan 讲述了 CRA 的前世今生，并给出了 CRA 最终的方向。
+
 ## 2023-01-29
 
 - [Zod: The Next Biggest thing after Typescript](https://dev.to/jareechang/zod-the-next-biggest-thing-after-typescript-4phh) zod 实现了类型和 schema 的互相转换。
