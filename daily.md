@@ -1,5 +1,9 @@
 # 每日一读
 
+## 2023-02-11
+
+- [React 的前世今生](https://www.youtube.com/watch?v=8pDqJVdNa44)
+
 ## 2023-02-06
 
 - [Replace Create React App recommendation with Vite](https://github.com/reactjs/reactjs.org/pull/5487#issuecomment-1409720741) Dan 讲述了 CRA 的前世今生，并给出了 CRA 最终的方向。
