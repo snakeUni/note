@@ -1,5 +1,9 @@
 # 每日一读
 
+## 2023-02-13
+
+- [字节前端监控实践](https://juejin.cn/post/7195496297150709821) 字节前端监控
+
 ## 2023-02-11
 
 - [\*React 的前世今生](https://www.youtube.com/watch?v=8pDqJVdNa44)
