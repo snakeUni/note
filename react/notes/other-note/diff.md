@@ -100,7 +100,7 @@ function Item({ item }) {
 
 既然知道是重复的 key 导致的，最简单的方法就是给之前的 key 上加一个 index。问题解决了，我们继续探索为什么 key 重复会导致节点保留。这就要涉及到 React 的 Diff 算法了，这里我们只看数组部分。具体参考卡颂的 [React 源码揭秘 3 Diff 算法详解](https://juejin.cn/post/6844904167472005134)，里面的代码和最新的 [React diff 源码](https://github.com/facebook/react/blob/main/packages/react-reconciler/src/ReactChildFiber.js#L744)的代码基本保持一致。我们就以卡颂的[简化版的代码](https://github.com/BetaSu/big-react/blob/8e6630eed13aa691a607330bfd8aa1196eca4297/packages/react-reconciler/src/childFiber.ts#L224)进行分析，代码如下，其实直接看卡颂的注释就明白了，重要的部分已经标记。
 
-```ts{17-23,79-81}
+```ts
 function reconcileChildrenArray(
   returnFiber: FiberNode,
   currentFirstChild: FiberNode | null,
