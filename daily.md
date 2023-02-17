@@ -1,5 +1,9 @@
 # 每日一读
 
+## 2023-02-17
+
+- [TypeScript: Union to intersection type](https://fettblog.eu/typescript-union-to-intersection/) 深度了解 TS 交集和并集
+
 ## 2023-02-13
 
 - [字节前端监控实践](https://juejin.cn/post/7195496297150709821) 字节前端监控
