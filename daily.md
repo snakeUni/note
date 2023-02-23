@@ -1,5 +1,9 @@
 # 每日一读
 
+## 2023-02-23
+
+- [从零开始撸一个「响应式」框架](https://juejin.cn/post/7201314551576690749) 写的不错的一篇文章
+
 ## 2023-02-17
 
 - [TypeScript: Union to intersection type](https://fettblog.eu/typescript-union-to-intersection/) 深度了解 TS 交集和并集
