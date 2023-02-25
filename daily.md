@@ -1,5 +1,9 @@
 # 每日一读
 
+## 2013-02-25
+
+- [Connection to Signals](https://vuejs.org/guide/extras/reactivity-in-depth.html#rxjs) vue 中关于 Signals 的一些对比
+
 ## 2023-02-23
 
 - [从零开始撸一个「响应式」框架](https://juejin.cn/post/7201314551576690749) 写的不错的一篇文章
