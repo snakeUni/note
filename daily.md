@@ -1,6 +1,10 @@
 # 每日一读
 
-## 2013-02-25
+## 2023-02-26
+
+- [how pnpm links](https://zhuanlan.zhihu.com/p/609430861) 一篇非常棒的文章，关于 pnpm 是如何工作的
+
+## 2023-02-25
 
 - [Connection to Signals](https://vuejs.org/guide/extras/reactivity-in-depth.html#rxjs) vue 中关于 Signals 的一些对比
 
