@@ -1,5 +1,9 @@
 # 每日一读
 
+## 2023-03-02
+
+- [React vs Signals: 10 Years Later](https://dev.to/this-is-learning/react-vs-signals-10-years-later-3k71) 讲述了 solid 中的 signal 以及 React 坚持不使用 signal。说实话有点踩 React 捧自己 solid 框架的倾向。回复也值得看
+
 ## 2023-02-26
 
 - [how pnpm links](https://zhuanlan.zhihu.com/p/609430861) 一篇非常棒的文章，关于 pnpm 是如何工作的
