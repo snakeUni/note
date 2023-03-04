@@ -1,5 +1,9 @@
 # 每日一读
 
+## 2023-03-04
+
+- [React Server Components anything](https://twitter.com/dan_abramov/status/1631641431742857216) Dan 回答了关于 RSC 的一些提问，值得去看。
+
 ## 2023-03-02
 
 - [React vs Signals: 10 Years Later](https://dev.to/this-is-learning/react-vs-signals-10-years-later-3k71) 讲述了 solid 中的 signal 以及 React 坚持不使用 signal。说实话有点踩 React 捧自己 solid 框架的倾向。回复也值得看
