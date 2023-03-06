@@ -1,5 +1,9 @@
 # 每日一读
 
+## 2023-03-06
+
+- [Demystifying Create React Signals Internals](https://blog.axlight.com/posts/demystifying-create-react-signals-internals/) Dai shi 对 signal 的探索还是蛮多的。
+
 ## 2023-03-04
 
 - [React Server Components anything](https://twitter.com/dan_abramov/status/1631641431742857216) Dan 回答了关于 RSC 的一些提问，值得去看。
