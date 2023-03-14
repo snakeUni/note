@@ -12,3 +12,4 @@
 - [为什么现在很多人都不愿意与上级沟通？有效的职场沟通有哪些实际作用？](https://www.zhihu.com/question/513159654/answer/2324579696?utm_campaign=shareopn&utm_content=group3_Answer&utm_medium=social&utm_oi=741363194710220800&utm_psn=1551360488390508544&utm_source=wechat_session)
 - [哪些事是你当了领导才明白的？](https://www.zhihu.com/question/68467783/answer/318241760?utm_campaign=shareopn&utm_content=group1_Answer&utm_medium=social&utm_oi=741363194710220800&utm_psn=1551360658368794624&utm_source=wechat_session)
 - [缓存和数据库双写不一致？怎么解决？](https://www.zhihu.com/question/486992560/answer/2768348004) 缓存和数据库如何双写一致
+- [JavaScript 的 this 原理是什么？](https://www.zhihu.com/question/353757734/answer/2935071349)
