@@ -1,5 +1,9 @@
 # 每日一读
 
+## 2023-04-10
+
+- [A Complete Visual Guide to Understanding the Node.js Event Loop](https://www.builder.io/blog/visual-guide-to-nodejs-event-loop)
+
 ## 2023-03-12
 
 - [serviceworker 运用与实践](https://mp.weixin.qq.com/s/jUwH8AM5OS-k_OeZTE5sgA)
