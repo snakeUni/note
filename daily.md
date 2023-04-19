@@ -1,5 +1,9 @@
 # 每日一读
 
+## 2023-04-19
+
+- [负责淘宝业务前端开发 9 年，聊聊我的心得](https://mp.weixin.qq.com/s/lykixH0ceCALRiLGUQPslA) 一篇比较好的文章来
+
 ## 2023-04-10
 
 - [A Complete Visual Guide to Understanding the Node.js Event Loop](https://www.builder.io/blog/visual-guide-to-nodejs-event-loop)
