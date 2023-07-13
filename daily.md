@@ -1,5 +1,9 @@
 # 每日一读
 
+## 2023-07-13
+
+- [干货 | 携程商旅大前端 React Streaming 的探索之路](https://mp.weixin.qq.com/s/HUJTU5Du6318LJ7RfQNN2g) 关于使用 React Stream 的一些心得，以及内部实现原理的解析。
+
 ## 2023-05-23
 
 - [Am I the only one that thinks that the direction of React is wrong?](https://www.reddit.com/r/reactjs/comments/13n9zny/comment/jl5vcix/?utm_source=reddit&utm_medium=web2x&context=3) Dan 的完整的回答

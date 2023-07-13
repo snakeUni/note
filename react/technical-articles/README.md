@@ -59,3 +59,7 @@
 - [React Server Component width Dan](https://dev.to/swyx/an-annotated-guide-to-the-react-server-components-demo-2a83#2021-architecture-qampa-notes)
 - [Upgrading Next.js for instant performance improvements](https://vercel.com/blog/upgrading-nextjs-for-instant-performance-improvements) 最新的 Next 是如何做到性能极致的。
 - [remixing-react-router](https://remix.run/blog/remixing-react-router) remix 如何与 router 结合。
+
+## RSC
+
+- [RSC From Scratch. Part 1: Server Components](https://github.com/reactwg/server-components/discussions/5)
