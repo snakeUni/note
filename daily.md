@@ -1,5 +1,9 @@
 # 每日一读
 
+## 2023-07-19
+
+- [How React 18 Improves Application Performance](https://vercel.com/blog/how-react-18-improves-application-performance)
+
 ## 2023-07-13
 
 - [干货 | 携程商旅大前端 React Streaming 的探索之路](https://mp.weixin.qq.com/s/HUJTU5Du6318LJ7RfQNN2g) 关于使用 React Stream 的一些心得，以及内部实现原理的解析。
