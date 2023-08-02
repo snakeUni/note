@@ -1,5 +1,9 @@
 # 每日一读
 
+## 2023-08-02
+
+- [Understanding React Server Components](https://vercel.com/blog/understanding-react-server-components) 详细的讲了 RSC 的一些知识点。
+
 ## 2023-07-19
 
 - [How React 18 Improves Application Performance](https://vercel.com/blog/how-react-18-improves-application-performance)
