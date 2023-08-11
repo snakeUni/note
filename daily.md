@@ -1,5 +1,9 @@
 # 每日一读
 
+## 2023-08-11
+
+- [干货 | 携程度假基于 RPC 和 TypeScript 的 BFF 设计与实践](https://mp.weixin.qq.com/s/JiJhA6AfNiGXl7p0uQ8mGA) RPC 和 BFF
+
 ## 2023-08-02
 
 - [Understanding React Server Components](https://vercel.com/blog/understanding-react-server-components) 详细的讲了 RSC 的一些知识点。
