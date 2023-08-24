@@ -1,5 +1,9 @@
 # 每日一读
 
+## 2023-08-24
+
+- [The underlying mechanisms of React’s concurrent mode](https://andreigatej.dev/blog/the-underlying-mechanisms-of-reacts-concurrent-mode/)
+
 ## 2023-08-11
 
 - [干货 | 携程度假基于 RPC 和 TypeScript 的 BFF 设计与实践](https://mp.weixin.qq.com/s/JiJhA6AfNiGXl7p0uQ8mGA) RPC 和 BFF
