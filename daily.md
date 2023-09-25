@@ -1,5 +1,9 @@
 # 每日一读
 
+## 2023-09-25
+
+- [《马斯克传》里面，哪些是 “学得来” 的？哪些是 “学不来” 的？](https://rtw1bnq45a.feishu.cn/docx/YSrbd6JyBoUD5UxKPjXcvdCpnRc) 从马斯克身上学习到的集中精神
+
 ## 2023-08-24
 
 - [The underlying mechanisms of React’s concurrent mode](https://andreigatej.dev/blog/the-underlying-mechanisms-of-reacts-concurrent-mode/)
