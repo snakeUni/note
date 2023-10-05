@@ -1,5 +1,9 @@
 # 每日一读
 
+## 2023-10-05
+
+- [Accessible, Typesafe, Progressively Enhanced Modern Web Forms](https://www.epicweb.dev/accessible-typesafe-progressively-enhanced-modern-web-forms) 类型安全的 Form 写的蛮好的。
+
 ## 2023-09-25
 
 - [《马斯克传》里面，哪些是 “学得来” 的？哪些是 “学不来” 的？](https://rtw1bnq45a.feishu.cn/docx/YSrbd6JyBoUD5UxKPjXcvdCpnRc) 从马斯克身上学习到的集中精神
