@@ -1,5 +1,9 @@
 # 每日一读
 
+## 2023-10-30
+
+- [不上班的 1000 天，程序员自由职业 B 计划 - 做什么/收入/经验教训](https://vikingz.me/1000-days/)
+
 ## 2023-10-05
 
 - [Accessible, Typesafe, Progressively Enhanced Modern Web Forms](https://www.epicweb.dev/accessible-typesafe-progressively-enhanced-modern-web-forms) 类型安全的 Form 写的蛮好的。
