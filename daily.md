@@ -1,5 +1,9 @@
 # 每日一读
 
+## 2023-11-09
+
+- [React Server Components, without a framework?](https://timtech.blog/posts/react-server-components-rsc-no-framework/)
+
 ## 2023-10-30
 
 - [不上班的 1000 天，程序员自由职业 B 计划 - 做什么/收入/经验教训](https://vikingz.me/1000-days/)
