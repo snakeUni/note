@@ -1,5 +1,9 @@
 # 每日一读
 
+## 2023-11-27
+
+- [React Server Components](https://jessedit.tech/blog/react-server-components) React Sever Components 的一系列文章
+
 ## 2023-11-09
 
 - [React Server Components, without a framework?](https://timtech.blog/posts/react-server-components-rsc-no-framework/)
