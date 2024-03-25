@@ -1,5 +1,11 @@
 # 每日一读
 
+## 2024-03-25
+
+- [How does use() work internally in React?](https://jser.dev/2024-03-16-how-does-use-work-internally-in-react/)
+- [How does useOptimistic() work internally in React?
+  useOptimistic（）](https://jser.dev/2024-03-20-how-does-useoptimisticwork-internally-in-react/)
+
 ## 2023-11-27
 
 - [React Server Components](https://jessedit.tech/blog/react-server-components) React Sever Components 的一系列文章
