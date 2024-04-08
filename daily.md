@@ -1,5 +1,9 @@
 # 每日一读
 
+## 2024-04-08
+
+- [Jotai Tips](https://blog.axlight.com/posts/jotai-tips/) daishi 自己对自己的库的总结
+
 ## 2024-03-25
 
 - [How does use() work internally in React?](https://jser.dev/2024-03-16-how-does-use-work-internally-in-react/)
