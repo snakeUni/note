@@ -1,5 +1,9 @@
 # 每日一读
 
+## 2024-05-15
+
+- [Snappy UI Optimization with useDeferredValue](https://www.joshwcomeau.com/react/use-deferred-value/)
+
 ## 2024-04-08
 
 - [Jotai Tips](https://blog.axlight.com/posts/jotai-tips/) daishi 自己对自己的库的总结
