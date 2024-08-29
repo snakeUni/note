@@ -1,5 +1,9 @@
 # 每日一读
 
+## 2024-08-29
+
+- [Everything about Google Translate crashing React (and other web apps)]([https://www.joshwcomeau.com/react/use-deferred-value/](https://martijnhols.nl/gists/everything-about-google-translate-crashing-react?ck_subscriber_id=1866535825&utm_source=convertkit&utm_medium=email&utm_campaign=%E2%9A%9B%EF%B8%8F%20This%20Week%20In%20React%20#198:%20React-Email,%20MUI,%20Rspack,%20prerendering,%20tree-shaking,%20Next.js,%20TanStack,%20Remix,%20RSC,%20Code%20Hike,%20Astro,%20CodePush,%20visionOS,%20Tophat,%20Bluetooth,%20MKKV,%20Swift,%20Re.Pack,%20Reanimated,%20TypeScript,%20Node...%20-%2014840825))
+
 ## 2024-05-15
 
 - [Snappy UI Optimization with useDeferredValue](https://www.joshwcomeau.com/react/use-deferred-value/)
